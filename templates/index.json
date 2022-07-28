@@ -151,13 +151,24 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-header.png",
+            "title": "Bureaustoelen",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
+            "link_label": "Bekijk alle stoelen",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Heerlijke luxe bureaustoel",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/image.png",
+            "title": "Bureaus",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
+            "link_label": "Bekijk alle bureaus",
+            "link": "shopify:\/\/collections\/all"
           }
         },
         "column2": {
@@ -168,22 +179,12 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image-header.png",
-            "title": "Bureaustoelen",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
-            "link_label": "Bekijk alle stoelen",
-            "link": "shopify:\/\/collections\/all"
-          }
         }
       },
       "block_order": [
+        "column3",
         "column1",
-        "column2",
-        "column3"
+        "column2"
       ],
       "settings": {
         "title": "",
