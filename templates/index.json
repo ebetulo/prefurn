@@ -221,29 +221,21 @@
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>",
             "text_style": "body"
           }
-        },
-        "1659016776a22b3fbe-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "1659016776a22b3fbe-0",
-        "1659016776a22b3fbe-1",
-        "1659016776a22b3fbe-2"
+        "1659016776a22b3fbe-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/image_1_656e691e-d78e-41e2-be32-78bd168d72e2.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
