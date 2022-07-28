@@ -160,44 +160,6 @@
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "video": {
       "type": "video",
       "disabled": true,
@@ -247,6 +209,59 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1659017961386225d4": {
+      "type": "multicolumn",
+      "blocks": {
+        "165901796120e75792-0": {
+          "type": "column",
+          "settings": {
+            "title": "Heerlijke luxe bureaustoel",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165901796120e75792-1": {
+          "type": "column",
+          "settings": {
+            "title": "Heerlijke luxe bureaustoel",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165901796120e75792-2": {
+          "type": "column",
+          "settings": {
+            "title": "Heerlijke luxe bureaustoel",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165901796120e75792-0",
+        "165901796120e75792-1",
+        "165901796120e75792-2"
+      ],
+      "settings": {
+        "title": "Onze klanten beoordelen ons met 5 sterren gemiddeld",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -254,8 +269,8 @@
     "rich_text",
     "multicolumn",
     "featured_collection",
-    "collage",
     "video",
-    "165901677622c630b3"
+    "165901677622c630b3",
+    "1659017961386225d4"
   ]
 }
