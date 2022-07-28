@@ -69,6 +69,62 @@
         "padding_bottom": 0
       }
     },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-header.png",
+            "title": "Bureaustoelen",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
+            "link_label": "Bekijk alle stoelen",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image.png",
+            "title": "Bureaus",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
+            "link_label": "Bekijk alle bureaus",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_1.png",
+            "title": "Accessoires",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
+            "link_label": "Bekijk alle accessoires",
+            "link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "column3",
+        "column1",
+        "column2"
+      ],
+      "settings": {
+        "title": "Onze collectie",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 80
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -147,70 +203,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image-header.png",
-            "title": "Bureaustoelen",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
-            "link_label": "Bekijk alle stoelen",
-            "link": "shopify:\/\/collections\/all"
-          }
-        },
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image.png",
-            "title": "Bureaus",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
-            "link_label": "Bekijk alle bureaus",
-            "link": "shopify:\/\/collections\/all"
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_1.png",
-            "title": "Accessoires",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
-            "link_label": "Bekijk alle accessoires",
-            "link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "column3",
-        "column1",
-        "column2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
+    "multicolumn",
     "featured_collection",
     "collage",
-    "video",
-    "multicolumn"
+    "video"
   ]
 }
