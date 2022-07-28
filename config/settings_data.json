@@ -134,32 +134,24 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
+          "2ae949dd-92ab-405f-9a11-e5ed7b0bc6c5": {
+            "type": "text",
+            "settings": {
+              "heading": "Prefurn",
+              "subtext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>"
+            }
+          },
+          "47103dd2-f0e0-4fe0-801f-01b488fa77ce": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
               "menu": "footer"
             }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
+          "2ae949dd-92ab-405f-9a11-e5ed7b0bc6c5",
+          "47103dd2-f0e0-4fe0-801f-01b488fa77ce"
         ],
         "settings": {
           "color_scheme": "background-1",
