@@ -147,11 +147,19 @@
               "heading": "Webshop",
               "menu": "footer"
             }
+          },
+          "f0b1c7b8-6633-4e47-90d3-b89127f491f7": {
+            "type": "text",
+            "settings": {
+              "heading": "Contact",
+              "subtext": "<p>Adresweg 12, Utrecht<br\/>1234HR<br\/>012-3456789<br\/>service@prefurn.nl<br\/><\/p>"
+            }
           }
         },
         "block_order": [
           "2ae949dd-92ab-405f-9a11-e5ed7b0bc6c5",
-          "47103dd2-f0e0-4fe0-801f-01b488fa77ce"
+          "47103dd2-f0e0-4fe0-801f-01b488fa77ce",
+          "f0b1c7b8-6633-4e47-90d3-b89127f491f7"
         ],
         "settings": {
           "color_scheme": "background-1",
