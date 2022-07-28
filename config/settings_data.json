@@ -108,20 +108,10 @@
               "color_scheme": "background-1",
               "link": ""
             }
-          },
-          "2b4496a9-7080-4130-b90e-6d7deefbc514": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "text_alignment": "left",
-              "color_scheme": "accent-1",
-              "link": "shopify:\/\/pages\/my-account"
-            }
           }
         },
         "block_order": [
-          "announcement-bar-0",
-          "2b4496a9-7080-4130-b90e-6d7deefbc514"
+          "announcement-bar-0"
         ],
         "settings": {
         }
