@@ -154,8 +154,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Heerlijke luxe bureaustoel",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -163,8 +163,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Heerlijke luxe bureaustoel",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -172,9 +172,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image-header.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Heerlijke luxe bureaustoel",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>",
             "link_label": "",
             "link": ""
           }
