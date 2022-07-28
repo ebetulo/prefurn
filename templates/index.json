@@ -174,10 +174,11 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Heerlijke luxe bureaustoel",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/image_1.png",
+            "title": "Accessoires",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
+            "link_label": "Bekijk alle accessoires",
+            "link": "shopify:\/\/collections\/all"
           }
         }
       },
