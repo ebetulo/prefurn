@@ -47,11 +47,93 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1659085137e4609e9f": {
+      "type": "collapsible-content",
+      "blocks": {
+        "16590851376ccfa3d8-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor tellus eget nunc",
+            "icon": "check_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor tellus eget nunc.<\/p>",
+            "page": ""
+          }
+        },
+        "16590851376ccfa3d8-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor tellus eget nunc",
+            "icon": "check_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor tellus eget nunc<\/p>",
+            "page": ""
+          }
+        },
+        "16590851376ccfa3d8-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor tellus eget nunc",
+            "icon": "check_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor tellus eget nunc<\/p>",
+            "page": ""
+          }
+        },
+        "16590851376ccfa3d8-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor tellus eget nunc",
+            "icon": "check_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor tellus eget nunc<\/p>",
+            "page": ""
+          }
+        },
+        "3b3a1a3c-12b1-456c-a341-b2d1ff6d1382": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor tellus eget nunc",
+            "icon": "check_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor tellus eget nunc<\/p>",
+            "page": ""
+          }
+        },
+        "c1d160e9-70e6-4fd8-97c7-62887f624f06": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor tellus eget nunc",
+            "icon": "check_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor tellus eget nunc<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "16590851376ccfa3d8-0",
+        "16590851376ccfa3d8-1",
+        "16590851376ccfa3d8-2",
+        "16590851376ccfa3d8-3",
+        "3b3a1a3c-12b1-456c-a341-b2d1ff6d1382",
+        "c1d160e9-70e6-4fd8-97c7-62887f624f06"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Veelgestelde vragen",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "row",
+        "color_scheme": "background-2",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "1659085065c22ab87f",
-    "form"
+    "form",
+    "1659085137e4609e9f"
   ]
 }
