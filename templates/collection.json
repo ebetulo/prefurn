@@ -2,10 +2,53 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "background-1"
+      }
+    },
+    "165909672649f99220": {
+      "type": "rich-text",
+      "blocks": {
+        "16590967266d08f0f2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Onze collectie<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16590967266d08f0f2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16590967266d08f0f2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16590967266d08f0f2-0",
+        "16590967266d08f0f2-1",
+        "16590967266d08f0f2-2"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "165901393381a25f3a": {
@@ -22,14 +65,21 @@
           "settings": {
             "collection": "frontpage"
           }
+        },
+        "445fd38c-66e7-40e8-a8aa-67ed027b1a2e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
         "165901393301229415-1",
-        "165901393301229415-2"
+        "165901393301229415-2",
+        "445fd38c-66e7-40e8-a8aa-67ed027b1a2e"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -122,12 +172,57 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "165909573093f3a4bc": {
+      "type": "image-with-text",
+      "blocks": {
+        "1659095730475237c1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "1659095730475237c1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1659095730475237c1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659095730475237c1-0",
+        "1659095730475237c1-1",
+        "1659095730475237c1-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
+    "165909672649f99220",
     "165901393381a25f3a",
     "product-grid",
-    "165909037769869c75"
+    "165909037769869c75",
+    "165909573093f3a4bc"
   ]
 }
