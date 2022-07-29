@@ -188,6 +188,50 @@
         "padding_top": 8,
         "padding_bottom": 80
       }
+    },
+    "1659082779d90bf8f3": {
+      "type": "rich-text",
+      "blocks": {
+        "16590827795ec3f3c8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Ponam in culpa idiota aliis se justum pravitatis. <\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16590827795ec3f3c8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus sed diam lectus semper eget. Porttitor viverra mi in venenatis enim, pharetra massa ac quis. Et sodales nisi ornare tortor, tortor cursus.<\/p>"
+          }
+        },
+        "08f5f17e-44b7-47fc-944e-a204a859f9ec": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Et eros, dignissim rhoncus, rutrum volutpat nullam orci enim. Mattis lectus commodo vehicula facilisi consectetur ac eu tellus. Nisl orci elementum augue ac. Aliquam vitae lobortis scelerisque id sollicitudin velit. Non pulvinar tristique fermentum condimentum.<\/p>"
+          }
+        },
+        "79bb643a-a436-42af-b0c4-5598f9c9daa3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16590827795ec3f3c8-0",
+        "16590827795ec3f3c8-1",
+        "08f5f17e-44b7-47fc-944e-a204a859f9ec",
+        "79bb643a-a436-42af-b0c4-5598f9c9daa3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -196,6 +240,7 @@
     "16590816967f639d50",
     "16590819153645e743",
     "16590819936a6de04b",
-    "1659082381f7eb4eaa"
+    "1659082381f7eb4eaa",
+    "1659082779d90bf8f3"
   ]
 }
