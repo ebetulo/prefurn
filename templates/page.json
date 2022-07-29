@@ -94,11 +94,62 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16590819153645e743": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16590819936a6de04b": {
+      "type": "collage",
+      "blocks": {
+        "71d43455-b701-4c25-afb7-6a483be7c72a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_1_1.png",
+            "image_padding": false
+          }
+        },
+        "7aa4fb79-033b-4339-ac19-232fd2117eae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_1_656e691e-d78e-41e2-be32-78bd168d72e2.png",
+            "image_padding": false
+          }
+        },
+        "9b3d965b-eaeb-4ff1-9bbf-1f4f1896a933": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_1.png",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "71d43455-b701-4c25-afb7-6a483be7c72a",
+        "7aa4fb79-033b-4339-ac19-232fd2117eae",
+        "9b3d965b-eaeb-4ff1-9bbf-1f4f1896a933"
+      ],
+      "settings": {
+        "heading": "Een greep uit onze collectie",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "1659081446562e384f",
-    "16590816967f639d50"
+    "16590816967f639d50",
+    "16590819153645e743",
+    "16590819936a6de04b"
   ]
 }
