@@ -177,11 +177,18 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "165910330565b1bb3c": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "165910330565b1bb3c"
   ]
 }
