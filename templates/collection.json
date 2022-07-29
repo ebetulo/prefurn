@@ -11,27 +11,20 @@
     "165901393381a25f3a": {
       "type": "collection-list",
       "blocks": {
-        "165901393301229415-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "165901393301229415-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "frontpage"
           }
         },
         "165901393301229415-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "frontpage"
           }
         }
       },
       "block_order": [
-        "165901393301229415-0",
         "165901393301229415-1",
         "165901393301229415-2"
       ],
@@ -65,11 +58,76 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "165909037769869c75": {
+      "type": "featured-product",
+      "blocks": {
+        "1659090377551241af-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1659090377551241af-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1659090377551241af-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1659090377551241af-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1659090377551241af-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1659090377551241af-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1659090377551241af-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1659090377551241af-1",
+        "1659090377551241af-2",
+        "1659090377551241af-3",
+        "1659090377551241af-4",
+        "1659090377551241af-5",
+        "1659090377551241af-6",
+        "1659090377551241af-7"
+      ],
+      "settings": {
+        "product": "bureaustoel-premium",
+        "color_scheme": "background-1",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
     "165901393381a25f3a",
-    "product-grid"
+    "product-grid",
+    "165909037769869c75"
   ]
 }
