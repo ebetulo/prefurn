@@ -2,9 +2,40 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "1659085065c22ab87f": {
+      "type": "rich-text",
+      "blocks": {
+        "16590850658c8cda4a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Kunnen we je ergens mee helpen?<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16590850658c8cda4a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis eget dictum leo lacinia ullamcorper viverra. Habitasse pharetra dapibus et egestas lectus sed etiam metus amet. Sagittis eget dictum leo lacinia ullamcorper viverra.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16590850658c8cda4a-0",
+        "16590850658c8cda4a-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "form": {
@@ -20,6 +51,7 @@
   },
   "order": [
     "main",
+    "1659085065c22ab87f",
     "form"
   ]
 }
