@@ -6,9 +6,53 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1659081446562e384f": {
+      "type": "image-with-text",
+      "blocks": {
+        "1659081446fc32c93d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Over Prefurn",
+            "heading_size": "h1"
+          }
+        },
+        "1659081446fc32c93d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dis aliquam a phasellus nibh sapien est. Et felis a sed rhoncus volutpat. Integer.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1659081446fc32c93d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659081446fc32c93d-0",
+        "1659081446fc32c93d-1",
+        "1659081446fc32c93d-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1659081446562e384f"
   ]
 }
