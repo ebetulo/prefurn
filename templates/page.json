@@ -45,6 +45,50 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16590816967f639d50": {
+      "type": "image-with-text",
+      "blocks": {
+        "1659081696a2331230-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ponam in culpa idiota aliis  se justum pravitatis.",
+            "heading_size": "h1"
+          }
+        },
+        "1659081696a2331230-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "1659081696a2331230-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Inline button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659081696a2331230-0",
+        "1659081696a2331230-1",
+        "1659081696a2331230-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ergonofis-hPCFOFtmNls-unsplash_2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -54,6 +98,7 @@
   },
   "order": [
     "main",
-    "1659081446562e384f"
+    "1659081446562e384f",
+    "16590816967f639d50"
   ]
 }
