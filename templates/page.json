@@ -261,19 +261,11 @@
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>",
             "text_style": "body"
           }
-        },
-        "165908460289c22c58-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "165908460289c22c58-0",
-        "165908460289c22c58-1",
-        "165908460289c22c58-2"
+        "165908460289c22c58-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/image_4_1.png",
@@ -283,8 +275,61 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1659084685fcfb6784": {
+      "type": "multicolumn",
+      "blocks": {
+        "1659084685f4a73b44-0": {
+          "type": "column",
+          "settings": {
+            "title": "Heerlijke luxe bureaustoel",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1659084685f4a73b44-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1659084685f4a73b44-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659084685f4a73b44-0",
+        "1659084685f4a73b44-1",
+        "1659084685f4a73b44-2"
+      ],
+      "settings": {
+        "title": "Wat andere over ons zeggen",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -298,6 +343,7 @@
     "16590819936a6de04b",
     "1659082381f7eb4eaa",
     "1659082779d90bf8f3",
-    "165908460272ec860d"
+    "165908460272ec860d",
+    "1659084685fcfb6784"
   ]
 }
