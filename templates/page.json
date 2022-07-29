@@ -216,13 +216,25 @@
           "settings": {
             "text": "<p>Dignissim rhoncus, rutrum volutpat nullam orci enim. Mattis lectus commodo vehicula facilisi consectetur ac eu tellus. Nisl orci elementum augue ac. Aliquam vitae lobortis scelerisque id sollicitudin velit. Non pulvinar tristique fermentum condimentum. Mattis lectus commodo vehicula facilisi consectetur ac eu tellus. Nisl orci elementum augue ac. Aliquam vitae lobortis scelerisque id.<\/p>"
           }
+        },
+        "a258dfe6-4133-46a8-8544-e4f09019d16b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Meer lezen over onderwerp",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "16590827795ec3f3c8-0",
         "16590827795ec3f3c8-1",
         "08f5f17e-44b7-47fc-944e-a204a859f9ec",
-        "79bb643a-a436-42af-b0c4-5598f9c9daa3"
+        "79bb643a-a436-42af-b0c4-5598f9c9daa3",
+        "a258dfe6-4133-46a8-8544-e4f09019d16b"
       ],
       "settings": {
         "desktop_content_position": "center",
