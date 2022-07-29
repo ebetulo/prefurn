@@ -244,6 +244,50 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "165908460272ec860d": {
+      "type": "image-with-text",
+      "blocks": {
+        "165908460289c22c58-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ponam in culpa idiota aliis  se justum pravitatis.",
+            "heading_size": "h1"
+          }
+        },
+        "165908460289c22c58-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "165908460289c22c58-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165908460289c22c58-0",
+        "165908460289c22c58-1",
+        "165908460289c22c58-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_4_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -253,6 +297,7 @@
     "16590819153645e743",
     "16590819936a6de04b",
     "1659082381f7eb4eaa",
-    "1659082779d90bf8f3"
+    "1659082779d90bf8f3",
+    "165908460272ec860d"
   ]
 }
