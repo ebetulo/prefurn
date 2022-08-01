@@ -86,7 +86,7 @@
             "title": "Bureaustoelen",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
             "link_label": "Bekijk alle stoelen",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify:\/\/products\/bureaustoel-premium"
           }
         },
         "column1": {
@@ -96,7 +96,7 @@
             "title": "Bureaus",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
             "link_label": "Bekijk alle bureaus",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify:\/\/products\/bureaus"
           }
         },
         "column2": {
@@ -106,7 +106,7 @@
             "title": "Accessoires",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
             "link_label": "Bekijk alle accessoires",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify:\/\/products\/pakketten"
           }
         }
       },
