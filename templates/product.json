@@ -129,8 +129,45 @@
         "padding_bottom": 12
       }
     },
+    "16593426121d5cedb8": {
+      "type": "image-with-text",
+      "blocks": {
+        "1659342612df86d673-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ergonomisch en stijlvol",
+            "heading_size": "h2"
+          }
+        },
+        "1659342612df86d673-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim, ultricies quam interdum auctor facilisi. Amet molestie dui venenatis tristique nec odio quam ultrices. Sem semper ut convallis justo, rutrum. Fermentum dictumst placerat platea pretium. Egestas aliquet aliquet ullamcorper nec at. Tempor aliquet adipiscing morbi odio eget vitae neque. <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1659342612df86d673-0",
+        "1659342612df86d673-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image-product-info.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -195,42 +232,6 @@
         "include_margins": true
       }
     },
-    "16593426121d5cedb8": {
-      "type": "image-with-text",
-      "blocks": {
-        "1659342612df86d673-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ergonomisch en stijlvol",
-            "heading_size": "h2"
-          }
-        },
-        "1659342612df86d673-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim, ultricies quam interdum auctor facilisi. Amet molestie dui venenatis tristique nec odio quam ultrices. Sem semper ut convallis justo, rutrum. Fermentum dictumst placerat platea pretium. Egestas aliquet aliquet ullamcorper nec at. Tempor aliquet adipiscing morbi odio eget vitae neque. <\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "1659342612df86d673-0",
-        "1659342612df86d673-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Image-product-info.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1659344709611fcddc": {
       "type": "apps",
       "blocks": {
@@ -250,10 +251,10 @@
   },
   "order": [
     "main",
+    "16593426121d5cedb8",
     "multicolumn",
     "product-recommendations",
     "165910330565b1bb3c",
-    "16593426121d5cedb8",
     "1659344709611fcddc"
   ]
 }
