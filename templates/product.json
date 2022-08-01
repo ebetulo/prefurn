@@ -211,19 +211,11 @@
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim, ultricies quam interdum auctor facilisi. Amet molestie dui venenatis tristique nec odio quam ultrices. Sem semper ut convallis justo, rutrum. Fermentum dictumst placerat platea pretium. Egestas aliquet aliquet ullamcorper nec at. Tempor aliquet adipiscing morbi odio eget vitae neque. <\/p>",
             "text_style": "body"
           }
-        },
-        "1659342612df86d673-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "1659342612df86d673-0",
-        "1659342612df86d673-1",
-        "1659342612df86d673-2"
+        "1659342612df86d673-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image-product-info.png",
