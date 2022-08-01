@@ -3,15 +3,31 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "bef2de16-bb8d-4458-a2a7-69a696a32a04": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
           }
         },
-        "title": {
-          "type": "title",
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
           "settings": {
           }
         },
@@ -20,11 +36,6 @@
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
           }
         },
         "variant_picker": {
@@ -44,13 +55,9 @@
             "show_dynamic_checkout": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materials",
             "icon": "leather",
@@ -60,6 +67,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
@@ -69,6 +77,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
@@ -78,6 +87,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
@@ -93,14 +103,15 @@
         }
       },
       "block_order": [
-        "vendor",
+        "bef2de16-bb8d-4458-a2a7-69a696a32a04",
         "title",
-        "caption",
+        "vendor",
         "price",
+        "description",
+        "caption",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
@@ -183,12 +194,57 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "16593426121d5cedb8": {
+      "type": "image-with-text",
+      "blocks": {
+        "1659342612df86d673-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ergonomisch en stijlvol",
+            "heading_size": "h2"
+          }
+        },
+        "1659342612df86d673-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim, ultricies quam interdum auctor facilisi. Amet molestie dui venenatis tristique nec odio quam ultrices. Sem semper ut convallis justo, rutrum. Fermentum dictumst placerat platea pretium. Egestas aliquet aliquet ullamcorper nec at. Tempor aliquet adipiscing morbi odio eget vitae neque. <br\/><br\/>Faucibus sapien arcu molestie sapien, augue nisl. Sit neque proin in eu ullamcorper gravida tempus.Praesent sit sapien, enim amet blandit nulla aliquet malesuada orci. Nisi amet dictumst maecenas gravida. In vel morbi at sit porta commodo sem.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1659342612df86d673-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659342612df86d673-0",
+        "1659342612df86d673-1",
+        "1659342612df86d673-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image-product-info.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "multicolumn",
     "product-recommendations",
-    "165910330565b1bb3c"
+    "165910330565b1bb3c",
+    "16593426121d5cedb8"
   ]
 }
