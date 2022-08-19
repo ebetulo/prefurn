@@ -14,7 +14,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
           }
         },
@@ -22,7 +22,7 @@
           "type": "button",
           "settings": {
             "button_label": "Bekijk onze collectie",
-            "button_link": "shopify://collections"
+            "button_link": "shopify:\/\/collections"
           }
         }
       },
@@ -32,7 +32,7 @@
         "1659017571da753e1b-2"
       ],
       "settings": {
-        "image": "shopify://shop_images/image-header.png",
+        "image": "shopify:\/\/shop_images\/image-header.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -52,18 +52,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand</p>",
+            "heading": "<p>Talk about your brand<\/p>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
-      "block_order": ["heading", "text"],
+      "block_order": [
+        "heading",
+        "text"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -79,35 +82,39 @@
         "column3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/image-header.png",
+            "image": "shopify:\/\/shop_images\/image-header.png",
             "title": "Bureaustoelen",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.</p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
             "link_label": "Bekijk alle stoelen",
-            "link": "shopify://products/bureaustoel-premium"
+            "link": "shopify:\/\/products\/bureaustoel-premium"
           }
         },
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/image.png",
+            "image": "shopify:\/\/shop_images\/image.png",
             "title": "Bureaus",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.</p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
             "link_label": "Bekijk alle bureaus",
-            "link": "shopify://products/bureaus"
+            "link": "shopify:\/\/products\/bureaus"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/image_1.png",
+            "image": "shopify:\/\/shop_images\/image_1.png",
             "title": "Accessoires",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.</p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
             "link_label": "Bekijk alle accessoires",
-            "link": "shopify://products/pakketten"
+            "link": "shopify:\/\/products\/pakketten"
           }
         }
       },
-      "block_order": ["column3", "column1", "column2"],
+      "block_order": [
+        "column3",
+        "column1",
+        "column2"
+      ],
       "settings": {
         "title": "Onze collectie",
         "heading_size": "h1",
@@ -159,7 +166,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -180,14 +187,17 @@
         "1659016776a22b3fbe-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. </p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>",
             "text_style": "body"
           }
         }
       },
-      "block_order": ["1659016776a22b3fbe-0", "1659016776a22b3fbe-1"],
+      "block_order": [
+        "1659016776a22b3fbe-0",
+        "1659016776a22b3fbe-1"
+      ],
       "settings": {
-        "image": "shopify://shop_images/image_1_656e691e-d78e-41e2-be32-78bd168d72e2.png",
+        "image": "shopify:\/\/shop_images\/image_1_656e691e-d78e-41e2-be32-78bd168d72e2.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -207,7 +217,7 @@
           "type": "column",
           "settings": {
             "title": "Heerlijke luxe bureaustoel",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.</p><p></p><p>Dennis Engelsman</p><p>05-07-2022</p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p><p><\/p><p>Dennis Engelsman<\/p><p>05-07-2022<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -216,7 +226,7 @@
           "type": "column",
           "settings": {
             "title": "Heerlijke luxe bureaustoel",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.</p><p>Dennis Engelsman</p><p>05-07-2022</p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p><p>Dennis Engelsman<\/p><p>05-07-2022<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -225,7 +235,7 @@
           "type": "column",
           "settings": {
             "title": "Heerlijke luxe bureaustoel",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.</p><p>Dennis Engelsman</p><p>05-07-2022</p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p><p>Dennis Engelsman<\/p><p>05-07-2022<\/p>",
             "link_label": "",
             "link": ""
           }

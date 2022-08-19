@@ -366,3 +366,12 @@
   flex-direction: column;
   justify-content: center !important;
 }
+
+.pf-bg-background-2 .image-with-text__grid {
+  background-color: #F0F0EA;
+}
+
+.pf-bg-background-2 .image-with-text__text-item {
+  background-color: #2D5A4F;
+}
+
