@@ -58,7 +58,7 @@
         {%- for block in section.blocks -%}
           {% case block.type %}
             {%- when 'heading' -%}
-              <h2 class="image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              <h2 class="image-with-text__heading pf-text-{{ block.settings.heading_color }} {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                 {{ block.settings.heading | escape }}
               </h2>
             {%- when 'caption' -%}
@@ -341,18 +341,18 @@
           "options": [
             {
               "value": "color-1",
-              "label": "red"
+              "label": "Red"
             },
             {
               "value": "color-2",
-              "label": "white"
+              "label": "White"
             },
             {
               "value": "color-3",
-              "label": "black"
+              "label": "Black"
             }
           ],
-          "default": "color-2",
+          "default": "color-1",
           "label": "Heading Color"
         }
       ]
