@@ -376,5 +376,13 @@
 }
 
 .pf-text-color-1 {
-  color: red;
+  color: #DE4747;
+}
+
+.pf-text-color-2 {
+  color: #FFFFFF;
+}
+
+.pf-text-color-3 {
+  color: black;
 }
