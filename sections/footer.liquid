@@ -27,7 +27,7 @@
 
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    x-padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
@@ -36,8 +36,8 @@
     }
 
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      x-padding-top: {{ section.settings.padding_top }}px;
+      x-padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
   .footer-block:first-child > h2{
@@ -48,6 +48,10 @@
   .footer-block:first-child > h2 {
     font-size: 5rem;
   }
+}
+
+.footer__content-bottom {
+  background-color: #254A41;
 }
 {%- endstyle -%}
 
@@ -344,9 +348,12 @@
             </ul>
           </div>
         {%- endif -%}
-        <div class="footer__copyright caption">
+        {% comment %} <div class="footer__copyright caption">
           <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
           <small class="copyright__content">{{ powered_by_link }}</small>
+        </div> {% endcomment %}
+        <div class="footer__copyright caption">
+          <small class="copyright__content">Algemene voorwaarden | {{ 'now' | date: "%Y" }} {{ shop.name | link_to: routes.root_url }}</small>
         </div>
       </div>
     </div>
