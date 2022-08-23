@@ -96,7 +96,7 @@
 
         {%- if section.settings.inline_button_text != blank-%}
         <div class="inline-button">
-          <a href="/collections" class="inline">Bekijk volledige collectie</a>
+          <a href="{{ section.settings.button_link }}" class="inline">{{ section.settings.inline_button_text | escape }}</a>
           <div>
             <span class="icon-wrap">&nbsp;{% render 'icon-arrow-green' %}</span>
           </div>
