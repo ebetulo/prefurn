@@ -2578,6 +2578,15 @@
             "label": "Section container"
           }
         },
+        "content_columns": {
+          "label": "Content columns",
+          "options__1": {
+            "label": "1 column"
+          },
+          "options__2": {
+            "label": "2 columns"
+          }
+        },
         "container_color_scheme": {
           "label": "Container color scheme",
           "info": "Visible when Layout is set to Row or Section container."
