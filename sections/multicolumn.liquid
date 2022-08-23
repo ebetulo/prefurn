@@ -17,6 +17,7 @@
 
   .multicolumn-card__info {
     background-color:#F0F0EA ;
+    text-align: left;
   }
 
   @media screen and (max-width: 750px) {
@@ -61,6 +62,9 @@
         </h2>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
           <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">{{ section.settings.button_label | escape }}</a>
+        {%- endif -%}
+        {%- if section.settings.inline_button_label != blank and show_mobile_slider -%}
+          <a href="{{ section.settings.inline_button_link }}" class="link underlined-link large-up-hide">{{ section.settings.inline_button_label | escape }}</a>
         {%- endif -%}
       </div>
     {%- endunless -%}
@@ -357,6 +361,16 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    }, 
+    {
+      "type": "text",
+      "id": "inline_button_text",
+      "label": "Inline button label"
+    },
+    {
+      "type": "url",
+      "id": "inline_button_link",
+      "label": "Inline button link"
     }
   ],
   "blocks": [
