@@ -344,20 +344,22 @@
 @media screen and (min-width: 750px) {
  
  .image-with-text-width {
-  max-width: 140rem;
+  /* max-width: 140rem; */
   margin: 0 auto;
   /* padding: 0 6rem; */
 } 
 
-.image-with-text__media-item { 
+.image-with-text__media-item {
+  background: transparent; 
   position: relative;
   top: 8rem;
-  right: 10rem;
+
   z-index: 9999;
 }
 
 .image-with-text__grid {
   background-color: #2D5A4F;
+  height: 600px;
 }
 
 .image-with-text__text-item {
@@ -365,6 +367,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center !important;
+  height: 600px;
 }
 
 .pf-bg-background-1 .image-with-text__grid {
@@ -373,6 +376,10 @@
 
 .pf-bg-background-1 .image-with-text__text-item {
   background-color: #2D5A4F;
+}
+
+.pf-image-background-1 {
+  background: transparent;
 }
 
 .pf-text-color-1 {
@@ -392,7 +399,6 @@
   color: #FFFFFF;
   box-shadow: none;
 }
-
 
 .pf-button_color-2 {
   background-color: #2D5A4F;
