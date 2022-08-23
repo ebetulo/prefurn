@@ -43,7 +43,36 @@
       margin-top: 12rem;
     }
   }
+
+  .inline {
+    font-size: 18px;
+    color:#2D5A4F !important;
+    font-weight: 600;
+    padding-right: 10px;
+  }
+
+  .inline-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .multicolumn-card__button {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
   
+  }
+
+  .multicolumn-card__button-link {
+    color:#2D5A4F !important;
+    text-decoration: underline;
+    text-decoration-color: #ABD6CA;
+    text-decoration-thickness: 2px;
+    font-weight: 600;
+  }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -64,9 +93,13 @@
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
           <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">{{ section.settings.button_label | escape }}</a>
         {%- endif -%}
-        {%- if section.settings.inline_button_label != blank and show_mobile_slider -%}
-          <a href="{{ section.settings.inline_button_link }}" class="link underlined-link large-up-hide">{{ section.settings.inline_button_label | escape }}</a>
-        {%- endif -%}
+        <div class="inline-button">
+          <a href="/collections" class="inline">Bekijk volledige collectie</a>
+          <div>
+            <span class="icon-wrap">&nbsp;{% render 'icon-arrow-green' %}</span>
+          </div>
+        </div>
+    
       </div>
     {%- endunless -%}
     <slider-component class="slider-mobile-gutter">
@@ -126,7 +159,12 @@
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
-                  <a class="link animate-arrow" {% if block.settings.link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a>
+                  <div class="multicolumn-card__button">
+                  <a class="multicolumn-card__button-link link animate-arrow" {% if block.settings.link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}</a>
+                  <div>
+                    <span class="icon-wrap">&nbsp;{% render 'icon-arrow-green' %}</span>
+                  </div>
+                </div>
                 {%- endif -%}
               </div>
             </div>
