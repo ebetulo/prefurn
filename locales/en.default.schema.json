@@ -341,7 +341,7 @@
       },
       "margin": {
         "element_margin_heading": "Element margin",
-        "Sturen": "Top margin",
+        "margin_top": "Top margin",
         "margin_bottom": "Bottom margin"
       },
       "spacing": "Spacing",
