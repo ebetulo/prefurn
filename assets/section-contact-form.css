@@ -27,6 +27,7 @@
 
 .contact .form__message {
   align-items: flex-start;
+  margin: 1.5rem;
 }
 
 .contact .icon-success {
