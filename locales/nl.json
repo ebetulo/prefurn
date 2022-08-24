@@ -208,8 +208,8 @@
         "name": "Naam",
         "email": "E‑mail",
         "phone": "Telefoonnummer",
-        "comment": "Reactie",
-        "send": "Sturen",
+        "comment": "Waar kunnen we je mee helpen",
+        "send": "Verzenden",
         "post_success": "Bedankt dat je contact met ons hebt opgenomen. Je hoort zo snel mogelijk van ons.",
         "error_heading": "Pas het volgende aan:",
         "title": "Contactformulier"

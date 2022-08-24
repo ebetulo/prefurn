@@ -339,6 +339,11 @@
         "padding_top": "Top padding",
         "padding_bottom": "Bottom padding"
       },
+      "margin": {
+        "element_margin_heading": "Element margin",
+        "Sturen": "Top margin",
+        "margin_bottom": "Bottom margin"
+      },
       "spacing": "Spacing",
       "colors": {
         "accent_1": {
@@ -557,6 +562,60 @@
     },
     "contact-form": {
       "name": "Contact Form",
+      "settings": {
+        "content_columns": {
+          "label": "Content columns",
+          "options__1": {
+            "label": "1 column"
+          },
+          "options__2": {
+            "label": "2 columns"
+          }
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Heading",
+          "settings": {
+            "heading": {
+              "label": "Heading"
+            }
+          }
+        },
+        "text": {
+          "name": "Text",
+          "settings": {
+            "text": {
+              "label": "Description"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Buttons",
+          "settings": {
+            "button_label_1": {
+              "label": "First button label",
+              "info": "Leave the label blank to hide the button."
+            },
+            "button_link_1": {
+              "label": "First button link"
+            },
+            "button_style_secondary_1": {
+              "label": "Use outline button style"
+            },
+            "button_label_2": {
+              "label": "Second button label",
+              "info": "Leave the label blank to hide the button."
+            },
+            "button_link_2": {
+              "label": "Second button link"
+            },
+            "button_style_secondary_2": {
+              "label": "Use outline button style"
+            }
+          }
+        }
+      },
       "presets": {
         "name": "Contact form"
       }
@@ -889,7 +948,7 @@
         "payment_enable": {
           "label": "Show payment icons"
         },
-        "margin_top": {
+        "Sturen": {
           "label": "Top margin"
         }
       }
