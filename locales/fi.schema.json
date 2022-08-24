@@ -544,7 +544,7 @@
         "name": "Kokoelmaluettelo"
       }
     },
-    "contact-form": {
+    "contact_form": {
       "name": "Yhteydenottolomake",
       "presets": {
         "name": "Yhteydenottolomake"

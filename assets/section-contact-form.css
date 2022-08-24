@@ -21,6 +21,21 @@
   margin: 0;
 }
 
+.rich-text__contact-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.25rem;
+}
+
+.rich-text__contact-info > svg {
+  margin-right: 1rem;
+}
+
+.rich-text__contact-info > p {
+  margin: 0;
+}
+
 .contact img {
   max-width: 100%;
 }

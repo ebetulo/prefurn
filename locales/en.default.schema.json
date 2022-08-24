@@ -560,7 +560,7 @@
         "name": "Collection list"
       }
     },
-    "contact-form": {
+    "contact_form": {
       "name": "Contact Form",
       "settings": {
         "content_columns": {
@@ -590,28 +590,152 @@
             }
           }
         },
-        "buttons": {
-          "name": "Buttons",
+        "contact_info": {
+          "name": "Contact info",
           "settings": {
-            "button_label_1": {
-              "label": "First button label",
-              "info": "Leave the label blank to hide the button."
+            "contact_info_icon": {
+              "label": "Icon",
+              "options__1": {
+                "label": "None"
+              },
+              "options__2": {
+                "label": "Apple"
+              },
+              "options__3": {
+                "label": "Banana"
+              },
+              "options__4": {
+                "label": "Bottle"
+              },
+              "options__5": {
+                "label": "Box"
+              },
+              "options__6": {
+                "label": "Carrot"
+              },
+              "options__7": {
+                "label": "Chat bubble"
+              },
+              "options__8": {
+                "label": "Check mark"
+              },
+              "options__9": {
+                "label": "Clipboard"
+              },
+              "options__10": {
+                "label": "Dairy"
+              },
+              "options__11": {
+                "label": "Dairy free"
+              },
+              "options__12": {
+                "label": "Dryer"
+              },
+              "options__13": {
+                "label": "Eye"
+              },
+              "options__14": {
+                "label": "Fire"
+              },
+              "options__15": {
+                "label": "Gluten free"
+              },
+              "options__16": {
+                "label": "Heart"
+              },
+              "options__17": {
+                "label": "Iron"
+              },
+              "options__18": {
+                "label": "Leaf"
+              },
+              "options__19": {
+                "label": "Leather"
+              },
+              "options__20": {
+                "label": "Lightning bolt"
+              },
+              "options__21": {
+                "label": "Lipstick"
+              },
+              "options__22": {
+                "label": "Lock"
+              },
+              "options__23": {
+                "label": "Mail"
+              },
+              "options__24": {
+                "label": "Map pin"
+              },
+              "options__25": {
+                "label": "Nut free"
+              },
+              "options__26": {
+                "label": "Pants"
+              },
+              "options__27": {
+                "label": "Paw print"
+              },
+              "options__28": {
+                "label": "Pepper"
+              },
+              "options__29": {
+                "label": "Perfume"
+              },
+              "options__30": {
+                "label": "Phone"
+              },
+              "options__31": {
+                "label": "Plane"
+              },
+              "options__32": {
+                "label": "Plant"
+              },
+              "options__33": {
+                "label": "Price tag"
+              },
+              "options__34": {
+                "label": "Question mark"
+              },
+              "options__35": {
+                "label": "Recycle"
+              },
+              "options__36": {
+                "label": "Return"
+              },
+              "options__37": {
+                "label": "Ruler"
+              },
+              "options__38": {
+                "label": "Serving dish"
+              },
+              "options__39": {
+                "label": "Shirt"
+              },
+              "options__40": {
+                "label": "Shoe"
+              },
+              "options__41": {
+                "label": "Silhouette"
+              },
+              "options__42": {
+                "label": "Snowflake"
+              },
+              "options__43": {
+                "label": "Star"
+              },
+              "options__44": {
+                "label": "Stopwatch"
+              },
+              "options__45": {
+                "label": "Truck"
+              },
+              "options__46": {
+                "label": "Washing"
+              }
             },
-            "button_link_1": {
-              "label": "First button link"
-            },
-            "button_style_secondary_1": {
-              "label": "Use outline button style"
-            },
-            "button_label_2": {
-              "label": "Second button label",
-              "info": "Leave the label blank to hide the button."
-            },
-            "button_link_2": {
-              "label": "Second button link"
-            },
-            "button_style_secondary_2": {
-              "label": "Use outline button style"
+            "contact_info_text": {
+              "label": "Label"
             }
           }
         }

@@ -544,7 +544,7 @@
         "name": "コレクションリスト"
       }
     },
-    "contact-form": {
+    "contact_form": {
       "name": "お問い合わせフォーム",
       "presets": {
         "name": "お問い合わせフォーム"

@@ -544,7 +544,7 @@
         "name": "商品系列清單"
       }
     },
-    "contact-form": {
+    "contact_form": {
       "name": "聯絡表單",
       "presets": {
         "name": "聯絡表單"

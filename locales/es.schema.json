@@ -544,7 +544,7 @@
         "name": "Lista de colecciones"
       }
     },
-    "contact-form": {
+    "contact_form": {
       "name": "Formulario de contacto",
       "presets": {
         "name": "Formulario de contacto"

@@ -544,7 +544,7 @@
         "name": "产品系列列表"
       }
     },
-    "contact-form": {
+    "contact_form": {
       "name": "联系表",
       "presets": {
         "name": "联系表"

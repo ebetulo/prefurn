@@ -56,57 +56,51 @@
         "margin_top": 0
       }
     },
-    "1659085065c22ab87f": {
-      "type": "rich-text",
-      "blocks": {
-        "16590850658c8cda4a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Kunnen we je ergens mee helpen?<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "16590850658c8cda4a-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis eget dictum leo lacinia ullamcorper viverra. Habitasse pharetra dapibus et egestas lectus sed etiam metus amet. Sagittis eget dictum leo lacinia ullamcorper viverra.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16590850658c8cda4a-0",
-        "16590850658c8cda4a-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "form": {
       "type": "contact-form",
       "blocks": {
-        "1e634af1-fd0c-4efe-aaef-bdff1f4a3207": {
+        "1ea5ced8-bb46-4d87-89e3-e998c51a997a": {
           "type": "heading",
           "settings": {
             "heading": "<p>Can we help you with anything?<\/p>",
             "heading_size": "h1"
           }
         },
-        "681ef767-21b2-4d84-aed0-6ad58d962867": {
+        "b5356bff-b697-419e-9480-b9594cbb7775": {
           "type": "text",
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis eget dictum leo lacinia ullamcorper viverra. Habitasse pharetra dapibus et egestas lectus sed etiam metus amet. Sagittis eget dictum leo lacinia ullamcorper viverra.<\/p>",
             "margin_top": 12
           }
+        },
+        "dd9a91dc-3851-4e78-96b9-335a351c4cc0": {
+          "type": "contact_info",
+          "settings": {
+            "contact_info_icon": "mail",
+            "contact_info_text": "info@prefurn.nl"
+          }
+        },
+        "a4eb5399-b043-4060-858b-ce6dc4c03830": {
+          "type": "contact_info",
+          "settings": {
+            "contact_info_icon": "phone",
+            "contact_info_text": "073-876906"
+          }
+        },
+        "498ccf19-dc99-4dc2-82d8-0d3cafe44160": {
+          "type": "contact_info",
+          "settings": {
+            "contact_info_icon": "map_pin",
+            "contact_info_text": "Adresweg 123, Utrecht, 2587RH"
+          }
         }
       },
       "block_order": [
-        "1e634af1-fd0c-4efe-aaef-bdff1f4a3207",
-        "681ef767-21b2-4d84-aed0-6ad58d962867"
+        "1ea5ced8-bb46-4d87-89e3-e998c51a997a",
+        "b5356bff-b697-419e-9480-b9594cbb7775",
+        "dd9a91dc-3851-4e78-96b9-335a351c4cc0",
+        "a4eb5399-b043-4060-858b-ce6dc4c03830",
+        "498ccf19-dc99-4dc2-82d8-0d3cafe44160"
       ],
       "settings": {
         "content_columns": "2",
@@ -201,7 +195,6 @@
   "order": [
     "main",
     "1659085427b8247270",
-    "1659085065c22ab87f",
     "form",
     "1659085137e4609e9f"
   ]
