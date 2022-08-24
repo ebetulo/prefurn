@@ -92,7 +92,7 @@
         "e988f482-6af7-4d58-bc44-8a804ddac47d": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Can we help you with anything?<\/p>",
+            "heading": "<p>Kunnen we je ergens mee helpen?<\/p>",
             "heading_size": "h1"
           }
         },
@@ -100,7 +100,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis eget dictum leo lacinia ullamcorper viverra. Habitasse pharetra dapibus et egestas lectus sed etiam metus amet. Sagittis eget dictum leo lacinia ullamcorper viverra.<\/p>",
-            "margin_top": 36
+            "margin_top": 12
           }
         }
       },
