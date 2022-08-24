@@ -56,33 +56,42 @@
         "margin_top": 0
       }
     },
-    "form": {
-      "type": "contact-form",
+    "1659085065c22ab87f": {
+      "type": "rich-text",
       "blocks": {
-        "e988f482-6af7-4d58-bc44-8a804ddac47d": {
+        "16590850658c8cda4a-0": {
           "type": "heading",
           "settings": {
             "heading": "<p>Kunnen we je ergens mee helpen?<\/p>",
             "heading_size": "h1"
           }
         },
-        "17212b52-2210-4f2e-87a5-8ae4afe300b1": {
+        "16590850658c8cda4a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis eget dictum leo lacinia ullamcorper viverra. Habitasse pharetra dapibus et egestas lectus sed etiam metus amet. Sagittis eget dictum leo lacinia ullamcorper viverra.<\/p>",
-            "margin_top": 12
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis eget dictum leo lacinia ullamcorper viverra. Habitasse pharetra dapibus et egestas lectus sed etiam metus amet. Sagittis eget dictum leo lacinia ullamcorper viverra.<\/p>"
           }
         }
       },
       "block_order": [
-        "e988f482-6af7-4d58-bc44-8a804ddac47d",
-        "17212b52-2210-4f2e-87a5-8ae4afe300b1"
+        "16590850658c8cda4a-0",
+        "16590850658c8cda4a-1"
       ],
       "settings": {
-        "content_columns": "2",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1659085137e4609e9f": {
@@ -171,6 +180,7 @@
   "order": [
     "main",
     "1659085427b8247270",
+    "1659085065c22ab87f",
     "form",
     "1659085137e4609e9f"
   ]
