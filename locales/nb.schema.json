@@ -544,7 +544,7 @@
         "name": "Samlingsliste"
       }
     },
-    "contact-form": {
+    "contact_form": {
       "name": "Kontaktskjema",
       "presets": {
         "name": "Kontaktskjema"

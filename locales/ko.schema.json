@@ -544,7 +544,7 @@
         "name": "컬렉션 목록"
       }
     },
-    "contact-form": {
+    "contact_form": {
       "name": "연락처 양식",
       "presets": {
         "name": "연락처 양식"

@@ -544,7 +544,7 @@
         "name": "Collectielijst"
       }
     },
-    "contact-form": {
+    "contact_form": {
       "name": "Contactformulier",
       "presets": {
         "name": "Contactformulier"
