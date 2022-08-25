@@ -1,4 +1,5 @@
-.contact__grid-col-1, .contact__grid-col-2 {
+.contact__grid-col-1,
+.contact__grid-col-2 {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
@@ -14,6 +15,7 @@
 @media screen and (min-width: 750px) {
   .contact__grid-col-2 {
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
   }
 }
 
