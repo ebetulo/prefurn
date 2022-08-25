@@ -81,7 +81,7 @@
               <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
-                <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
+                <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button pf-{{block.settings.button_color}}" {{ block.shopify_attributes }}>
                   {{ block.settings.button_label | escape }}
                 </a>
               {%- endif -%}
@@ -350,7 +350,7 @@
               "label": "Black"
             }
           ],
-          "default": "color-1",
+          "default": "color-3",
           "label": "Heading Color"
         }
       ]
@@ -449,6 +449,26 @@
           "type": "url",
           "id": "button_link",
           "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "select",
+          "id": "button_color",
+          "options": [
+            {
+              "value": "button_color-1",
+              "label": "Red"
+            },
+            {
+              "value": "button_color-2",
+              "label": "Green"
+            },
+            {
+              "value": "button_color-3",
+              "label": "Beige"
+            }
+          ],
+          "default": "button_color-1",
+          "label": "Button Color"
         }
       ]
     }

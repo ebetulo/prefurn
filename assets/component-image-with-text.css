@@ -391,3 +391,25 @@
 .pf-text-color-3 {
   color: black;
 }
+
+
+.pf-button_color-1 {
+  background-color: #DE4747;
+  color: #FFFFFF;
+  box-shadow: none;
+}
+
+
+.pf-button_color-2 {
+  background-color: #2D5A4F;
+  color: #FFFFFF;
+}
+
+.pf-button_color-3 {
+  background-color: #F0F0EA;
+  color: #2D5A4F;
+}
+
+.pf-button_color-1::after, .pf-button_color-2::after, .pf-button_color-3::after {
+  box-shadow: none;
+}
