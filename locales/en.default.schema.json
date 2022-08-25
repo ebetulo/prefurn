@@ -380,29 +380,19 @@
         }
       }
     },
-    "announcement-bar": {
-      "name": "Announcement bar",
+    "menu_bar": {
+      "name": "Menu bar",
+      "settings": {
+      },
       "blocks": {
-        "announcement": {
-          "name": "Announcement",
+        "link": {
+          "name": "Link",
           "settings": {
             "text": {
               "label": "Text"
             },
-            "text_alignment": {
-              "label": "Text alignment",
-              "options__1": {
-                "label": "Left"
-              },
-              "options__2": {
-                "label": "Center"
-              },
-              "options__3": {
-                "label": "Right"
-              }
-            },
-            "link": {
-              "label": "Link"
+            "url": {
+              "label": "URL"
             }
           }
         }
