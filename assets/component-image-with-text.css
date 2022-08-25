@@ -204,8 +204,8 @@
 
   .image-with-text--overlap .image-with-text__content {
     height: auto;
-    width: calc(90% - 10rem);
-    min-width: calc(90% - 10rem);
+    width: calc(95% - 10rem);
+    min-width: calc(95% - 10rem);
     margin-top: 0;
     margin-left: -4rem;
   }
