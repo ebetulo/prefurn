@@ -2442,19 +2442,6 @@
     "rich-text": {
       "name": "Rich text",
       "settings": {
-        "desktop_content_position": {
-          "options__1": {
-            "label": "Left"
-          },
-          "options__2": {
-            "label": "Center"
-          },
-          "options__3": {
-            "label": "Right"
-          },
-          "label": "Desktop content position",
-          "info": "Position is automatically optimized for mobile."
-        },
         "content_alignment": {
           "options__1": {
             "label": "Left"
@@ -2467,8 +2454,14 @@
           },
           "label": "Content alignment"
         },
-        "full_width": {
-          "label": "Make section full width"
+        "content_columns": {
+          "label": "Content columns",
+          "options__1": {
+            "label": "1 column"
+          },
+          "options__2": {
+            "label": "2 columns"
+          }
         }
       },
       "blocks": {
@@ -2477,35 +2470,6 @@
           "settings": {
             "heading": {
               "label": "Heading"
-            }
-          }
-        },
-        "caption": {
-          "name": "Caption",
-          "settings": {
-            "text": {
-              "label": "Text"
-            },
-            "text_style": {
-              "label": "Text style",
-              "options__1": {
-                "label": "Subtitle"
-              },
-              "options__2": {
-                "label": "Uppercase"
-              }
-            },
-            "caption_size": {
-              "label": "Text size",
-              "options__1": {
-                "label": "Small"
-              },
-              "options__2": {
-                "label": "Medium"
-              },
-              "options__3": {
-                "label": "Large"
-              }
             }
           }
         },
