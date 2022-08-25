@@ -204,8 +204,8 @@
 
   .image-with-text--overlap .image-with-text__content {
     height: auto;
-    width: calc(100% + 4rem);
-    min-width: calc(100% + 4rem);
+    width: calc(90% - 10rem);
+    min-width: calc(90% - 10rem);
     margin-top: 0;
     margin-left: -4rem;
   }
@@ -344,15 +344,20 @@
 @media screen and (min-width: 750px) {
  
  .image-with-text-width {
-  max-width: 140rem;
+  /* max-width: 140rem; */
   margin: 0 auto;
   /* padding: 0 6rem; */
 } 
 
 .image-with-text__media-item { 
   position: relative;
-  top: 8rem;
+  top: 80px;
+  right:120px;
+  width: calc(40%);
   z-index: 9999;
+}
+.image-with-text__text-item {
+  width: calc(60%);
 }
 
 .image-with-text__grid {
