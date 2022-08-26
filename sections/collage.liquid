@@ -142,6 +142,22 @@
                   </div>
                 </modal-dialog>
               </div>
+            {%- when 'text_block' -%}
+              <div class="text-block color-{{ block.settings.container_color_scheme }} inline-button-style">
+                {%- if block.settings.title != blank -%}
+                    <div class="text-block_title_wrapper">
+                    <h2 class="">{{ section.settings.title }}</h2>
+                    {% render 'icon-arrow' %}
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.button_text != blank -%}
+                  {%- if block.settings.button_url != blank -%}
+                    <a href="{{ block.settings.button_url }}" class="link inline-button-text-style">
+                      {{ block.settings.button_text }}
+                    </a>
+                  {%- endif -%}
+                {%- endif -%}
+              </div>
           {%- endcase -%}
         </div>
       {%- endfor -%}
@@ -356,6 +372,34 @@
       "type": "text_block",
       "name": "t:sections.collage.blocks.text_block.name",
       "settings": [
+        {
+          "type": "select",
+          "id": "container_color_scheme",
+          "options": [
+            {
+              "value": "accent-1",
+              "label": "t:sections.all.colors.accent_1.label"
+            },
+            {
+              "value": "accent-2",
+              "label": "t:sections.all.colors.accent_2.label"
+            },
+            {
+              "value": "background-1",
+              "label": "t:sections.all.colors.background_1.label"
+            },
+            {
+              "value": "background-2",
+              "label": "t:sections.all.colors.background_2.label"
+            },
+            {
+              "value": "inverse",
+              "label": "t:sections.all.colors.inverse.label"
+            }
+          ],
+          "default": "background-1",
+          "label": "t:sections.collage.blocks.container_color_scheme.label"
+        },
         {
           "type": "text",
           "id": "title",

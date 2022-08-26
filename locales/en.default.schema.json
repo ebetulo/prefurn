@@ -503,6 +503,9 @@
             "title": {
               "label": "Title"
             },
+            "container_color_scheme": {
+              "label": "Container background color"
+            },
             "button_text": {
               "label": "Button text"
             },
