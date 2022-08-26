@@ -78,20 +78,11 @@
             "text_style": "body",
             "text_color": "text_color-1"
           }
-        },
-        "1659081696a2331230-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Inline button",
-            "button_link": "",
-            "button_color": "button_color-1"
-          }
         }
       },
       "block_order": [
         "1659081696a2331230-0",
-        "1659081696a2331230-1",
-        "1659081696a2331230-2"
+        "1659081696a2331230-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ergonofis-hPCFOFtmNls-unsplash_2.png",
