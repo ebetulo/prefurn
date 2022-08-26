@@ -2174,12 +2174,13 @@ input[type="checkbox"] {
 
 /* section-announcement-bar */
 #shopify-section-announcement-bar {
-  height: 50px;
+  height: 40px;
   z-index: 4;
 }
 
 .announcement-bar {
-  height: 50px;
+  display: block;
+  height: 40px;
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
   color: rgb(var(--color-foreground));
 }
