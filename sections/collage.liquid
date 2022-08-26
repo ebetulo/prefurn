@@ -142,6 +142,19 @@
                   </div>
                 </modal-dialog>
               </div>
+            {%- when 'text_block' -%}
+              <div class="text-block inline-button-style">
+                {%- if block.settings.title != blank -%}
+                  <h2 class="">{{ section.settings.title | escape }}</h2>
+                {%- endif -%}
+                {%- if block.settings.button_text != blank -%}
+                  {%- if block.settings.button_url != blank -%}
+                    <a href="{{ block.settings.button_url }}" class="link inline-button-text-style">
+                      {{ block.settings.button_text }}
+                    </a>
+                  {%- endif -%}
+                {%- endif -%}
+              </div>
           {%- endcase -%}
         </div>
       {%- endfor -%}
