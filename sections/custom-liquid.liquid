@@ -10,10 +10,89 @@
     padding-bottom: {{ section.settings.padding_bottom }}px;
   }
 }
+
+
+.wrapper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab{
+  cursor: pointer;
+  color: black;
+  padding:0px 20px;
+  margin:0px 2px;
+  display:inline-block;
+  border-radius:3px 3px 0px 0px;
+  /* box-shadow: 0 0.5rem 0.8rem #00000080; */
+}
+.panels{
+  background:#fffffff6;
+  box-shadow: 0 2rem 2rem #00000080;
+  min-height:200px;
+  width:100%;
+  max-width:500px;
+  border-radius:3px;
+  overflow:hidden;
+  padding:20px;  
+}
+.panel{
+  display:none;
+  animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.panel-title{
+  font-size:1.5em;
+  font-weight:bold
+}
+.radio{
+  display:none;
+}
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel{
+  display:block
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab{
+  background:#fffffff6;
+  color:#2D5A4F;
+  border-bottom: 3px solid #ABD6CA;
+}
 {%- endstyle -%}
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding">
-    {{ section.settings.custom_liquid }}
+    {% comment %} {{ section.settings.custom_liquid }} {% endcomment %}
+
+    <div class="wrapper">
+      <input class="radio" id="one" name="group" type="radio" checked>
+      <input class="radio" id="two" name="group" type="radio">
+      <input class="radio" id="three" name="group" type="radio">
+      <div class="tabs">
+      <label class="tab" id="one-tab" for="one">Productinformatie</label>
+      <label class="tab" id="two-tab" for="two">Specificaties</label>
+    
+        </div>
+      <div class="panels">
+      <div class="panel" id="one-panel">
+        <div class="panel-title">Ergonomisch en stijlvol</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+      </div>
+      <div class="panel" id="two-panel">
+        <div class="panel-title"> Product specificaties</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
