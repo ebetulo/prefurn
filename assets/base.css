@@ -2185,8 +2185,9 @@ input[type="checkbox"] {
 }
 
 .announcement-bar {
-  display: block !important;
+  display: flex !important;
   height: 40px;
+  gap: 1rem;
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
   color: rgb(var(--color-foreground));
 }
