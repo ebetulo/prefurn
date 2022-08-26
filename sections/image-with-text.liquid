@@ -80,7 +80,7 @@
             {%- when 'caption' -%}
               <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
             {%- when 'text' -%}
-              <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+              <div class="image-with-text__text rte pf-{{ block.settings.text_color }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
                 <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button pf-{{block.settings.button_color}}" {{ block.shopify_attributes }}>
