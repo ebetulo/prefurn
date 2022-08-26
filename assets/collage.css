@@ -196,6 +196,10 @@
   padding: 4rem;
 }
 
+.collage .text-block_title_wrapper > h2 {
+  margin-top: 0;
+}
+
 .collage .link {
   display: flex;
   gap: 1rem;
