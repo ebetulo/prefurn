@@ -132,13 +132,22 @@
           "settings": {
             "image_padding": false
           }
+        },
+        "d4d3b6d7-1de1-4343-a8cc-7334c669e11a": {
+          "type": "text_block",
+          "settings": {
+            "title": "Ponam in culpa idiota aliis  se justum pravitatis.",
+            "button_text": "",
+            "button_url": ""
+          }
         }
       },
       "block_order": [
         "71d43455-b701-4c25-afb7-6a483be7c72a",
         "0e7f723d-ec06-4a2b-ba6b-4e91b220157b",
         "fdcddcfc-db46-4665-bb45-183936c33332",
-        "57b274e8-32b6-470c-bb8d-ab2d6965b337"
+        "57b274e8-32b6-470c-bb8d-ab2d6965b337",
+        "d4d3b6d7-1de1-4343-a8cc-7334c669e11a"
       ],
       "settings": {
         "heading": "Een greep uit onze collectie",
