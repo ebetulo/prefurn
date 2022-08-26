@@ -2184,7 +2184,7 @@ input[type="checkbox"] {
   z-index: 4;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 750px) {
   #shopify-section-announcement-bar {
     display: block;
   }
