@@ -20,11 +20,11 @@
    /* Prevent vertical gaps */
    line-height: 0;
    
-   -webkit-column-count: 5;
+   -webkit-column-count: {{section.blocks.size}};
    -webkit-column-gap:   0px;
-   -moz-column-count:    5;
+   -moz-column-count:    {{section.blocks.size}};
    -moz-column-gap:      0px;
-   column-count:         5;
+   column-count:         {{section.blocks.size}};
    column-gap:           0px;
   }
 {%- endstyle -%}
