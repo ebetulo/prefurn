@@ -179,10 +179,18 @@
               "text": "Text",
               "url": "https:\/\/www.igne.nl\/"
             }
+          },
+          "723c1f4a-c0f6-4cff-bdd9-c90335ccc46b": {
+            "type": "link",
+            "settings": {
+              "text": "Text",
+              "url": "https:\/\/www.britannica.com\/plant\/prefern"
+            }
           }
         },
         "block_order": [
-          "d8a496c6-45f2-4377-aef3-f0c3620a7b44"
+          "d8a496c6-45f2-4377-aef3-f0c3620a7b44",
+          "723c1f4a-c0f6-4cff-bdd9-c90335ccc46b"
         ],
         "settings": {
           "container_color_scheme": "accent-3"
