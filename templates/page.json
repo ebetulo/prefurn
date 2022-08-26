@@ -113,29 +113,31 @@
             "image_padding": false
           }
         },
-        "0e7f723d-ec06-4a2b-ba6b-4e91b220157b": {
-          "type": "video",
+        "57b274e8-32b6-470c-bb8d-ab2d6965b337": {
+          "type": "image",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
+            "image": "shopify:\/\/shop_images\/image-header.png",
             "image_padding": false
           }
         },
         "fdcddcfc-db46-4665-bb45-183936c33332": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Image-product-info.png",
             "image_padding": false
           }
         },
-        "57b274e8-32b6-470c-bb8d-ab2d6965b337": {
+        "ea39369a-a5aa-451b-a9a5-30b716f8e2ae": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image_3.png",
             "image_padding": false
           }
         },
         "d4d3b6d7-1de1-4343-a8cc-7334c669e11a": {
           "type": "text_block",
           "settings": {
+            "container_color_scheme": "background-2",
             "title": "Ponam in culpa idiota aliis  se justum pravitatis.",
             "button_text": "Bekijk onze gehele collectie",
             "button_url": "shopify:\/\/collections\/all"
@@ -144,9 +146,9 @@
       },
       "block_order": [
         "71d43455-b701-4c25-afb7-6a483be7c72a",
-        "0e7f723d-ec06-4a2b-ba6b-4e91b220157b",
-        "fdcddcfc-db46-4665-bb45-183936c33332",
         "57b274e8-32b6-470c-bb8d-ab2d6965b337",
+        "fdcddcfc-db46-4665-bb45-183936c33332",
+        "ea39369a-a5aa-451b-a9a5-30b716f8e2ae",
         "d4d3b6d7-1de1-4343-a8cc-7334c669e11a"
       ],
       "settings": {
