@@ -496,6 +496,20 @@
               "info": "Describe the video for customers using screen readers. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video-block)"
             }
           }
+        },
+        "text_block": {
+          "name": "Text block",
+          "settings": {
+            "title": {
+              "label": "Title"
+            },
+            "button_text": {
+              "label": "Button text"
+            },
+            "button_url": {
+              "label": "Button URL"
+            }
+          }
         }
       },
       "presets": {
