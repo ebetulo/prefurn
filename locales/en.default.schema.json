@@ -383,6 +383,10 @@
     "menu_bar": {
       "name": "Menu bar",
       "settings": {
+        "container_color_scheme": {
+          "label": "Container color scheme",
+          "info": "Visible when there is at least one link item added."
+        }
       },
       "blocks": {
         "link": {
