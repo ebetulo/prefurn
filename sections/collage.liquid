@@ -143,17 +143,16 @@
                 </modal-dialog>
               </div>
             {%- when 'text_block' -%}
-              <div class="text-block color-{{ block.settings.container_color_scheme }} inline-button-style">
+              <div class="text-block color-{{ block.settings.container_color_scheme }}">
                 {%- if block.settings.title != blank -%}
-                    <div class="text-block_title_wrapper">
+                  <div class="text-block_title_wrapper">
                     <h2 class="">{{ section.settings.title }}</h2>
-                    {% render 'icon-arrow' %}
                   </div>
                 {%- endif -%}
                 {%- if block.settings.button_text != blank -%}
                   {%- if block.settings.button_url != blank -%}
                     <a href="{{ block.settings.button_url }}" class="link inline-button-text-style">
-                      {{ block.settings.button_text }}
+                      {{ block.settings.button_text }} {% render 'icon-arrow' %}
                     </a>
                   {%- endif -%}
                 {%- endif -%}
@@ -397,8 +396,8 @@
               "label": "t:sections.all.colors.inverse.label"
             }
           ],
-          "default": "background-1",
-          "label": "t:sections.collage.blocks.container_color_scheme.label"
+          "default": "background-2",
+          "label": "t:sections.collage.blocks.text_block.settings.container_color_scheme.label"
         },
         {
           "type": "text",

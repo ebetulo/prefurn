@@ -191,3 +191,12 @@
 .collage .collage-card-spacing img {
   object-fit: contain;
 }
+
+.collage .text-block {
+  padding: 4rem;
+}
+
+.collage .link {
+  display: flex;
+  gap: 1rem;
+}
