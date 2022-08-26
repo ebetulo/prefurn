@@ -2198,13 +2198,11 @@ input[type="checkbox"] {
 }
 
 .announcement-bar__link {
-  color: rgba(var(--color-foreground));
   padding: 1rem 0.5rem;
   text-decoration: none;
 }
 
 .announcement-bar__link:hover {
-  color: rgb(var(--color-foreground));
   background-color: rgba(var(--color-card-hover), 0.06);
 }
 
