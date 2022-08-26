@@ -360,9 +360,9 @@
   width: calc(60%);
 }
 
-.image-with-text__grid {
+/* .image-with-text__grid {
   background-color: #2D5A4F;
-}
+} */
 
 .image-with-text__text-item {
   background-color: #F0F0EA;
@@ -412,3 +412,16 @@
 .pf-button_color-1::after, .pf-button_color-2::after, .pf-button_color-3::after {
   box-shadow: none;
 }
+
+.pf-img_bg_color-1 {
+  background-color: #FFFFFF;
+}
+
+.pf-img_bg_color-2 {
+  background-color: #2D5A4F;
+}
+
+.pf-img_bg_color-3 {
+  background-color: #F0F0EA;
+}
+
