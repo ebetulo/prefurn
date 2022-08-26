@@ -137,8 +137,8 @@
           "type": "text_block",
           "settings": {
             "title": "Ponam in culpa idiota aliis  se justum pravitatis.",
-            "button_text": "",
-            "button_url": ""
+            "button_text": "Bekijk onze gehele collectie",
+            "button_url": "shopify:\/\/collections\/all"
           }
         }
       },
