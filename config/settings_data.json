@@ -5,6 +5,8 @@
     "gradient_accent_1": "",
     "colors_accent_2": "#334fb4",
     "gradient_accent_2": "",
+    "colors_accent_3": "#CEEBE3",
+    "gradient_accent_3": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
@@ -96,8 +98,6 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
-    "colors_accent_3": "#CEEBE3",
-    "gradient_accent_3": "",
     "sections": {
       "header": {
         "type": "header",
@@ -168,6 +168,24 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "d8a496c6-45f2-4377-aef3-f0c3620a7b44": {
+            "type": "link",
+            "settings": {
+              "text": "Text",
+              "url": "https:\/\/www.igne.nl\/"
+            }
+          }
+        },
+        "block_order": [
+          "d8a496c6-45f2-4377-aef3-f0c3620a7b44"
+        ],
+        "settings": {
+          "container_color_scheme": "accent-3"
         }
       }
     },
