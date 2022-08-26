@@ -5,12 +5,15 @@
 
 .collage {
 /*   display: grid; */
-   -webkit-column-count: 2;
-   -webkit-column-gap: 2.5rem;
-   -moz-column-count: 2;
-   -moz-column-gap: 2.5rem;
-   column-count: 2;
-   column-gap: 2.5rem;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 2.5rem;
+  -webkit-row-gap: 2.5rem;
+  -moz-column-count: 2;
+  -moz-column-gap: 2.5rem;
+  -moz-row-gap: 2.5rem;
+  column-count: 2;
+  column-gap: 2.5rem;
+  row-gap: 2.5rem;
 }
 
 .collage__item > * {
