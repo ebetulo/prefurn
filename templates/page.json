@@ -23,7 +23,8 @@
           "type": "text",
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dis aliquam a phasellus nibh sapien est. Et felis a sed rhoncus volutpat. Integer.<\/p>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "text_color-2"
           }
         },
         "1659081446fc32c93d-2": {
@@ -72,7 +73,8 @@
           "type": "text",
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "text_color-1"
           }
         },
         "1659081696a2331230-2": {
@@ -232,7 +234,8 @@
           "type": "text",
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "text_color-1"
           }
         }
       },
