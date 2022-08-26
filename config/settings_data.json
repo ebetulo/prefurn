@@ -179,10 +179,18 @@
               "text": "Mijn account",
               "url": "https:\/\/www.igne.nl\/"
             }
+          },
+          "ca4278b5-8e5f-4675-a34e-dba2e4ace838": {
+            "type": "link",
+            "settings": {
+              "text": "Over Prefurn",
+              "url": "shopify:\/\/pages\/my-account"
+            }
           }
         },
         "block_order": [
-          "ccbc6985-87d7-4a3e-ba95-b1e21de919a0"
+          "ccbc6985-87d7-4a3e-ba95-b1e21de919a0",
+          "ca4278b5-8e5f-4675-a34e-dba2e4ace838"
         ],
         "settings": {
           "container_color_scheme": "accent-3"
