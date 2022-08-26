@@ -96,6 +96,8 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
+    "colors_accent_3": "#CEEBE3",
+    "gradient_accent_3": "",
     "sections": {
       "header": {
         "type": "header",
