@@ -193,12 +193,20 @@
               "text": "Veelgestelde vragen",
               "url": "shopify:\/\/pages\/contact"
             }
+          },
+          "a3a2049f-db1c-419f-a85b-c07efaad1c16": {
+            "type": "link",
+            "settings": {
+              "text": "Contact",
+              "url": "shopify:\/\/pages\/contact"
+            }
           }
         },
         "block_order": [
           "5b15c33d-23bb-48f6-a73e-590cb2b639ec",
           "478cdbad-7bfa-4846-87b7-c48fcd215ad3",
-          "6eea7cc7-5725-4d97-9670-1a3056c06021"
+          "6eea7cc7-5725-4d97-9670-1a3056c06021",
+          "a3a2049f-db1c-419f-a85b-c07efaad1c16"
         ],
         "settings": {
           "container_color_scheme": "accent-3"
