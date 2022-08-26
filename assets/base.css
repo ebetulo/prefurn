@@ -2180,20 +2180,17 @@ input[type="checkbox"] {
 
 /* section-announcement-bar */
 #shopify-section-announcement-bar {
-  height: 40px;
   z-index: 4;
 }
 
 .announcement-bar {
-  display: block !important;
-  height: 40px;
+  display: flex !important;
+  gap: 1.5rem;
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
   color: rgb(var(--color-foreground));
 }
 
 .announcement-bar__link {
-  display: block;
-  width: 100%;
   padding: 1rem 0;
   text-decoration: none;
 }
