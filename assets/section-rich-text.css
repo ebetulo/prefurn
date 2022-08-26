@@ -4,21 +4,22 @@
 
 .border-top {
   display: block !important;
-  border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  border-top: 0.1rem solid #2d5a4f;
   padding-bottom: 4rem;
 }
 
 .border-bottom {
   display: block !important;
   padding-top: 5rem;
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  border-bottom: 0.1rem solid #2d5a4f;
 }
 
 .rich-text__blocks *:not(h2) {
   margin-top: 1.125rem;
 }
 
-.rich-text__grid-col-1, .rich-text__grid-col-2 {
+.rich-text__grid-col-1,
+.rich-text__grid-col-2 {
   -webkit-column-gap: 2.5rem;
   -moz-column-gap: 2.5rem;
   column-gap: 2.5rem;
@@ -39,7 +40,7 @@
     columns: 2 12rem;
     position: relative;
   }
-  
+
   .rich-text__grid-col-2 > h2 {
     column-span: all;
     width: 49%;
