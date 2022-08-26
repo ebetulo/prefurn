@@ -16,6 +16,23 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .inline-button-text {
+    font-size: 18px;
+    color:white !important;
+    font-weight: 600;
+    padding-right: 10px;
+    text-decoration: underline;
+    text-decoration-color: #ABD6CA;
+    text-decoration-thickness: 2px;
+  }
+
+  .inline-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 {%- endstyle -%}
 
 <div class="isolate">
@@ -43,6 +60,14 @@
             </div>
         {%- endcase -%}
       {%- endfor -%}
+      {%- if section.settings.inline_button_text != blank-%}
+        <div class="inline-button">
+          <a href="{{ section.settings.button_link }}" class="inline-button-text">{{ section.settings.inline_button_text | escape }}</a>
+          <div>
+            <span class="icon-wrap">&nbsp;{% render 'icon-arrow-green' %}</span>
+          </div>
+        </div>
+      {%- endif -%}
       <div class="border-bottom"></div>
     </div>
   </div>
@@ -121,6 +146,16 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "text",
+      "id": "inline_button_text",
+      "label": "Inline button label"
+    },
+    {
+      "type": "url",
+      "id": "inline_button_link",
+      "label": "Inline button link"
     },
     {
       "type": "range",
