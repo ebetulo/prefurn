@@ -120,11 +120,25 @@
             "description": "Describe the video",
             "image_padding": false
           }
+        },
+        "fdcddcfc-db46-4665-bb45-183936c33332": {
+          "type": "image",
+          "settings": {
+            "image_padding": false
+          }
+        },
+        "57b274e8-32b6-470c-bb8d-ab2d6965b337": {
+          "type": "image",
+          "settings": {
+            "image_padding": false
+          }
         }
       },
       "block_order": [
         "71d43455-b701-4c25-afb7-6a483be7c72a",
-        "0e7f723d-ec06-4a2b-ba6b-4e91b220157b"
+        "0e7f723d-ec06-4a2b-ba6b-4e91b220157b",
+        "fdcddcfc-db46-4665-bb45-183936c33332",
+        "57b274e8-32b6-470c-bb8d-ab2d6965b337"
       ],
       "settings": {
         "heading": "Een greep uit onze collectie",
