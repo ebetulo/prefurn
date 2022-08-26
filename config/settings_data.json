@@ -186,11 +186,27 @@
               "text": "Over Prefurn",
               "url": "shopify:\/\/pages\/my-account"
             }
+          },
+          "90c63363-940b-46e6-960c-d70e99e54108": {
+            "type": "link",
+            "settings": {
+              "text": "Veelgestelde vragen",
+              "url": "shopify:\/\/pages\/contact"
+            }
+          },
+          "eba5e874-d95f-417d-ab68-a062ccfab3e8": {
+            "type": "link",
+            "settings": {
+              "text": "Contact",
+              "url": "shopify:\/\/pages\/contact"
+            }
           }
         },
         "block_order": [
           "ccbc6985-87d7-4a3e-ba95-b1e21de919a0",
-          "ca4278b5-8e5f-4675-a34e-dba2e4ace838"
+          "ca4278b5-8e5f-4675-a34e-dba2e4ace838",
+          "90c63363-940b-46e6-960c-d70e99e54108",
+          "eba5e874-d95f-417d-ab68-a062ccfab3e8"
         ],
         "settings": {
           "container_color_scheme": "accent-3"
