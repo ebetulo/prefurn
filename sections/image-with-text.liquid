@@ -31,7 +31,19 @@
     width: 100%;
   }
 }
+.inline {
+    font-size: 18px;
+    color:#2D5A4F !important;
+    font-weight: 600;
+    padding-right: 10px;
+  }
 
+  .inline-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
   /* @media screen and (max-width: 750px) {
     .pr-image-size {
      width: 100%;
@@ -78,7 +90,7 @@
                 {{ block.settings.heading | escape }}
               </h2>
             {%- when 'caption' -%}
-              <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
+              <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>             
             {%- when 'text' -%}
               <div class="image-with-text__text rte pf-{{ block.settings.text_color }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
             {%- when 'button' -%}
@@ -89,6 +101,14 @@
               {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
+        {%- if section.settings.inline_button_text != blank-%}
+          <div class="inline-button">
+            <a href="{{ section.settings.button_link }}" class="inline">{{ section.settings.inline_button_text | escape }}</a>
+            <div>
+              <span class="icon-wrap">&nbsp;{% render 'icon-arrow-green' %}</span>
+            </div>
+          </div>
+        {%- endif -%}
       </div>
     </div>
   </div>
@@ -281,6 +301,16 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "text",
+      "id": "inline_button_text",
+      "label": "Inline button label"
+    },
+    {
+      "type": "url",
+      "id": "inline_button_link",
+      "label": "Inline button link"
     },
     {
       "type": "range",
@@ -507,24 +537,6 @@
           ],
           "default": "button_color-1",
           "label": "Button Color"
-        }
-      ]
-    }, 
-    {
-      "type": "link",
-      "name": "t:sections.image-with-text.blocks.link.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "default": "Text",
-          "label": "Inline button label"
-        },
-        {
-          "type": "url",
-          "id": "url",
-          "label": "Inline button url"
         }
       ]
     }
