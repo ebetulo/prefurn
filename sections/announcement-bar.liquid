@@ -1,4 +1,5 @@
-<div class="announcement-bar page-width color-{{ section.settings.container_color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+<div class="announcement-bar color-{{ section.settings.container_color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+  <div class="announcement-bar__content page-width">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when 'link' -%}
@@ -11,6 +12,7 @@
         {%- endif -%}
     {%- endcase -%}
   {%- endfor -%}
+  </div>
 </div>
 
 {% schema %}
