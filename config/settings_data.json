@@ -186,11 +186,19 @@
               "text": "Over Prefurn",
               "url": "https:\/\/www.britannica.com\/plant\/prefern"
             }
+          },
+          "c8b967f6-112f-48d1-9f97-b7e65afbfe6e": {
+            "type": "link",
+            "settings": {
+              "text": "Veelgestelde vragen",
+              "url": "https:\/\/en.wikipedia.org\/wiki\/Question"
+            }
           }
         },
         "block_order": [
           "d8a496c6-45f2-4377-aef3-f0c3620a7b44",
-          "723c1f4a-c0f6-4cff-bdd9-c90335ccc46b"
+          "723c1f4a-c0f6-4cff-bdd9-c90335ccc46b",
+          "c8b967f6-112f-48d1-9f97-b7e65afbfe6e"
         ],
         "settings": {
           "container_color_scheme": "accent-3"
