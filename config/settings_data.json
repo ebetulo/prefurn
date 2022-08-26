@@ -172,6 +172,18 @@
       },
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "5b15c33d-23bb-48f6-a73e-590cb2b639ec": {
+            "type": "link",
+            "settings": {
+              "text": "Mijn account",
+              "url": "https:\/\/www.igne.nl\/"
+            }
+          }
+        },
+        "block_order": [
+          "5b15c33d-23bb-48f6-a73e-590cb2b639ec"
+        ],
         "settings": {
           "container_color_scheme": "accent-3"
         }
