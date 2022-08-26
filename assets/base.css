@@ -2198,7 +2198,8 @@ input[type="checkbox"] {
 }
 
 .announcement-bar__link {
-  padding: 1rem 0;
+  color: rgba(var(--color-foreground));
+  padding: 1rem 0.5rem;
   text-decoration: none;
 }
 
