@@ -2184,10 +2184,15 @@ input[type="checkbox"] {
 }
 
 .announcement-bar {
-  display: flex !important;
   gap: 1.5rem;
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
   color: rgb(var(--color-foreground));
+}
+
+@media screen and (max-width: 750px) {
+  .announcement-bar {
+    display: flex;
+  }
 }
 
 .announcement-bar__link {
