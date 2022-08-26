@@ -17,14 +17,14 @@
 
 {% schema %}
 {
-  "name": "t:sections.menu_bar.name",
+  "name": "t:sections.announcement_bar.name",
   "settings": [
     {
       "type": "select",
       "id": "container_color_scheme",
       "default": "accent-3",
-      "label": "t:sections.menu_bar.settings.container_color_scheme.label",
-      "info": "t:sections.menu_bar.settings.container_color_scheme.info",
+      "label": "t:sections.announcement_bar.settings.container_color_scheme.label",
+      "info": "t:sections.announcement_bar.settings.container_color_scheme.info",
       "options": [
         {
           "value": "accent-1",
@@ -56,19 +56,19 @@
   "blocks": [
     {
       "type": "link",
-      "name": "t:sections.menu_bar.blocks.link.name",
+      "name": "t:sections.announcement_bar.blocks.link.name",
       "limit": 5,
       "settings": [
         {
           "type": "text",
           "id": "text",
           "default": "Text",
-          "label": "t:sections.menu_bar.blocks.link.settings.text.label"
+          "label": "t:sections.announcement_bar.blocks.link.settings.text.label"
         },
         {
           "type": "url",
           "id": "url",
-          "label": "t:sections.menu_bar.blocks.link.settings.url.label"
+          "label": "t:sections.announcement_bar.blocks.link.settings.url.label"
         }
       ]
     }
