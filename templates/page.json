@@ -172,6 +172,7 @@
         },
         "a258dfe6-4133-46a8-8544-e4f09019d16b": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Meer lezen over onderwerp",
             "button_link": "",
