@@ -129,45 +129,13 @@
         "padding_bottom": 12
       }
     },
-    "16593426121d5cedb8": {
-      "type": "image-with-text",
-      "blocks": {
-        "1659342612df86d673-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ergonomisch en stijlvol",
-            "heading_size": "h2",
-            "heading_color": "color-2"
-          }
-        },
-        "1659342612df86d673-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim, ultricies quam interdum auctor facilisi. Amet molestie dui venenatis tristique nec odio quam ultrices. Sem semper ut convallis justo, rutrum. Fermentum dictumst placerat platea pretium. Egestas aliquet aliquet ullamcorper nec at. Tempor aliquet adipiscing morbi odio eget vitae neque. <\/p>",
-            "text_style": "body",
-            "text_color": "text_color-1"
-          }
-        }
-      },
-      "block_order": [
-        "1659342612df86d673-0",
-        "1659342612df86d673-1"
-      ],
+    "16615220364bf77cca": {
+      "type": "custom-liquid",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image-product-info.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "custom_liquid": "Custom liquid for product spesifications.",
         "color_scheme": "background-1",
-        "image_background_color": "img_bg_color-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "margin_bottom": 100,
-        "margin_top": 60
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     },
     "multicolumn": {
@@ -258,7 +226,7 @@
   },
   "order": [
     "main",
-    "16593426121d5cedb8",
+    "16615220364bf77cca",
     "multicolumn",
     "product-recommendations",
     "165910330565b1bb3c",
