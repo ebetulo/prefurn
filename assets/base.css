@@ -2192,8 +2192,8 @@ input[type="checkbox"] {
 }
 
 .announcement-bar__link {
-  display: block;
-  width: 100%;
+/*   display: block; */
+/*   width: 100%; */
   padding: 1rem 0;
   text-decoration: none;
 }
