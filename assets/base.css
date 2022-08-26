@@ -2180,19 +2180,21 @@ input[type="checkbox"] {
 
 /* section-announcement-bar */
 #shopify-section-announcement-bar {
+  display: none;
   z-index: 4;
 }
 
+@media screen and (min-width: 750px) {
+  #shopify-section-announcement-bar {
+    display: block;
+  }
+}
+
 .announcement-bar {
+  display: flex;
   gap: 1.5rem;
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
   color: rgb(var(--color-foreground));
-}
-
-@media screen and (max-width: 750px) {
-  .announcement-bar {
-    display: flex;
-  }
 }
 
 .announcement-bar__link {
