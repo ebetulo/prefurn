@@ -18,6 +18,17 @@
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
+{%- style -%}
+  .quick-add__submit{
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #F0F0EA;
+  }
+
+  .card {
+    background-color: #F0F0EA;
+  }
+{%- endstyle -%}
 {%- if card_product and card_product != empty -%}
   {%- liquid
     assign ratio = 1
