@@ -13,6 +13,10 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .color-{{ section.settings.color_scheme }} {
+    background-color: #F0F0EA;
+  }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -60,7 +64,7 @@
                 <details id="Details-{{ block.id }}-{{ section.id }}"{% if section.settings.open_first_collapsible_row and forloop.first %} open{% endif %}>
                   <summary id="Summary-{{ block.id }}-{{ section.id }}">
                     <div class="accordion__title__wrapper">
-                      {% render 'icon-accordion', icon: block.settings.icon %}
+                      {% comment %} {% render 'icon-accordion', icon: block.settings.icon %} {% endcomment %}
                       <h3 class="accordion__title h4">
                         {{ block.settings.heading | default: block.settings.page.title }}
                       </h3>
