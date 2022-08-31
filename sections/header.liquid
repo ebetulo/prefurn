@@ -86,6 +86,11 @@
     font-weight:400;
   }
 
+  ul.menu-drawer__menu li:last-child a{
+    color:#DE4747;
+    font-weight:400;
+  }
+
   ul.list-menu {
     font-weight:400;
   }
@@ -208,7 +213,7 @@
                     {%- endfor -%}
                   </ul>
                 </nav>
-                <div class="menu-drawer__utility-links">
+                {% comment %} <div class="menu-drawer__utility-links">
                   {%- if shop.customer_accounts_enabled -%}
                     <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="menu-drawer__account link focus-inset h5">
                       {% render 'icon-account' %}
@@ -295,7 +300,7 @@
                       </li>
                     {%- endif -%}
                   </ul>
-                </div>
+                </div> {% endcomment %}
               </div>
             </div>
           </div>
