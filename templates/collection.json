@@ -43,10 +43,11 @@
         "16590967266d08f0f2-2"
       ],
       "settings": {
-        "desktop_content_position": "left",
         "content_alignment": "left",
+        "content_columns": "2",
         "color_scheme": "background-1",
-        "full_width": true,
+        "inline_button_text": "",
+        "inline_button_link": "",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -104,7 +105,7 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 36
       }
