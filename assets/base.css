@@ -2982,10 +2982,12 @@ details-disclosure > details {
   input:checked
   + .globo-style--button {
   border-radius: 50px;
+  border-width: 2px;
 }
 
 .swatches-globo .swatch--gl li .globo-style--button {
   border-radius: 50px;
+  border-width: 2px;
 }
 
 .globo-swatch-product-detail
@@ -2994,8 +2996,10 @@ details-disclosure > details {
   input:checked
   + .globo-style--button {
   border-radius: 50px;
+  border-width: 2px;
 }
 
 .globo-swatch-product-detail .swatch--gl li .globo-style--button {
   border-radius: 50px;
+  border-width: 2px;
 }
