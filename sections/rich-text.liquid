@@ -61,7 +61,7 @@
       {%- endfor -%}
       {%- if section.settings.inline_button_text != blank-%}
         <div class="inline-button-style">
-          <a href="{{ section.settings.button_link }}" class="pf-{{ section.settings.inline_button_text_color}}">{{ section.settings.inline_button_text | escape }}</a>
+          <a href="{{ section.settings.button_link }}" class="pf-{{ section.settings.inline_button_text_color}}">{{ section.settings.inline_button_text | escape }}</a>     
           <div>
             <span class="icon-wrap">&nbsp;{% render 'icon-arrow-green' %}</span>
           </div>
