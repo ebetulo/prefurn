@@ -60,47 +60,35 @@
         "margin_top": 0
       }
     },
-    "16590816967f639d50": {
-      "type": "image-with-text",
+    "16619345938f5ade59": {
+      "type": "rich-text",
       "blocks": {
-        "1659081696a2331230-0": {
+        "166193459378561902-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ponam in culpa idiota aliis  se justum pravitatis.",
-            "heading_size": "h1",
-            "heading_color": "color-2"
+            "heading": "<p>Ponam in culpa idiota aliis  se justum pravitatis.<\/p>",
+            "heading_size": "h1"
           }
         },
-        "1659081696a2331230-1": {
+        "166193459378561902-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>",
-            "text_style": "body",
-            "text_color": "text_color-1"
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p><p><\/p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>"
           }
         }
       },
       "block_order": [
-        "1659081696a2331230-0",
-        "1659081696a2331230-1"
+        "166193459378561902-0",
+        "166193459378561902-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ergonofis-hPCFOFtmNls-unsplash_2.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_background_color": "img_bg_color-1",
-        "mobile_content_alignment": "left",
+        "content_alignment": "left",
+        "content_columns": "2",
+        "color_scheme": "background-2",
         "inline_button_text": "Bekijk het product",
         "inline_button_link": "shopify:\/\/collections\/all",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "margin_bottom": 100,
-        "margin_top": 0
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "16590819936a6de04b": {
@@ -154,8 +142,6 @@
       "settings": {
         "heading": "Een greep uit onze collectie",
         "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 0
@@ -328,7 +314,7 @@
   "order": [
     "main",
     "1659081446562e384f",
-    "16590816967f639d50",
+    "16619345938f5ade59",
     "16590819936a6de04b",
     "1659082779d90bf8f3",
     "165908460272ec860d",
