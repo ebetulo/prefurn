@@ -672,6 +672,7 @@ hr {
   text-decoration: none;
   color: currentColor;
   display: block;
+  font-size: 15px;
 }
 
 .placeholder {
@@ -2963,4 +2964,38 @@ details-disclosure > details {
 
 #shopify-section-template--16316329394389__1659344709611fcddc {
   margin-bottom: 60px;
+}
+
+.btn-globo {
+  border-color: #2d5a4f !important;
+  background-color: #2d5a4f !important;
+  color: white !important;
+  border-radius: 50px;
+  border: 2px !important;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.swatches-globo
+  .ul-swatches-list
+  li.swatches-options
+  input:checked
+  + .globo-style--button {
+  border-radius: 50px;
+}
+
+.swatches-globo .swatch--gl li .globo-style--button {
+  border-radius: 50px;
+}
+
+.globo-swatch-product-detail
+  ul.value
+  li.select-option
+  input:checked
+  + .globo-style--button {
+  border-radius: 50px;
+}
+
+.globo-swatch-product-detail .swatch--gl li .globo-style--button {
+  border-radius: 50px;
 }
