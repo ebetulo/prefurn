@@ -15,6 +15,10 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .pf-bg-beige {
+    background-color:#F0F0EA;
+  }
 {%- endstyle -%}
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -143,7 +147,7 @@
                 </modal-dialog>
               </div>
             {%- when 'text_block' -%}
-              <div class="text-block color-{{ block.settings.container_color_scheme }}">
+              <div class="text-block pf-bg-beige">
                 {%- if block.settings.title != blank -%}
                   <div class="text-block_title_wrapper">
                     <h2>{{ block.settings.title }}</h2>
