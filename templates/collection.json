@@ -48,12 +48,14 @@
         "color_scheme": "background-1",
         "inline_button_text": "",
         "inline_button_link": "",
+        "inline_button_text_color": "inline_button_text-1",
         "padding_top": 40,
         "padding_bottom": 52
       }
     },
     "165901393381a25f3a": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "165901393301229415-1": {
           "type": "featured_collection",
@@ -153,6 +155,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "6c993977-09c9-4c9f-926d-5fa1e5c918e4": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -162,7 +170,8 @@
         "1659090377551241af-4",
         "1659090377551241af-5",
         "1659090377551241af-6",
-        "1659090377551241af-7"
+        "1659090377551241af-7",
+        "6c993977-09c9-4c9f-926d-5fa1e5c918e4"
       ],
       "settings": {
         "product": "bureaustoel-premium",
