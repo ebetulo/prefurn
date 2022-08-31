@@ -59,3 +59,34 @@
 .rich-text__buttons + .rich-text__buttons {
   margin-top: 1rem;
 }
+
+.pf-inline_button_text-1 {
+  color: #2d5a4f;
+  font-size: 15px;
+  /* color:#2D5A4F !important; */
+  font-weight: 600;
+  padding-right: 10px;
+  text-decoration: underline;
+  text-decoration-color: #abd6ca;
+  text-decoration-thickness: 2px;
+}
+
+.pf-inline_button_text-2 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  padding-right: 10px;
+  text-decoration: underline;
+  text-decoration-color: #abd6ca;
+  text-decoration-thickness: 2px;
+}
+
+.pf-inline_button_text-3 {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  padding-right: 10px;
+  text-decoration: underline;
+  text-decoration-color: #abd6ca;
+  text-decoration-thickness: 2px;
+}
