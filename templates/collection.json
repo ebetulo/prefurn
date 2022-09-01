@@ -133,23 +133,6 @@
           "settings": {
           }
         },
-        "1659090377551241af-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "1659090377551241af-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "1659090377551241af-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
         "1659090377551241af-7": {
           "type": "share",
           "settings": {
@@ -167,9 +150,6 @@
         "1659090377551241af-1",
         "1659090377551241af-2",
         "1659090377551241af-3",
-        "1659090377551241af-4",
-        "1659090377551241af-5",
-        "1659090377551241af-6",
         "1659090377551241af-7",
         "6c993977-09c9-4c9f-926d-5fa1e5c918e4"
       ],
