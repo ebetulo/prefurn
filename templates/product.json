@@ -100,6 +100,16 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -116,7 +126,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc"
       ],
       "settings": {
         "enable_sticky_info": true,
