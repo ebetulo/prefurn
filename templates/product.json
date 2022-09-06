@@ -130,7 +130,7 @@
         "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "gallery_layout": "stacked",
         "media_size": "medium",
         "mobile_thumbnails": "show",
