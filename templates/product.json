@@ -130,11 +130,11 @@
         "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc"
       ],
       "settings": {
-        "enable_sticky_info": false,
+        "enable_sticky_info": true,
         "gallery_layout": "stacked",
         "media_size": "medium",
         "mobile_thumbnails": "show",
-        "hide_variants": true,
+        "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
