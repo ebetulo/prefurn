@@ -38,21 +38,21 @@
             "text_style": "subtitle"
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false
+            "show_dynamic_checkout": true
           }
         },
         "collapsible-row-0": {
@@ -119,8 +119,8 @@
         "price",
         "description",
         "caption",
-        "variant_picker",
         "quantity_selector",
+        "variant_picker",
         "buy_buttons",
         "collapsible-row-0",
         "collapsible-row-1",
