@@ -210,7 +210,7 @@
         "products_to_show": 3,
         "columns_desktop": 3,
         "color_scheme": "background-2",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
