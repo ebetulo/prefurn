@@ -139,12 +139,12 @@
       "settings": {
         "enable_sticky_info": true,
         "gallery_layout": "thumbnail",
-        "media_size": "medium",
+        "media_size": "small",
         "mobile_thumbnails": "show",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "16615220364bf77cca": {
