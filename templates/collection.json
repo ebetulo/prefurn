@@ -55,6 +55,7 @@
     },
     "165901393381a25f3a": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "165901393301229415-1": {
           "type": "featured_collection",
