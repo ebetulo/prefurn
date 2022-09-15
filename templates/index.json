@@ -191,7 +191,7 @@
         "1659016776a22b3fbe-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ponam in culpa idiota aliis  se justum pravitatis.",
+            "heading": "Van thuiswerkplek tot kantoor",
             "heading_size": "h1",
             "heading_color": "color-2"
           }
@@ -199,7 +199,7 @@
         "1659016776a22b3fbe-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>",
+            "text": "<p>Onze visie is voor iedereen een circulaire gezonde werkomgeving creeren. Onze bureaustoelen zijn allemaal gedeeltelijk geproduceerd van gerycycled matriaal. <\/p>",
             "text_style": "body",
             "text_color": "text_color-1"
           }
@@ -210,7 +210,7 @@
         "1659016776a22b3fbe-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Beiloo_-_small-75_5f11318f-47e1-4773-aa09-cf7367f611ce.jpg",
+        "image": "shopify:\/\/shop_images\/HAG_SoFi_Deloitte_Norway_f_Newspaper.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
