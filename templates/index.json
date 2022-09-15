@@ -119,9 +119,9 @@
         "column3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image-header.png",
-            "title": "Bureaustoelen",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
+            "image": "shopify:\/\/shop_images\/HAG_Capisco_8106_side_Newspaper_1.jpg",
+            "title": "Nieuw",
+            "text": "<p>Al onze ergonomische bureaustoelen voldoen  aan de EN 1335 en NPR 1813 normen. Ook zit er standaard 5 jaar garantie op onze Bureaustoelen.<\/p>",
             "link_label": "Bekijk alle stoelen",
             "link": "shopify:\/\/products\/bureaustoel-premium"
           }
@@ -130,8 +130,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_4_1.png",
-            "title": "Refurbished",
-            "text": "<p>De beste prijs voor een BMI Axia 2.5.<\/p>",
+            "title": "gebruikt",
+            "text": "<p>Onze gebruikte bureaustoelen zijn stoelen die bij klanten hebben gediend als proefstoel. Dit is voor een kleine periode hierdoor zijn het altijd de nieuwe modellen en zo goed als nieuw <\/p>",
             "link_label": "Bekijk alle bureaus",
             "link": "shopify:\/\/products\/bureaus"
           }
@@ -140,8 +140,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_1.png",
-            "title": "Accessoires",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit ac ac id cursus eu. Lacinia arcu, vitae duis laoreet vivamus. Cras tristique mauris ut senectus vitae.<\/p>",
+            "title": "Refurbished",
+            "text": "<p>Onze refurbished stoelen zijn stoelen die wij revitaliseren.  hiermee wekren wij mee aan een circulaire wekomgeving  <\/p>",
             "link_label": "Bekijk alle accessoires",
             "link": "shopify:\/\/products\/pakketten"
           }
@@ -156,10 +156,10 @@
         "title": "Onze collectie",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "columns_desktop": 3,
         "column_alignment": "center",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
