@@ -121,7 +121,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/HAG_Capisco_8106_side_Newspaper_1.jpg",
             "title": "Nieuw",
-            "text": "<p>Al onze ergonomische bureaustoelen voldoen  aan de EN 1335 en NPR 1813 normen. Ook zit er standaard 5 jaar garantie op onze Bureaustoelen.<\/p>",
+            "text": "<p>Al onze ergonomische bureaustoelen voldoen  aan de EN 1335 en NPR 1813 normen. Al onze modellen hebben een standaart garantie termijn van minimaal 5 jaar. <\/p>",
             "link_label": "Bekijk alle stoelen",
             "link": "shopify:\/\/products\/bureaustoel-premium"
           }
@@ -131,7 +131,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/HAG_281117_00135_Newspaper.jpg",
             "title": "gebruikt",
-            "text": "<p>Onze gebruikte bureaustoelen zijn stoelen die bij klanten hebben gediend als proefstoel. Dit is voor een kleine periode hierdoor zijn het altijd de nieuwe modellen en zo goed als nieuw <\/p>",
+            "text": "<p>Onze  gebruikte bureaustoelen hebben tot maximaal 4 weken gediend als proefstoel bij 1 van onze klanten. De stoelen die wij terug krijgen zijn altijd de neiuwste modellen en wij filteren deze zodat ze niet te onderscheiden zijn van nieuw <\/p>",
             "link_label": "Bekijk alle bureaus",
             "link": "shopify:\/\/products\/bureaus"
           }
@@ -141,7 +141,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Roros_Factory_HAG_SoFi_mesh_f_Newspaper_1.jpg",
             "title": "Refurbished",
-            "text": "<p>Onze refurbished stoelen zijn stoelen die wij revitaliseren.  hiermee wekren wij mee aan een circulaire wekomgeving  <\/p><p><\/p>",
+            "text": "<p>Onze refurbished stoelen hebben wij gerevitaliseerd.  Wij vervangen de nodige onderdelen en reinigen de stoel met onze reinigingsmachine. zo werken wij mee aan een circulair mailieu. <\/p><p><\/p>",
             "link_label": "Bekijk alle accessoires",
             "link": "shopify:\/\/products\/pakketten"
           }
@@ -199,7 +199,7 @@
         "1659016776a22b3fbe-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Onze visie is voor iedereen een circulaire gezonde werkomgeving creeren. Onze bureaustoelen zijn allemaal gedeeltelijk geproduceerd van gerycycled matriaal. <\/p>",
+            "text": "",
             "text_style": "body",
             "text_color": "text_color-1"
           }
