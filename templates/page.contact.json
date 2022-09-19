@@ -3,24 +3,6 @@
     "1663593020b9a38a49": {
       "type": "slideshow",
       "blocks": {
-        "166359302053114a82-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HAG_SoFi_Deloitte_Norway_f_Newspaper.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 20,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "166359302053114a82-1": {
           "type": "slide",
           "settings": {
@@ -35,6 +17,24 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "166359302053114a82-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HAG_SoFi_Deloitte_Norway_f_Newspaper.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
@@ -58,8 +58,8 @@
         }
       },
       "block_order": [
-        "166359302053114a82-0",
         "166359302053114a82-1",
+        "166359302053114a82-0",
         "adf01cb2-4b66-45ee-96d5-3ea00a94006d"
       ],
       "settings": {
@@ -82,6 +82,7 @@
     },
     "1659085427b8247270": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "16590854279aa40974-0": {
           "type": "heading",
@@ -139,14 +140,14 @@
         "1ea5ced8-bb46-4d87-89e3-e998c51a997a": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Kunnen we je ergens mee helpen<\/p>",
+            "heading": "<p>Neem zakelijk contact met ons op<\/p>",
             "heading_size": "h1"
           }
         },
         "b5356bff-b697-419e-9480-b9594cbb7775": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis eget dictum leo lacinia ullamcorper viverra. Habitasse pharetra dapibus et egestas lectus sed etiam metus amet. Sagittis eget dictum leo lacinia ullamcorper viverra.<\/p>",
+            "text": "<p>Bij prefurn zijn we gespecialiseerd in het inrichten van kantoorpanden. Wij beschikken over onze eigen monteurs en onderdelen van ons hele assortiment, waardoor wij passend onderhoud kunnen aanbieden . Wilt u meerdere werkplekken laten inrichten neem dan contact met ons op voor de mogelijkheden. <\/p>",
             "margin_top": 12
           }
         },
