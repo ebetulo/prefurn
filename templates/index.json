@@ -69,7 +69,7 @@
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "portrait",
+        "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": true,
         "show_rating": true,
@@ -130,8 +130,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/HAG_281117_00135_Newspaper.jpg",
-            "title": "gebruikt",
-            "text": "<p>Onze  gebruikte bureaustoelen hebben tot maximaal 4 weken gediend als proefstoel bij 1 van onze klanten. De stoelen die wij terug krijgen zijn altijd de neiuwste modellen en wij filteren deze zodat ze niet te onderscheiden zijn van nieuw <\/p>",
+            "title": "outlet",
+            "text": "<p>Onze  gebruikte bureaustoelen hebben gediend als een proefstoel of deze zal gebruikt zijn voor een fotoshoot. de stoelen zullen dezelfde garantie hebben als onze nieuwe stoelen, en zullen zonder gebruikssporen afgeleverd worden. <\/p>",
             "link_label": "Bekijk alle bureaus",
             "link": "shopify:\/\/products\/bureaus"
           }
@@ -140,8 +140,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Roros_Factory_HAG_SoFi_mesh_f_Newspaper_1.jpg",
-            "title": "Refurbished",
-            "text": "<p>Onze refurbished stoelen hebben wij gerevitaliseerd.  Wij vervangen de nodige onderdelen en reinigen de stoel met onze reinigingsmachine. zo werken wij mee aan een circulair mailieu. <\/p><p><\/p>",
+            "title": "refurbiushed",
+            "text": "<p>Onze refurbished stoelen hebben wij gerevitaliseerd.  Wij vervangen de nodige onderdelen en reinigen de stoel met onze reinigingsmachine. zo werken wij mee aan een circulair milieu.<\/p><p><\/p>",
             "link_label": "Bekijk alle accessoires",
             "link": "shopify:\/\/products\/pakketten"
           }
@@ -203,11 +203,21 @@
             "text_style": "body",
             "text_color": "text_color-1"
           }
+        },
+        "908e05d1-10da-47d5-999e-65c17a4a4449": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "1659016776a22b3fbe-0",
-        "1659016776a22b3fbe-1"
+        "1659016776a22b3fbe-1",
+        "908e05d1-10da-47d5-999e-65c17a4a4449"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Beiloo_-_small-75_5f11318f-47e1-4773-aa09-cf7367f611ce.jpg",
