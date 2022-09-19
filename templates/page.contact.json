@@ -301,6 +301,7 @@
         "61260e2d-dd18-4606-939c-e529baa5f999": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Venta_T_BROCHURE.1943-scaled.jpg",
             "image_padding": false
           }
         },
