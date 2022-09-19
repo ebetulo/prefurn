@@ -156,21 +156,21 @@
           "type": "contact_info",
           "settings": {
             "contact_info_icon": "mail",
-            "contact_info_text": "info@prefurn.nl"
+            "contact_info_text": "info@prefurn.com"
           }
         },
         "a4eb5399-b043-4060-858b-ce6dc4c03830": {
           "type": "contact_info",
           "settings": {
             "contact_info_icon": "phone",
-            "contact_info_text": "073-876906"
+            "contact_info_text": "0627991263"
           }
         },
         "498ccf19-dc99-4dc2-82d8-0d3cafe44160": {
           "type": "contact_info",
           "settings": {
             "contact_info_icon": "map_pin",
-            "contact_info_text": "Adresweg 123, Utrecht, 2587RH"
+            "contact_info_text": "Katwolderweg 1 Zwolle"
           }
         }
       },
