@@ -6,8 +6,8 @@
         "1659017571da753e1b-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ontdek het comfort van thuiswerken",
-            "heading_size": "h1",
+            "heading": "Een goede bureaustoel voor iedereen",
+            "heading_size": "h0",
             "heading_color": "white"
           }
         },
@@ -191,7 +191,7 @@
         "1659016776a22b3fbe-0": {
           "type": "heading",
           "settings": {
-            "heading": "Van thuiswerkplek tot kantoor",
+            "heading": "Van thuiswerkplek tot kantoorpand",
             "heading_size": "h1",
             "heading_color": "color-2"
           }
@@ -199,7 +199,7 @@
         "1659016776a22b3fbe-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Wij richten ons op het creeeren van een gezonde circulaire werkomgeving. Met onze eigen monteurs zullen wij ervoor zorgen dat uw thuiswerkplek tot kantoorpand goed afgeleverd en ingesteld word. <\/p>",
+            "text": "<p>Wij zijn gespecialiseerd in het creeeren van een gezonde werkomgeving. dit doen wij van thuiswerkplek tot kantoorpand. bent u op zoek naar meerdere werkplekken? <\/p>",
             "text_style": "body",
             "text_color": "text_color-1"
           }
@@ -212,12 +212,21 @@
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
+        },
+        "d49909de-06a1-4dd7-b2f9-55062a509f81": {
+          "type": "button",
+          "settings": {
+            "button_label": "Klik hier voor de mogelijkheden",
+            "button_link": "",
+            "button_color": "button_color-1"
+          }
         }
       },
       "block_order": [
         "1659016776a22b3fbe-0",
         "1659016776a22b3fbe-1",
-        "908e05d1-10da-47d5-999e-65c17a4a4449"
+        "908e05d1-10da-47d5-999e-65c17a4a4449",
+        "d49909de-06a1-4dd7-b2f9-55062a509f81"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Beiloo_-_small-75_5f11318f-47e1-4773-aa09-cf7367f611ce.jpg",

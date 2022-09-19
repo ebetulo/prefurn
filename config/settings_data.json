@@ -123,7 +123,7 @@
             "type": "text",
             "settings": {
               "heading": "Prefurn",
-              "subtext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>"
+              "subtext": "<p>Een betere werkplek voor iedereen. met onze <\/p>"
             }
           },
           "47103dd2-f0e0-4fe0-801f-01b488fa77ce": {
@@ -137,7 +137,7 @@
             "type": "text",
             "settings": {
               "heading": "Contact",
-              "subtext": "<p>Adresweg 12, Utrecht<br\/>1234HR<br\/>012-3456789<br\/>service@prefurn.nl<br\/><\/p>"
+              "subtext": "<p>Katwolderweg 1 Zwolle<br\/>8041C <br\/>012-3456789<br\/>info@prefurn.com<br\/><\/p>"
             }
           }
         },
