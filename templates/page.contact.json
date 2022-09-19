@@ -6,16 +6,17 @@
         "166359302053114a82-0": {
           "type": "slide",
           "settings": {
-            "heading": "Kantoor inrichring",
+            "image": "shopify:\/\/shop_images\/HAG_SoFi_Deloitte_Norway_f_Newspaper.jpg",
+            "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 20,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
@@ -23,14 +24,32 @@
         "166359302053114a82-1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/Venta_T_BROCHURE.1943-scaled.jpg",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "adf01cb2-4b66-45ee-96d5-3ea00a94006d": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
@@ -40,7 +59,8 @@
       },
       "block_order": [
         "166359302053114a82-0",
-        "166359302053114a82-1"
+        "166359302053114a82-1",
+        "adf01cb2-4b66-45ee-96d5-3ea00a94006d"
       ],
       "settings": {
         "layout": "full_bleed",
