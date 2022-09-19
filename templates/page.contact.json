@@ -295,6 +295,7 @@
         "498866a5-f022-4d4d-8ba2-e839383ddb60": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/RH_Logic_300_400_mix_2_Newspaper.jpg",
             "image_padding": false
           }
         },
@@ -308,6 +309,7 @@
         "35fb8c3d-65b3-4062-829d-8595871e8bbc": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Beiloo_-_small-112.jpg",
             "image_padding": false
           }
         }
