@@ -168,7 +168,7 @@
         "padding_top": 60,
         "padding_bottom": 80,
         "inline_button_text": "Bekijk volledige collectie",
-        "inline_button_link": ""
+        "inline_button_link": "shopify:\/\/collections\/all"
       }
     },
     "video": {
