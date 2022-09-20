@@ -329,6 +329,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16636733378205790b": {
+      "type": "multicolumn",
+      "blocks": {
+        "1663673337cfbbc307-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/delivery-truck.png",
+            "title": "Verzending",
+            "text": "<p>Als wij een product op voorraad hebben zal deze binnen binnen 5 werkdagen bij u bezorgd worden. u kunt er ook voor kiezen om de producten ingesteld bij u af te leveren. in dit geval brengen wij de producten eventureel naar boven en zullen uw werkplek instellen. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1663673337cfbbc307-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663673337cfbbc307-0",
+        "1663673337cfbbc307-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "inline_button_text": "",
+        "inline_button_link": ""
+      }
     }
   },
   "order": [
@@ -339,6 +385,7 @@
     "video",
     "165901677622c630b3",
     "1659017961386225d4",
-    "1662018673ea8ea636"
+    "1662018673ea8ea636",
+    "16636733378205790b"
   ]
 }
