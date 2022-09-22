@@ -67,7 +67,6 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
@@ -81,6 +80,15 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
             "content": "",
             "page": ""
           }
@@ -99,15 +107,6 @@
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
-            "page": ""
           }
         },
         "c8471d38-90cb-4ec6-b6ab-d839d34d985b": {
@@ -130,13 +129,13 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
+        "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc",
         "collapsible-row-3",
         "share",
-        "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc",
         "c8471d38-90cb-4ec6-b6ab-d839d34d985b"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "gallery_layout": "thumbnail",
         "media_size": "small",
         "mobile_thumbnails": "show",
