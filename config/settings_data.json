@@ -86,18 +86,18 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "accent-1",
     "social_twitter_link": "",
-    "social_facebook_link": "https://facebook.com/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
     "social_pinterest_link": "",
-    "social_instagram_link": "http://instagram.com/shopify",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "https://www.youtube.com/shopify",
+    "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify://shop_images/chair.png",
+    "favicon": "shopify:\/\/shop_images\/chair.png",
     "currency_code_enabled": false,
     "cart_type": "drawer",
     "sections": {
@@ -105,7 +105,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify://shop_images/PreFurn-logo2x.png",
+          "logo": "shopify:\/\/shop_images\/PreFurn-logo2x.png",
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -124,7 +124,7 @@
             "type": "text",
             "settings": {
               "heading": "Prefurn",
-              "subtext": "<p>Een goede werkplek voor iedereen</p>"
+              "subtext": "<p>Een goede werkplek voor iedereen<\/p>"
             }
           },
           "47103dd2-f0e0-4fe0-801f-01b488fa77ce": {
@@ -138,7 +138,7 @@
             "type": "text",
             "settings": {
               "heading": "Contact",
-              "subtext": "<p>Katwolderweg 1 Zwolle<br/>8041C AC<br/>012-3456789<br/>info@prefurn.com<br/></p>"
+              "subtext": "<p>Katwolderweg 1 Zwolle<br\/>8041C AC<br\/>012-3456789<br\/>info@prefurn.com<br\/><\/p>"
             }
           }
         },
@@ -180,28 +180,28 @@
             "type": "link",
             "settings": {
               "text": "Mijn account",
-              "url": "https://prefurn-dev.myshopify.com/account/"
+              "url": "https:\/\/prefurn-dev.myshopify.com\/account\/"
             }
           },
           "ca4278b5-8e5f-4675-a34e-dba2e4ace838": {
             "type": "link",
             "settings": {
               "text": "Over Prefurn",
-              "url": "shopify://pages/my-account"
+              "url": "shopify:\/\/pages\/my-account"
             }
           },
           "90c63363-940b-46e6-960c-d70e99e54108": {
             "type": "link",
             "settings": {
               "text": "Veelgestelde vragen",
-              "url": "shopify://pages/contact"
+              "url": "shopify:\/\/pages\/contact"
             }
           },
           "eba5e874-d95f-417d-ab68-a062ccfab3e8": {
             "type": "link",
             "settings": {
               "text": "Contact",
-              "url": "shopify://pages/contact"
+              "url": "shopify:\/\/pages\/contact"
             }
           }
         },
@@ -216,12 +216,15 @@
         }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "4571859552318407796": {
-        "type": "shopify://apps/g-variant-image-color-swatch/blocks/app-embed-block/4394f710-096c-4021-bbde-8ebb26057c11",
+        "type": "shopify:\/\/apps\/g-variant-image-color-swatch\/blocks\/app-embed-block\/4394f710-096c-4021-bbde-8ebb26057c11",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       }
     }
   },
@@ -359,11 +362,15 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
               }
             }
           },
-          "block_order": ["footer-0", "footer-1", "footer-2"],
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
           "settings": {
             "color_scheme": "background-1",
             "newsletter_enable": true,
