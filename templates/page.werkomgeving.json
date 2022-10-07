@@ -1,0 +1,325 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1659081446562e384f": {
+      "type": "image-with-text",
+      "blocks": {
+        "1659081446fc32c93d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "sdgfsdfgdsfg",
+            "heading_size": "h1",
+            "heading_color": "color-3"
+          }
+        },
+        "1659081446fc32c93d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dis aliquam a phasellus nibh sapien est. Et felis a sed rhoncus volutpat. Integer.<\/p>",
+            "text_style": "body",
+            "text_color": "text_color-2"
+          }
+        },
+        "1659081446fc32c93d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Bekijk onze collectie",
+            "button_link": "shopify:\/\/collections",
+            "button_color": "button_color-1"
+          }
+        }
+      },
+      "block_order": [
+        "1659081446fc32c93d-0",
+        "1659081446fc32c93d-1",
+        "1659081446fc32c93d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ergonofis-hPCFOFtmNls-unsplash_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_background_color": "img_bg_color-3",
+        "mobile_content_alignment": "left",
+        "inline_button_text": "",
+        "inline_button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_bottom": 100,
+        "margin_top": 0
+      }
+    },
+    "16619345938f5ade59": {
+      "type": "rich-text",
+      "blocks": {
+        "166193459378561902-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Ponam in culpa idiota aliis  se justum pravitatis.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "166193459378561902-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. <\/p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. <\/p><p><\/p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166193459378561902-0",
+        "166193459378561902-1"
+      ],
+      "settings": {
+        "content_alignment": "left",
+        "content_columns": "2",
+        "color_scheme": "accent-1",
+        "inline_button_text": "Bekijk het product",
+        "inline_button_link": "shopify:\/\/collections\/all",
+        "inline_button_text_color": "inline_button_text-2",
+        "padding_top": 40,
+        "padding_bottom": 76
+      }
+    },
+    "16590819936a6de04b": {
+      "type": "collage",
+      "blocks": {
+        "71d43455-b701-4c25-afb7-6a483be7c72a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_1_1.png",
+            "image_padding": false
+          }
+        },
+        "57b274e8-32b6-470c-bb8d-ab2d6965b337": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-header.png",
+            "image_padding": false
+          }
+        },
+        "fdcddcfc-db46-4665-bb45-183936c33332": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image-product-info.png",
+            "image_padding": false
+          }
+        },
+        "ea39369a-a5aa-451b-a9a5-30b716f8e2ae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_3.png",
+            "image_padding": false
+          }
+        },
+        "d4d3b6d7-1de1-4343-a8cc-7334c669e11a": {
+          "type": "text_block",
+          "settings": {
+            "container_color_scheme": "background-2",
+            "title": "Ponam in culpa idiota aliis  se justum pravitatis.",
+            "button_text": "Bekijk onze gehele collectie",
+            "button_url": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "71d43455-b701-4c25-afb7-6a483be7c72a",
+        "57b274e8-32b6-470c-bb8d-ab2d6965b337",
+        "fdcddcfc-db46-4665-bb45-183936c33332",
+        "ea39369a-a5aa-451b-a9a5-30b716f8e2ae",
+        "d4d3b6d7-1de1-4343-a8cc-7334c669e11a"
+      ],
+      "settings": {
+        "heading": "Een greep uit onze collectie",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1659082779d90bf8f3": {
+      "type": "rich-text",
+      "blocks": {
+        "16590827795ec3f3c8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Ponam in culpa idiota aliis se justum pravitatis. <\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16590827795ec3f3c8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus sed diam lectus semper eget. Porttitor viverra mi in venenatis enim, pharetra massa ac quis. Et sodales nisi ornare tortor, tortor cursus.<\/p>"
+          }
+        },
+        "08f5f17e-44b7-47fc-944e-a204a859f9ec": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Et eros, dignissim rhoncus, rutrum volutpat nullam orci enim. Mattis lectus commodo vehicula facilisi consectetur ac eu tellus. Nisl orci elementum augue ac. Aliquam vitae lobortis scelerisque id sollicitudin velit. Non pulvinar tristique fermentum condimentum.<\/p>"
+          }
+        },
+        "79bb643a-a436-42af-b0c4-5598f9c9daa3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dignissim rhoncus, rutrum volutpat nullam orci enim. Mattis lectus commodo vehicula facilisi consectetur ac eu tellus. Nisl orci elementum augue ac. Aliquam vitae lobortis scelerisque id sollicitudin velit. Non pulvinar tristique fermentum condimentum. Mattis lectus commodo vehicula facilisi consectetur ac eu tellus. Nisl orci elementum augue ac. Aliquam vitae lobortis scelerisque id.<\/p>"
+          }
+        },
+        "f5cb1a80-d081-43ce-9c36-a27e5e2c48ad": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Et eros, dignissim rhoncus, rutrum volutpat nullam orci enim. Mattis lectus commodo vehicula facilisi consectetur ac eu tellus. Nisl orci elementum augue ac. Aliquam vitae lobortis scelerisque id sollicitudin velit. Non pulvinar tristique fermentum condimentum.<\/p>"
+          }
+        },
+        "a258dfe6-4133-46a8-8544-e4f09019d16b": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Meer lezen over onderwerp",
+            "button_link": "",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "16590827795ec3f3c8-0",
+        "16590827795ec3f3c8-1",
+        "08f5f17e-44b7-47fc-944e-a204a859f9ec",
+        "79bb643a-a436-42af-b0c4-5598f9c9daa3",
+        "f5cb1a80-d081-43ce-9c36-a27e5e2c48ad",
+        "a258dfe6-4133-46a8-8544-e4f09019d16b"
+      ],
+      "settings": {
+        "content_alignment": "left",
+        "content_columns": "2",
+        "color_scheme": "background-1",
+        "inline_button_text": "Meer lezen over onderwerp",
+        "inline_button_link": "https:\/\/www.igne.nl\/",
+        "inline_button_text_color": "inline_button_text-1",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "165908460272ec860d": {
+      "type": "image-with-text",
+      "blocks": {
+        "165908460289c22c58-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ponam in culpa idiota aliis  se justum pravitatis.",
+            "heading_size": "h1",
+            "heading_color": "color-2"
+          }
+        },
+        "165908460289c22c58-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>",
+            "text_style": "body",
+            "text_color": "text_color-1"
+          }
+        }
+      },
+      "block_order": [
+        "165908460289c22c58-0",
+        "165908460289c22c58-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_4_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "image_background_color": "img_bg_color-1",
+        "mobile_content_alignment": "left",
+        "inline_button_text": "",
+        "inline_button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_bottom": 100,
+        "margin_top": 0
+      }
+    },
+    "1659084685fcfb6784": {
+      "type": "multicolumn",
+      "blocks": {
+        "1659084685f4a73b44-0": {
+          "type": "column",
+          "settings": {
+            "title": "Heerlijke luxe bureaustoel",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1659084685f4a73b44-1": {
+          "type": "column",
+          "settings": {
+            "title": "Heerlijke luxe bureaustoel",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1659084685f4a73b44-2": {
+          "type": "column",
+          "settings": {
+            "title": "Heerlijke luxe bureaustoel",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659084685f4a73b44-0",
+        "1659084685f4a73b44-1",
+        "1659084685f4a73b44-2"
+      ],
+      "settings": {
+        "title": "Wat andere over ons zeggen",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "inline_button_text": "",
+        "inline_button_link": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1659081446562e384f",
+    "16619345938f5ade59",
+    "16590819936a6de04b",
+    "1659082779d90bf8f3",
+    "165908460272ec860d",
+    "1659084685fcfb6784"
+  ]
+}
