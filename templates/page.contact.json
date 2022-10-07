@@ -184,6 +184,7 @@
     },
     "1659085137e4609e9f": {
       "type": "collapsible-content",
+      "disabled": true,
       "blocks": {
         "16590851376ccfa3d8-0": {
           "type": "collapsible_row",
