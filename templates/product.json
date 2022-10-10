@@ -79,7 +79,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "",
+            "content": "<p>De{{ product.metafields.reviews.rating | metafield_tag }}<\/p>",
             "page": ""
           }
         },
