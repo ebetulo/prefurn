@@ -1,0 +1,263 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "bef2de16-bb8d-4458-a2a7-69a696a32a04": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "c68c7880-581c-4952-a5f2-69c8c7e6594f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "56% gerycycled materiaal",
+            "icon": "recycle",
+            "content": "<p>sdfsadf<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Materials",
+            "icon": "leather",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "<p>Wij bezorgen de producten die wij op voorraad hebben binnen 7 werkdagen. <\/p><p>Bij de optie gemonteerd geleverd zullen wij het meubilair bij u thuis op de plek monteren. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "a0e4479c-3c07-499e-9f6e-c56c96b077e3": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "bef2de16-bb8d-4458-a2a7-69a696a32a04",
+        "title",
+        "vendor",
+        "price",
+        "description",
+        "caption",
+        "quantity_selector",
+        "variant_picker",
+        "buy_buttons",
+        "c68c7880-581c-4952-a5f2-69c8c7e6594f",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc",
+        "collapsible-row-3",
+        "share",
+        "a0e4479c-3c07-499e-9f6e-c56c96b077e3"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "gallery_layout": "thumbnail",
+        "media_size": "small",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16615220364bf77cca": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "Exclusief door zijn vormgeving, kwaliteit en functionaliteit\nAlle voordelen van de Axia bureaustoel, plus de allure van een netwaeve rug\nDe eerste bureaustoel waarin bekkenondersteuning en netweave samenkomen\nAxia 2.0 Smart Seating System\n\nHet Axia 2.0 Smart Seating System is niet alleen een stoel waarop je ontspannen en gezond zit. Het is een compleet en uitgekiend zitsysteem waarin al onze kennis op het gebied van ergonomie, technologie en duurzaamheid samenkomt. Een systeem dat mensen bewust maakt van hun zitgedrag en hen daarbij actief ondersteunt.\n\nHet Axia 2.0 Smart Seating System\n\n1. past altijd bij u\n2. helpt u actief te ontspannen\n3. is goed voor uw rug en nek\n4. maakt u ervan bewust hoe u zit\n5. houd u fitter en productiever\n6. is duurzaam goed voor ons milieu",
+        "color_scheme": "background-1",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "title": "Free Shipping",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Hassle-Free Exchanges",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "inline_button_text": "",
+        "inline_button_link": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Vergelijkbare producten",
+        "heading_size": "h2",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-2",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "165910330565b1bb3c": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1659344709611fcddc": {
+      "type": "apps",
+      "blocks": {
+        "30480206-bd7d-40a8-ac3f-80e3b2e7df68": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "30480206-bd7d-40a8-ac3f-80e3b2e7df68"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16615220364bf77cca",
+    "multicolumn",
+    "product-recommendations",
+    "165910330565b1bb3c",
+    "1659344709611fcddc"
+  ]
+}
