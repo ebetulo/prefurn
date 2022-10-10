@@ -66,7 +66,6 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Materials",
             "icon": "leather",
@@ -160,7 +159,7 @@
     "16615220364bf77cca": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "Exclusief door zijn vormgeving, kwaliteit en functionaliteit\nAlle voordelen van de Axia bureaustoel, plus de allure van een netwaeve rug\nDe eerste bureaustoel waarin bekkenondersteuning en netweave samenkomen\nAxia 2.0 Smart Seating System\n\nHet Axia 2.0 Smart Seating System is niet alleen een stoel waarop je ontspannen en gezond zit. Het is een compleet en uitgekiend zitsysteem waarin al onze kennis op het gebied van ergonomie, technologie en duurzaamheid samenkomt. Een systeem dat mensen bewust maakt van hun zitgedrag en hen daarbij actief ondersteunt.\n\nHet Axia 2.0 Smart Seating System\n\n1. past altijd bij u\n2. helpt u actief te ontspannen\n3. is goed voor uw rug en nek\n4. maakt u ervan bewust hoe u zit\n5. houd u fitter en productiever\n6. is duurzaam goed voor ons milieu",
+        "custom_liquid": "",
         "color_scheme": "background-1",
         "padding_top": 52,
         "padding_bottom": 52
