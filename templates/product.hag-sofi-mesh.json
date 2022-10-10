@@ -58,14 +58,15 @@
         "c68c7880-581c-4952-a5f2-69c8c7e6594f": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "56% gerycycled materiaal",
+            "heading": "41% gerycyclede matrialen",
             "icon": "recycle",
-            "content": "<p>sdfsadf<\/p>",
+            "content": "<p>Dit product bestaat voor 41% uit gerycyclede matrialen. <\/p>",
             "page": ""
           }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materials",
             "icon": "leather",
