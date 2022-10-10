@@ -66,11 +66,12 @@
 }
 
 .multicolumn.background-primary .multicolumn-card {
-  background: rgb(var(--color-background))
+  /* background: rgb(var(--color-background))
     linear-gradient(
       rgba(var(--color-foreground), 0.04),
       rgba(var(--color-foreground), 0.04)
-    );
+    ); */
+  background: #f0f0ea;
 }
 
 .multicolumn-list h3 {
