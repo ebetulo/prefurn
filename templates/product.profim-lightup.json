@@ -66,6 +66,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materials",
             "icon": "leather",
@@ -76,7 +77,7 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
+            "heading": "verzending en retouneren",
             "icon": "truck",
             "content": "<p>Wij bezorgen de producten die wij op voorraad hebben binnen 7 werkdagen. <\/p><p>Bij de optie gemonteerd geleverd zullen wij het meubilair bij u thuis op de plek monteren. <\/p>",
             "page": ""
