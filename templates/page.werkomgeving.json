@@ -14,7 +14,7 @@
         "1659081446fc32c93d-0": {
           "type": "heading",
           "settings": {
-            "heading": "sdgfsdfgdsfg",
+            "heading": "Werkomgeving",
             "heading_size": "h1",
             "heading_color": "color-3"
           }
@@ -22,7 +22,7 @@
         "1659081446fc32c93d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dis aliquam a phasellus nibh sapien est. Et felis a sed rhoncus volutpat. Integer.<\/p>",
+            "text": "<p>Bent u op zoek naar een inrichting op maat? Prefurn is gespecialiseerd in kantoorinrichting. en verzorgt uw pprojectinrichting van a tot z. <\/p>",
             "text_style": "body",
             "text_color": "text_color-2"
           }
@@ -66,14 +66,14 @@
         "166193459378561902-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Ponam in culpa idiota aliis  se justum pravitatis.<\/p>",
+            "heading": "<p>De voordelen van een ergonomische werkomgeving<\/p>",
             "heading_size": "h1"
           }
         },
         "166193459378561902-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. <\/p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. <\/p><p><\/p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>"
+            "text": "<p>Een ergonomische werkomgeving , de werkplek van de toekomst. volgens diverse onderzoeken draagt een ergonomische werkplek bij aan de productiviteit binnen een bedrijf. Zo heeft het een positieve invloed op onze concentratie vermoeidheid, en de kans op de kans op gezondheidsklachten. Al jaren zijn wij vooruitstrevend<br\/>op het gebied van ergonomisch en circulair werken. zo bieden wij  verschillende opties aan voor uw nieuwe werkplek. zo zijn wij gespecialiseerd<br\/>in het inrichten met nieuw meubilair maar ook met refurbished circulair<br\/>meubilair. wij reviseren al jaren bureaustoelen die gebruikt zijn en nog in<br\/>goede staat. <\/p><p> <\/p>"
           }
         }
       },
@@ -85,7 +85,7 @@
         "content_alignment": "left",
         "content_columns": "2",
         "color_scheme": "accent-1",
-        "inline_button_text": "Bekijk het product",
+        "inline_button_text": "",
         "inline_button_link": "shopify:\/\/collections\/all",
         "inline_button_text_color": "inline_button_text-2",
         "padding_top": 40,
