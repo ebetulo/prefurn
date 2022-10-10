@@ -15,7 +15,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body",
             "text_color": "text_color-1"
           }
@@ -24,7 +24,7 @@
           "type": "button",
           "settings": {
             "button_label": "Bekijk onze collectie",
-            "button_link": "shopify:\/\/collections",
+            "button_link": "shopify://collections",
             "button_color": "button_color-1"
           }
         }
@@ -35,7 +35,7 @@
         "1659017571da753e1b-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Beiloo_-_small-44.jpg",
+        "image": "shopify://shop_images/Beiloo_-_small-44.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -94,14 +94,11 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
-      "block_order": [
-        "heading",
-        "text"
-      ],
+      "block_order": ["heading", "text"],
       "settings": {
         "content_alignment": "center",
         "content_columns": "2",
@@ -119,39 +116,35 @@
         "column3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HAG_Capisco_8106_side_Newspaper_1.jpg",
+            "image": "shopify://shop_images/HAG_Capisco_8106_side_Newspaper_1.jpg",
             "title": "Nieuw",
-            "text": "<p>Al onze ergonomische bureaustoelen voldoen  aan de EN 1335 en NPR 1813 normen. Al onze modellen hebben een standaart garantie termijn van minimaal 5 jaar, en zijn gedeeltelijk geproduceerd van gerecycled matriaal.<\/p>",
+            "text": "<p>Al onze ergonomische bureaustoelen voldoen  aan de EN 1335 en NPR 1813 normen. Al onze modellen hebben een standaart garantie termijn van minimaal 5 jaar, en zijn gedeeltelijk geproduceerd van gerecycled matriaal.</p>",
             "link_label": "Bekijk alle stoelen",
-            "link": "shopify:\/\/products\/bureaustoel-premium"
+            "link": "shopify://products/bureaustoel-premium"
           }
         },
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HAG_281117_00135_Newspaper.jpg",
+            "image": "shopify://shop_images/HAG_281117_00135_Newspaper.jpg",
             "title": "Outlet",
-            "text": "<p>Onze  gebruikte bureaustoelen hebben gediend als een proefstoel of deze zal gebruikt zijn voor een fotoshoot. de stoelen zullen dezelfde garantie hebben als onze nieuwe stoelen, en zullen zonder gebruikssporen afgeleverd worden. <\/p>",
+            "text": "<p>Onze  gebruikte bureaustoelen hebben gediend als een proefstoel of deze zal gebruikt zijn voor een fotoshoot. de stoelen zullen dezelfde garantie hebben als onze nieuwe stoelen, en zullen zonder gebruikssporen afgeleverd worden. </p>",
             "link_label": "Bekijk alle bureaus",
-            "link": "shopify:\/\/collections\/outlet"
+            "link": "shopify://collections/outlet"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Roros_Factory_HAG_SoFi_mesh_f_Newspaper_1.jpg",
+            "image": "shopify://shop_images/Roros_Factory_HAG_SoFi_mesh_f_Newspaper_1.jpg",
             "title": "refurbiushed",
-            "text": "<p>Onze refurbished stoelen hebben wij gerevitaliseerd.  Wij vervangen de nodige onderdelen en reinigen de stoel met onze reinigingsmachine. zo werken wij mee aan een circulair milieu.<\/p><p><\/p>",
+            "text": "<p>Onze refurbished stoelen hebben wij gerevitaliseerd.  Wij vervangen de nodige onderdelen en reinigen de stoel met onze reinigingsmachine. zo werken wij mee aan een circulair milieu.</p><p></p>",
             "link_label": "Bekijk alle accessoires",
-            "link": "shopify:\/\/products\/pakketten"
+            "link": "shopify://products/pakketten"
           }
         }
       },
-      "block_order": [
-        "column3",
-        "column1",
-        "column2"
-      ],
+      "block_order": ["column3", "column1", "column2"],
       "settings": {
         "title": "Onze collectie",
         "heading_size": "h1",
@@ -168,7 +161,7 @@
         "padding_top": 60,
         "padding_bottom": 80,
         "inline_button_text": "Bekijk volledige collectie",
-        "inline_button_link": "shopify:\/\/collections\/all"
+        "inline_button_link": "shopify://collections/all"
       }
     },
     "video": {
@@ -177,7 +170,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -199,7 +192,7 @@
         "1659016776a22b3fbe-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Wij zijn gespecialiseerd in het creeeren van een gezonde werkomgeving. dit doen wij van thuiswerkplek tot kantoorpand. bent u op zoek naar meerdere werkplekken? <\/p>",
+            "text": "<p>Wij zijn gespecialiseerd in het creeeren van een gezonde werkomgeving. dit doen wij van thuiswerkplek tot kantoorpand. bent u op zoek naar meerdere werkplekken? </p>",
             "text_style": "body",
             "text_color": "text_color-1"
           }
@@ -217,7 +210,7 @@
           "type": "button",
           "settings": {
             "button_label": "Klik hier voor de mogelijkheden",
-            "button_link": "shopify:\/\/pages\/zakelijk",
+            "button_link": "shopify://pages/zakelijk",
             "button_color": "button_color-1"
           }
         }
@@ -229,7 +222,7 @@
         "d49909de-06a1-4dd7-b2f9-55062a509f81"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Beiloo_-_small-75_5f11318f-47e1-4773-aa09-cf7367f611ce.jpg",
+        "image": "shopify://shop_images/Beiloo_-_small-75_5f11318f-47e1-4773-aa09-cf7367f611ce.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -240,7 +233,7 @@
         "image_background_color": "img_bg_color-1",
         "mobile_content_alignment": "left",
         "inline_button_text": "",
-        "inline_button_link": "shopify:\/\/pages\/zakelijk-2",
+        "inline_button_link": "shopify://pages/zakelijk-2",
         "padding_top": 80,
         "padding_bottom": 80,
         "margin_bottom": 100,
@@ -255,7 +248,7 @@
           "type": "column",
           "settings": {
             "title": "Heerlijke luxe bureaustoel",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p><p><\/p><p>Dennis Engelsman<\/p><p>05-07-2022<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.</p><p></p><p>Dennis Engelsman</p><p>05-07-2022</p>",
             "link_label": "",
             "link": ""
           }
@@ -264,7 +257,7 @@
           "type": "column",
           "settings": {
             "title": "Heerlijke luxe bureaustoel",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p><p>Dennis Engelsman<\/p><p>05-07-2022<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.</p><p>Dennis Engelsman</p><p>05-07-2022</p>",
             "link_label": "",
             "link": ""
           }
@@ -273,7 +266,7 @@
           "type": "column",
           "settings": {
             "title": "Heerlijke luxe bureaustoel",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p><p>Dennis Engelsman<\/p><p>05-07-2022<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.</p><p>Dennis Engelsman</p><p>05-07-2022</p>",
             "link_label": "",
             "link": ""
           }
@@ -337,9 +330,9 @@
         "1663673337cfbbc307-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/delivery-man.png",
+            "image": "shopify://shop_images/delivery-man.png",
             "title": "Verzending",
-            "text": "<p>Onze producten die wij op voorraad hebben zullen binnen 5 werkdagen bij u bezorgd worden. u kunt er ook voor kiezen om de producten ingesteld bij u af te leveren. in dit geval brengen wij de producten eventureel naar boven en zullen uw werkplek instellen. <\/p>",
+            "text": "<p>Onze producten die wij op voorraad hebben zullen binnen 5 werkdagen bij u bezorgd worden. u kunt er ook voor kiezen om de producten ingesteld bij u af te leveren. in dit geval brengen wij de producten eventureel naar boven en zullen uw werkplek instellen. </p>",
             "link_label": "",
             "link": ""
           }
@@ -347,18 +340,15 @@
         "1663673337cfbbc307-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/environment.png",
+            "image": "shopify://shop_images/environment.png",
             "title": "circulair",
-            "text": "<p>Al onze bureaustoelen zijn gedeeltelijk geproduceerd van gerycycled matraai. door ervoor te kiezen om onze producten ook als outleten refurbished modellen aan te bieden willen wij het her gerbuik van matrialen stimuleren. <\/p>",
+            "text": "<p>Al onze bureaustoelen zijn gedeeltelijk geproduceerd van gerycycled matraai. door ervoor te kiezen om onze producten ook als outleten refurbished modellen aan te bieden willen wij het her gerbuik van matrialen stimuleren. </p>",
             "link_label": "",
             "link": ""
           }
         }
       },
-      "block_order": [
-        "1663673337cfbbc307-0",
-        "1663673337cfbbc307-1"
-      ],
+      "block_order": ["1663673337cfbbc307-0", "1663673337cfbbc307-1"],
       "settings": {
         "title": "",
         "heading_size": "h0",
@@ -370,7 +360,7 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36,
