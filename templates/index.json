@@ -217,7 +217,7 @@
           "type": "button",
           "settings": {
             "button_label": "Klik hier voor de mogelijkheden",
-            "button_link": "shopify:\/\/pages\/zakelijk",
+            "button_link": "shopify:\/\/pages\/werkomgeving",
             "button_color": "button_color-1"
           }
         }
