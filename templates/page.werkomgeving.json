@@ -122,23 +122,13 @@
             "image": "shopify:\/\/shop_images\/grote_gezamelijke_ruimte.jpg",
             "image_padding": false
           }
-        },
-        "d4d3b6d7-1de1-4343-a8cc-7334c669e11a": {
-          "type": "text_block",
-          "settings": {
-            "container_color_scheme": "background-2",
-            "title": "Ponam in culpa idiota aliis  se justum pravitatis.",
-            "button_text": "Bekijk onze gehele collectie",
-            "button_url": "shopify:\/\/collections\/all"
-          }
         }
       },
       "block_order": [
         "71d43455-b701-4c25-afb7-6a483be7c72a",
         "57b274e8-32b6-470c-bb8d-ab2d6965b337",
         "fdcddcfc-db46-4665-bb45-183936c33332",
-        "ea39369a-a5aa-451b-a9a5-30b716f8e2ae",
-        "d4d3b6d7-1de1-4343-a8cc-7334c669e11a"
+        "ea39369a-a5aa-451b-a9a5-30b716f8e2ae"
       ],
       "settings": {
         "heading": "Een greep uit onze projecten",
