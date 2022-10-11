@@ -38,12 +38,61 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "d32d619b-4975-4ea2-a4cd-1d32713bdf68": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/deltion.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "2d57802e-50f5-45ed-9c9b-c3dc3c04ffb2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--16553467347157__36cef992-9dfd-4b81-a8cd-44a28e0d7e70-1665480797903d06ee-0",
-        "template--16553467347157__36cef992-9dfd-4b81-a8cd-44a28e0d7e70-1665480797903d06ee-1"
+        "template--16553467347157__36cef992-9dfd-4b81-a8cd-44a28e0d7e70-1665480797903d06ee-1",
+        "d32d619b-4975-4ea2-a4cd-1d32713bdf68",
+        "2d57802e-50f5-45ed-9c9b-c3dc3c04ffb2"
       ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "d21a92fe-d503-4c6d-a7f6-6525362435cc": {
+      "type": "slideshow",
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -164,13 +213,6 @@
             "image_padding": false
           }
         },
-        "89a0a2d3-cbe9-4964-ac23-8c2968788a7b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/deltion_3.jpg",
-            "image_padding": false
-          }
-        },
         "fdcddcfc-db46-4665-bb45-183936c33332": {
           "type": "image",
           "settings": {
@@ -189,7 +231,6 @@
       "block_order": [
         "71d43455-b701-4c25-afb7-6a483be7c72a",
         "57b274e8-32b6-470c-bb8d-ab2d6965b337",
-        "89a0a2d3-cbe9-4964-ac23-8c2968788a7b",
         "fdcddcfc-db46-4665-bb45-183936c33332",
         "ea39369a-a5aa-451b-a9a5-30b716f8e2ae"
       ],
@@ -369,6 +410,7 @@
   },
   "order": [
     "36cef992-9dfd-4b81-a8cd-44a28e0d7e70",
+    "d21a92fe-d503-4c6d-a7f6-6525362435cc",
     "main",
     "1659081446562e384f",
     "16619345938f5ade59",
