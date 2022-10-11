@@ -164,6 +164,13 @@
             "image_padding": false
           }
         },
+        "89a0a2d3-cbe9-4964-ac23-8c2968788a7b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/deltion_3.jpg",
+            "image_padding": false
+          }
+        },
         "fdcddcfc-db46-4665-bb45-183936c33332": {
           "type": "image",
           "settings": {
@@ -182,12 +189,13 @@
       "block_order": [
         "71d43455-b701-4c25-afb7-6a483be7c72a",
         "57b274e8-32b6-470c-bb8d-ab2d6965b337",
+        "89a0a2d3-cbe9-4964-ac23-8c2968788a7b",
         "fdcddcfc-db46-4665-bb45-183936c33332",
         "ea39369a-a5aa-451b-a9a5-30b716f8e2ae"
       ],
       "settings": {
         "heading": "Een greep uit onze projecten",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 0
