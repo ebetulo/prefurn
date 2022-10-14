@@ -183,7 +183,7 @@
         "c9c14a63-1d64-4f1d-9125-089a0c8feffe": {
           "type": "button",
           "settings": {
-            "button_label": "Vraag een Offerte aan!",
+            "button_label": "Vraag uw Offerte aan!",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -326,7 +326,7 @@
         "165908460289c22c58-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ponam in culpa idiota aliis  se justum pravitatis.",
+            "heading": "Wij denken graag mee",
             "heading_size": "h1",
             "heading_color": "color-2"
           }
@@ -334,15 +334,24 @@
         "165908460289c22c58-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>",
+            "text": "<p>Onze adviezeurs denken graag met u mee over het creeeren van uw toekomstige inrichting. vraag hier vrijblijvend advies over de verschillende mogelijkheden. <\/p>",
             "text_style": "body",
             "text_color": "text_color-1"
+          }
+        },
+        "2d523f5a-77b7-44ff-98a8-603a7e3d3e04": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_color": "button_color-1"
           }
         }
       },
       "block_order": [
         "165908460289c22c58-0",
-        "165908460289c22c58-1"
+        "165908460289c22c58-1",
+        "2d523f5a-77b7-44ff-98a8-603a7e3d3e04"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/image_4_1.png",
