@@ -466,6 +466,7 @@
         "25f9e33e-9a69-41de-b34c-6f68899aed44": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/gem_grun.jpg",
             "image_padding": false
           }
         }
