@@ -248,14 +248,14 @@
         "16590827795ec3f3c8-0": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "<p>Duurzaam denken<\/p>",
             "heading_size": "h1"
           }
         },
         "16590827795ec3f3c8-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus sed diam lectus semper eget. Porttitor viverra mi in venenatis enim, pharetra massa ac quis. Et sodales nisi ornare tortor, tortor cursus.<\/p>"
+            "text": "<p>Een circulaire kantoorinrichting is de inrichting van de toekomst. nu iedereen steeds milieubewuster gaat denken zie je dit ook terug in het kantoorpand. waar we jaren geleden begonnen met scheiden van afval, is het steeds normaler geworden om refurbished producten aan te schaffen. deze trend zet zich ook voort <\/p>"
           }
         },
         "08f5f17e-44b7-47fc-944e-a204a859f9ec": {
@@ -406,6 +406,50 @@
         "inline_button_text": "",
         "inline_button_link": ""
       }
+    },
+    "349cb1d0-b906-44ef-9cf5-03ccf0ca67e5": {
+      "type": "custom-prefurn-block",
+      "blocks": {
+        "template--16553467347157__349cb1d0-b906-44ef-9cf5-03ccf0ca67e5-1665738773b70b8b9b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16553467347157__349cb1d0-b906-44ef-9cf5-03ccf0ca67e5-1665738773b70b8b9b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16553467347157__349cb1d0-b906-44ef-9cf5-03ccf0ca67e5-1665738773b70b8b9b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16553467347157__349cb1d0-b906-44ef-9cf5-03ccf0ca67e5-1665738773b70b8b9b-0",
+        "template--16553467347157__349cb1d0-b906-44ef-9cf5-03ccf0ca67e5-1665738773b70b8b9b-1",
+        "template--16553467347157__349cb1d0-b906-44ef-9cf5-03ccf0ca67e5-1665738773b70b8b9b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_0036kopie.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -417,6 +461,7 @@
     "16590819936a6de04b",
     "1659082779d90bf8f3",
     "165908460272ec860d",
-    "1659084685fcfb6784"
+    "1659084685fcfb6784",
+    "349cb1d0-b906-44ef-9cf5-03ccf0ca67e5"
   ]
 }
