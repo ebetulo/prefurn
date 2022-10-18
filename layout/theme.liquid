@@ -225,7 +225,7 @@
     }
     </script>
   {% render 'wishlisthero-styles.liquid' %}
-	                {% if content_for_header contains 'bss-b2b' %}{% include 'bss-b2b-cp-header' %}{% endif %}</head>
+	                {% if content_for_header contains 'bss-b2b' %}{% include 'bss-b2b-cp-header' %}{% endif %}{% include 'ddm_calendar' %} {{ 'ddm_calendar.css' | asset_url | stylesheet_tag }}</head>
 	            
 
   <body class="gradient">
