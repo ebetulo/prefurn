@@ -82,7 +82,7 @@
         "2d57802e-50f5-45ed-9c9b-c3dc3c04ffb2"
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": true,
@@ -343,7 +343,7 @@
           "type": "button",
           "settings": {
             "button_label": "Vrijblijvend advies",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/zakelijk",
             "button_color": "button_color-1"
           }
         }
