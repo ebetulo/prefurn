@@ -60,12 +60,13 @@
           "settings": {
             "heading": "50% gerecycled materiaal",
             "icon": "recycle",
-            "content": "<p>Dit product bestaat ui 50% 50% gerecycled materiaal<\/p>",
+            "content": "<p>Dit product bestaat uit 50% gerecycled materiaal<\/p>",
             "page": ""
           }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materials",
             "icon": "leather",
