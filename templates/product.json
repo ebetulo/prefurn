@@ -57,6 +57,7 @@
         },
         "c68c7880-581c-4952-a5f2-69c8c7e6594f": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "56% gerycycled materiaal",
             "icon": "recycle",
