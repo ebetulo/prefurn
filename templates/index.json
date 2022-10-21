@@ -121,7 +121,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/HAG_Capisco_8106_side_Newspaper_1.jpg",
             "title": "Nieuw",
-            "text": "<p>Al onze ergonomische bureaustoelen voldoen aan de EN 1335 en NPR 181 normen. Onze modellen hebben een standaard garantie termijn van minimaal 5 jaar, en bestaan gedeeltelijk uit gerecycled materiaal. ook zijn alle stoelen voor meer dan 95% recyclebaar.<\/p>",
+            "text": "<p>Al onze ergonomische bureaustoelen voldoen aan de EN 1335 en NPR 181 normen.<br\/>Onze modellen hebben een standaard garantie termijn van minimaal 5 jaar, en<br\/>bestaan gedeeltelijk uit gerecycled materiaal. ook zijn alle stoelen voor meer<br\/>dan 95% recyclebaar.<\/p>",
             "link_label": "Bekijk alle stoelen",
             "link": "shopify:\/\/products\/bureaustoel-premium"
           }
@@ -131,7 +131,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/HAG_281117_00135_Newspaper.jpg",
             "title": "Outlet",
-            "text": "<p>Onze outlet catogorie bestaat uit  bureaustoelen die gediend hebben als een proefstoel. deze hebben maximaal 2 weken op proef gestaan en hebben de kwaliteit van een nieuwe bureastoel. ze worden net als de nieuwe stoelen ingepakt en met dezelfde garantie geleverd.<\/p>",
+            "text": "<p>Onze outlet categorie bestaat uit bureaustoelen die gediend hebben als een<br\/>proefstoel.<\/p><p> De stoelen hebben maximaal één maand op proef gestaan. Wij bieden op<br\/>deze stoelen dezelfde garantie als op onze nieuwe modellen. <\/p>",
             "link_label": "Bekijk alle bureaus",
             "link": "shopify:\/\/collections\/outlet"
           }
@@ -141,7 +141,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Roros_Factory_HAG_SoFi_mesh_f_Newspaper_1.jpg",
             "title": "refurbished",
-            "text": "<p>De catogorie refurbished bureastoelen bestaat uit ergonomische bureastoelen die wij een nieuw leven inblazen. De bureaustoelen worden gecontroleerd en waar nodig gereviseerd. Op deze manier vormen wij een circulaire cirkel voor de bureuastoelen. <\/p><p><\/p><p><\/p>",
+            "text": "<p>De categorie refurbished bureaustoelen bestaat uit ergonomische bureaustoelen<br\/>die wij een nieuw leven inblazen. De bureaustoelen worden gecontroleerd en waar<br\/>nodig gereviseerd. Op deze manier vormen wij een circulaire cirkel voor de bureaustoelen.<br\/><\/p><p><\/p><p><\/p>",
             "link_label": "Bekijk alle accessoires",
             "link": "shopify:\/\/products\/pakketten"
           }
@@ -199,7 +199,7 @@
         "1659016776a22b3fbe-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Wij zijn gespecialiseerd in het creeeren van een gezonde werkomgeving. dit doen wij van thuiswerkplek tot kantoorpand. bent u op zoek naar meerdere werkplekken? <\/p>",
+            "text": "<p>Wij zijn gespecialiseerd in het creëren van een gezonde werkomgeving. Dit doen wij van thuiswerkplek tot kantoorpand. bent u op zoek naar meerdere werkplekken? <\/p>",
             "text_style": "body",
             "text_color": "text_color-1"
           }
@@ -339,7 +339,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/01-Delivery-man_331633bf-cb3d-4c3e-9f75-0666541c98bf.png",
             "title": "Verzending",
-            "text": "<p>Onze producten die wij op voorraad hebben zullen binnen 5 werkdagen bij u bezorgd worden. u kunt er ook voor kiezen om de producten ingesteld bij u af te leveren. in dit geval brengen wij de producten eventureel naar boven en zullen uw werkplek instellen. <\/p>",
+            "text": "<p>Onze producten die wij op voorraad hebben zullen binnen 5 werkdagen bij u bezorgd worden. u kunt er ook voor kiezen om de producten ingesteld bij u af televeren. in dit geval brengen wij de producten eventueel naar boven en zullen uw werkplek instellen. <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -349,7 +349,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/3204_-_Eco_friendly_World_ec5c9f04-3c1f-496f-a74b-5af2f6883426.png",
             "title": "circulair",
-            "text": "<p>Al onze bureaustoelen zijn gedeeltelijk geproduceerd van gerycycled matraai. door ervoor te kiezen om onze producten ook als outleten refurbished modellen aan te bieden willen wij het her gerbuik van matrialen stimuleren. <\/p>",
+            "text": "<p>Al onze bureaustoelen zijn gedeeltelijk geproduceerd van gerecycled materiaal. Door ervoor te kiezen om onze producten ook als outlet en refurbished modellen aan te bieden willen wij het hergebruik van materialen stimuleren. <\/p>",
             "link_label": "",
             "link": ""
           }
