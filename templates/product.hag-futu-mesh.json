@@ -57,16 +57,16 @@
         },
         "c68c7880-581c-4952-a5f2-69c8c7e6594f": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "56% gerycycled materiaal",
+            "heading": "40% gerycycled materiaal",
             "icon": "recycle",
-            "content": "<p>dfsdfsa<\/p>",
+            "content": "<p>Deze bureaustoel bestaat voor 56% uit geryclyled materiaal.<\/p><p>Alle waarden zijn gemiddeld voor dit model, voor sommige producten kunnen de cijfers verschillen.<\/p>",
             "page": ""
           }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materials",
             "icon": "leather",
