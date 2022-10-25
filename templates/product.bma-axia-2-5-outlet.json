@@ -147,7 +147,7 @@
         "a0e4479c-3c07-499e-9f6e-c56c96b077e3"
       ],
       "settings": {
-        "enable_sticky_info": false,
+        "enable_sticky_info": true,
         "gallery_layout": "thumbnail",
         "media_size": "small",
         "mobile_thumbnails": "show",
