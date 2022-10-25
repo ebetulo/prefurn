@@ -52,7 +52,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "c68c7880-581c-4952-a5f2-69c8c7e6594f": {
@@ -151,7 +151,7 @@
         "gallery_layout": "thumbnail",
         "media_size": "small",
         "mobile_thumbnails": "show",
-        "hide_variants": false,
+        "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 0,
         "padding_bottom": 0
