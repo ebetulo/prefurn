@@ -85,7 +85,6 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
@@ -120,7 +119,6 @@
         },
         "a0e4479c-3c07-499e-9f6e-c56c96b077e3": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": ""
           }
