@@ -105,9 +105,8 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Care Instructions",
+            "heading": "Gebruiksinstructie",
             "icon": "heart",
             "content": "",
             "page": ""
