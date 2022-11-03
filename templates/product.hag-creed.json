@@ -106,7 +106,7 @@
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Gebruik Instructie",
+            "heading": "gebruiksinstructie",
             "icon": "eye",
             "content": "",
             "page": ""
