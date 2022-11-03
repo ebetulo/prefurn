@@ -85,9 +85,8 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Dimensions",
+            "heading": "Extra Informatie",
             "icon": "ruler",
             "content": "",
             "page": ""
