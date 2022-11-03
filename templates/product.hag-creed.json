@@ -83,16 +83,6 @@
             "page": ""
           }
         },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
         "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -139,7 +129,6 @@
         "c68c7880-581c-4952-a5f2-69c8c7e6594f",
         "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2",
         "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc",
         "collapsible-row-3",
         "share",
