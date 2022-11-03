@@ -86,9 +86,9 @@
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dimensions",
+            "heading": "Extra Informatie",
             "icon": "ruler",
-            "content": "",
+            "content": "<p><a href=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-sofi\/HAG%20SoFi%20mesh%20brochure%20NL.pdf\" target=\"_blank\" title=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-sofi\/HAG%20SoFi%20mesh%20brochure%20NL.pdf\">Brochure<\/a><\/p>",
             "page": ""
           }
         },
