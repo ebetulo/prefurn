@@ -104,11 +104,10 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Care Instructions",
+            "heading": "Gebruik Instructie",
             "icon": "heart",
-            "content": "",
+            "content": "<p><a href=\"https:\/\/www.youtube.com\/watch?v=Cq0PUzPKQUY\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=Cq0PUzPKQUY\">Zit Instructie<\/a><\/p>",
             "page": ""
           }
         },
