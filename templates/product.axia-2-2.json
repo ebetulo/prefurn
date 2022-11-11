@@ -106,7 +106,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Gebruiksinstructie",
-            "icon": "heart",
+            "icon": "eye",
             "content": "<p><a href=\"https:\/\/www.youtube.com\/watch?v=4Bkg5A3K78M\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=4Bkg5A3K78M\">Gebruiksinstructie<\/a><\/p>",
             "page": ""
           }
