@@ -83,15 +83,6 @@
             "page": ""
           }
         },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Extra Informatie",
-            "icon": "ruler",
-            "content": "<p><a href=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-sofi\/HAG%20SoFi%20mesh%20brochure%20NL.pdf\" target=\"_blank\" title=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-sofi\/HAG%20SoFi%20mesh%20brochure%20NL.pdf\">Brochure<\/a><\/p>",
-            "page": ""
-          }
-        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
@@ -101,13 +92,21 @@
             "page": ""
           }
         },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Extra Informatie",
+            "icon": "ruler",
+            "content": "<p><a href=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-sofi\/HAG%20SoFi%20mesh%20brochure%20NL.pdf\" target=\"_blank\" title=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-sofi\/HAG%20SoFi%20mesh%20brochure%20NL.pdf\">Brochure<\/a><\/p>",
+            "page": ""
+          }
+        },
         "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "Huren",
+            "icon": "stopwatch",
+            "content": "<p>Deze Bureaustoel huren, Een gehele werkplek huren, Of een complete inrichting? <a href=\"https:\/\/prefurn.nl\/pages\/contact\" title=\"https:\/\/prefurn.nl\/pages\/contact\">Neem contact met ons op<\/a><\/p>",
             "page": ""
           }
         },
@@ -138,8 +137,8 @@
         "c68c7880-581c-4952-a5f2-69c8c7e6594f",
         "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2",
         "collapsible-row-3",
+        "collapsible-row-2",
         "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc",
         "share",
         "a0e4479c-3c07-499e-9f6e-c56c96b077e3"
