@@ -87,7 +87,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Extra Informatie",
-            "icon": "eye",
+            "icon": "ruler",
             "content": "<p><a href=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-creed\/HAG%20Creed%20brochure%20ENG.pdf\" target=\"_blank\" title=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-creed\/HAG%20Creed%20brochure%20ENG.pdf\">Brochure<\/a><\/p>",
             "page": ""
           }
