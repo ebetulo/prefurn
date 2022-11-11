@@ -95,11 +95,10 @@
         },
         "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "Huren",
+            "icon": "stopwatch",
+            "content": "<p>Deze Bureaustoel huren, Een gehele werkplek huren, Of een complete inrichting? <a href=\"https:\/\/prefurn.nl\/pages\/contact\" title=\"https:\/\/prefurn.nl\/pages\/contact\">Neem contact met ons op<\/a><\/p>",
             "page": ""
           }
         },
