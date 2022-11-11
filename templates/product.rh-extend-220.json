@@ -121,6 +121,15 @@
           "settings": {
             "custom_liquid": ""
           }
+        },
+        "2791a7c9-b642-4759-8ab5-f528cb1c43d0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Wilt u meerdere producten kopen, vraag een offerte aan voor prijzen op maat",
+            "icon": "price_tag",
+            "content": "<p>Wilt u meerdere producten kopen, <a href=\"\/pages\/contact\" title=\"Contact\">vraag een offerte aan voor prijzen op maat<\/a><\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -140,7 +149,8 @@
         "collapsible-row-2",
         "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc",
         "share",
-        "a0e4479c-3c07-499e-9f6e-c56c96b077e3"
+        "a0e4479c-3c07-499e-9f6e-c56c96b077e3",
+        "2791a7c9-b642-4759-8ab5-f528cb1c43d0"
       ],
       "settings": {
         "enable_sticky_info": false,
