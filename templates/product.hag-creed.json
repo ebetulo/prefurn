@@ -105,7 +105,7 @@
           "settings": {
             "heading": "Staffelkorting",
             "icon": "price_tag",
-            "content": "<p>Wilt u meerdere stoelen kopen <a href=\"\/pages\/contact\" title=\"Contact\">vraag een offerte aan voor prijzen op maat<\/a><\/p>",
+            "content": "<p>Wilt u meerdere producten kopen, <a href=\"\/pages\/contact\" title=\"Contact\">vraag een offerte aan voor prijzen op maat<\/a><\/p>",
             "page": ""
           }
         },
@@ -131,6 +131,7 @@
         },
         "25bbbd9e-7285-46c3-925a-0ce3ab12eda5": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Text block",
             "text_style": "body"
