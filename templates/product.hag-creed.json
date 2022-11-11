@@ -73,13 +73,12 @@
             "page": ""
           }
         },
-        "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc": {
+        "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
+            "heading": "Gebruiksinstructie",
+            "icon": "eye",
+            "content": "<p><a href=\"https:\/\/www.youtube.com\/watch?v=gQIxHmZj08E\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=gQIxHmZj08E\">gebruiksinstructie<\/a><\/p>",
             "page": ""
           }
         },
@@ -92,12 +91,12 @@
             "page": ""
           }
         },
-        "collapsible-row-3": {
+        "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Gebruiksinstructie",
-            "icon": "eye",
-            "content": "<p><a href=\"https:\/\/www.youtube.com\/watch?v=gQIxHmZj08E\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=gQIxHmZj08E\">gebruiksinstructie<\/a><\/p>",
+            "heading": "Huren",
+            "icon": "stopwatch",
+            "content": "<p>Deze Bureaustoel huren, Een gehele werkplek huren, Of een complete inrichting? <a href=\"https:\/\/prefurn.nl\/pages\/contact\" title=\"https:\/\/prefurn.nl\/pages\/contact\">Neem contact met ons op<\/a><\/p>",
             "page": ""
           }
         },
@@ -127,9 +126,9 @@
         "buy_buttons",
         "c68c7880-581c-4952-a5f2-69c8c7e6594f",
         "collapsible-row-1",
-        "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc",
-        "collapsible-row-0",
         "collapsible-row-3",
+        "collapsible-row-0",
+        "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc",
         "share",
         "a0e4479c-3c07-499e-9f6e-c56c96b077e3"
       ],
