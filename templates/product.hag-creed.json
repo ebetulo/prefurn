@@ -86,9 +86,9 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Gebruiksinstructie",
+            "heading": "Extra Informatie",
             "icon": "eye",
-            "content": "<p><a href=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-creed\/HAG%20Creed%20brochure%20ENG.pdf\" target=\"_blank\" title=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-creed\/HAG%20Creed%20brochure%20ENG.pdf\">Klik hier voor de zit instructie<\/a><\/p>",
+            "content": "<p><a href=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-creed\/HAG%20Creed%20brochure%20ENG.pdf\" target=\"_blank\" title=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-creed\/HAG%20Creed%20brochure%20ENG.pdf\">Brochure<\/a><\/p>",
             "page": ""
           }
         },
