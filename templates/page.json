@@ -163,18 +163,52 @@
           "settings": {
             "text": "<p>Het Prefurn assortiment voor bedrijfskantoor of home office<br\/>bestaat uit drie categorieën: <\/p><p><strong>- Nieuwe <\/strong> Bureaustoelen en bureaus<\/p><p>- Modellen in de <strong>outlet<\/strong><\/p><p><strong>-Refurbished <\/strong>bureaustoelen<\/p><p>Al het zitmeubilair uit de refurbished categorie wordt na<br\/>inname aan een grondige technische keuring onderworpen en onderdelen die vervangen moeten worden zijn altijd van de oorspronkelijke fabrikant. Andere producten in ons assortiment voor de thuiswerplek zijn accessoires die een optimale werkhouding ondersteunen, zoals armen of andere mogelijkheden voor een correcte hoogte van het beeldscherm.<\/p>"
           }
+        },
+        "08f5f17e-44b7-47fc-944e-a204a859f9ec": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Et eros, dignissim rhoncus, rutrum volutpat nullam orci enim. Mattis lectus commodo vehicula facilisi consectetur ac eu tellus. Nisl orci elementum augue ac. Aliquam vitae lobortis scelerisque id sollicitudin velit. Non pulvinar tristique fermentum condimentum.<\/p>"
+          }
+        },
+        "79bb643a-a436-42af-b0c4-5598f9c9daa3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dignissim rhoncus, rutrum volutpat nullam orci enim. Mattis lectus commodo vehicula facilisi consectetur ac eu tellus. Nisl orci elementum augue ac. Aliquam vitae lobortis scelerisque id sollicitudin velit. Non pulvinar tristique fermentum condimentum. Mattis lectus commodo vehicula facilisi consectetur ac eu tellus. Nisl orci elementum augue ac. Aliquam vitae lobortis scelerisque id.<\/p>"
+          }
+        },
+        "f5cb1a80-d081-43ce-9c36-a27e5e2c48ad": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Et eros, dignissim rhoncus, rutrum volutpat nullam orci enim. Mattis lectus commodo vehicula facilisi consectetur ac eu tellus. Nisl orci elementum augue ac. Aliquam vitae lobortis scelerisque id sollicitudin velit. Non pulvinar tristique fermentum condimentum.<\/p>"
+          }
+        },
+        "a258dfe6-4133-46a8-8544-e4f09019d16b": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Meer lezen over onderwerp",
+            "button_link": "",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
         }
       },
       "block_order": [
         "16590827795ec3f3c8-0",
-        "16590827795ec3f3c8-1"
+        "16590827795ec3f3c8-1",
+        "08f5f17e-44b7-47fc-944e-a204a859f9ec",
+        "79bb643a-a436-42af-b0c4-5598f9c9daa3",
+        "f5cb1a80-d081-43ce-9c36-a27e5e2c48ad",
+        "a258dfe6-4133-46a8-8544-e4f09019d16b"
       ],
       "settings": {
         "content_alignment": "left",
         "content_columns": "2",
         "color_scheme": "background-1",
-        "inline_button_text": "",
-        "inline_button_link": "",
+        "inline_button_text": "Meer lezen over onderwerp",
+        "inline_button_link": "https:\/\/www.igne.nl\/",
         "inline_button_text_color": "inline_button_text-1",
         "padding_top": 100,
         "padding_bottom": 100
@@ -186,7 +220,7 @@
         "165908460289c22c58-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ponam in culpa idiota aliis  se justum pravitatis.",
+            "heading": "Hoe betaalt u een bestelling met kantoormeubilair bijPrefurn?",
             "heading_size": "h1",
             "heading_color": "color-2"
           }
@@ -194,7 +228,7 @@
         "165908460289c22c58-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor pretium viverra urna in. Elit, ut id ornare ultrices nulla. Lectus et et in cursus nulla facilisi. <\/p>",
+            "text": "<p>Prijstechnisch gezien biedt Prefurn diverse<br\/>mogelijkheden, zoals het direct kopen of zelfs huren van kantoormeubilair. Het<br\/>leasen van meubilair voor een kantoor is bij ons ook een optie en deze wint aan<br\/>populariteit. Door deze manieren van betalen bieden wij elk groot of klein<br\/>bedrijf, elke student en elke zelfstandig ondernemer de kans om een ergonomisch<br\/>verantwoorde studeer- of werkplek in te richten.<\/p><p> <\/p><p>Bent u nieuwsgierig geworden naar wat wij voor uw thuiswerkplek<br\/>of gezonde zithouding tijdens het werk kunnen doen? Neem contact met ons op<br\/>voor advies. <\/p>",
             "text_style": "body",
             "text_color": "text_color-1"
           }
