@@ -85,8 +85,8 @@
         "content_alignment": "left",
         "content_columns": "2",
         "color_scheme": "accent-1",
-        "inline_button_text": "Bekijk het product",
-        "inline_button_link": "shopify:\/\/collections\/all",
+        "inline_button_text": "Neem contact met ons op",
+        "inline_button_link": "shopify:\/\/pages\/zakelijk",
         "inline_button_text_color": "inline_button_text-2",
         "padding_top": 40,
         "padding_bottom": 76
