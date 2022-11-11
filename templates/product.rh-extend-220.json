@@ -88,7 +88,7 @@
           "settings": {
             "heading": "Extra informatie",
             "icon": "ruler",
-            "content": "",
+            "content": "<p><a href=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/rh-extend\/RH_Extend_brochure_english.pdf\" title=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/rh-extend\/RH_Extend_brochure_english.pdf\">Brochure<\/a><\/p>",
             "page": ""
           }
         },
@@ -107,7 +107,7 @@
           "settings": {
             "heading": "Gebruik instructie",
             "icon": "eye",
-            "content": "<p><a href=\"https:\/\/www.youtube.com\/watch?v=90cmmcp_wrY\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=90cmmcp_wrY\">https:\/\/www.youtube.com\/watch?v=90cmmcp_wrY<\/a><\/p>",
+            "content": "<p><a href=\"https:\/\/www.youtube.com\/watch?v=90cmmcp_wrY\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=90cmmcp_wrY\">Zit instructie<\/a><\/p>",
             "page": ""
           }
         },
