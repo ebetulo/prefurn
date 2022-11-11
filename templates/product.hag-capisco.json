@@ -86,7 +86,7 @@
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Gebruik Instructie",
+            "heading": "Klik hier voor de zit instructie",
             "icon": "eye",
             "content": "<p><a href=\"https:\/\/www.youtube.com\/watch?v=Cq0PUzPKQUY\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=Cq0PUzPKQUY\">Zit Instructie<\/a><\/p>",
             "page": ""
