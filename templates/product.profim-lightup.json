@@ -124,6 +124,15 @@
           "settings": {
             "custom_liquid": ""
           }
+        },
+        "a41dfb08-1dfc-49ec-899b-323ec29843e8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Staffelkorting",
+            "icon": "price_tag",
+            "content": "<p>Wilt u meerdere producten kopen, <a href=\"\/pages\/contact\" title=\"Contact\">vraag een offerte aan voor prijzen op maat<\/a><\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -143,7 +152,8 @@
         "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc",
         "collapsible-row-3",
         "share",
-        "a0e4479c-3c07-499e-9f6e-c56c96b077e3"
+        "a0e4479c-3c07-499e-9f6e-c56c96b077e3",
+        "a41dfb08-1dfc-49ec-899b-323ec29843e8"
       ],
       "settings": {
         "enable_sticky_info": false,
