@@ -247,90 +247,6 @@
         "margin_top": 0
       }
     },
-    "1659017961386225d4": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "165901796120e75792-0": {
-          "type": "column",
-          "settings": {
-            "title": "Heerlijke luxe bureaustoel",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p><p><\/p><p>Dennis Engelsman<\/p><p>05-07-2022<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "165901796120e75792-1": {
-          "type": "column",
-          "settings": {
-            "title": "Heerlijke luxe bureaustoel",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p><p>Dennis Engelsman<\/p><p>05-07-2022<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "165901796120e75792-2": {
-          "type": "column",
-          "settings": {
-            "title": "Heerlijke luxe bureaustoel",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sed nisl cursus et orci blandit nec eget. Iaculis scelerisque viverra nulla in elit facilisi. Pretium mi fermentum nulla.<\/p><p>Dennis Engelsman<\/p><p>05-07-2022<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "165901796120e75792-0",
-        "165901796120e75792-1",
-        "165901796120e75792-2"
-      ],
-      "settings": {
-        "title": "Onze klanten beoordelen ons met 5 sterren gemiddeld",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "inline_button_text": "",
-        "inline_button_link": ""
-      }
-    },
-    "1662018673ea8ea636": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "meest-verkocht",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "16636733378205790b": {
       "type": "multicolumn",
       "blocks": {
@@ -386,8 +302,6 @@
     "multicolumn",
     "video",
     "165901677622c630b3",
-    "1659017961386225d4",
-    "1662018673ea8ea636",
     "16636733378205790b"
   ]
 }
