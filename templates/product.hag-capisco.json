@@ -97,7 +97,7 @@
           "settings": {
             "heading": "Extra informatie",
             "icon": "ruler",
-            "content": "<p><a href=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-capisco\/H%C3%85G%20Capisco%20brochure%20NL%20digital.pdf\" title=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-capisco\/H%C3%85G%20Capisco%20brochure%20NL%20digital.pdf\">Brochure<\/a><\/p>",
+            "content": "<p><a href=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-capisco\/H%C3%85G%20Capisco%20brochure%20NL%20digital.pdf\" target=\"_blank\" title=\"https:\/\/flokkplatformprod.blob.core.windows.net\/catalog\/hag-capisco\/H%C3%85G%20Capisco%20brochure%20NL%20digital.pdf\">Brochure<\/a><\/p>",
             "page": ""
           }
         },
