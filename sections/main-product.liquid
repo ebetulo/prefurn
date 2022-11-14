@@ -1,12 +1,12 @@
 <section id="MainProduct-{{ section.id }}" class="page-width section-{{ section.id }}-padding" data-section="{{ section.id }}">
-  {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
-  {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
-  {{ 'component-price.css' | asset_url | stylesheet_tag }}
-  {{ 'component-rte.css' | asset_url | stylesheet_tag }}
-  {{ 'component-slider.css' | asset_url | stylesheet_tag }}
-  {{ 'component-rating.css' | asset_url | stylesheet_tag }}
-  {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
-  {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+  {{ 'section-main-product.aio.min.css' | asset_url | stylesheet_tag }}
+  {{ 'component-accordion.aio.min.css' | asset_url | stylesheet_tag }}
+  {{ 'component-price.aio.min.css' | asset_url | stylesheet_tag }}
+  {{ 'component-rte.aio.min.css' | asset_url | stylesheet_tag }}
+  {{ 'component-slider.aio.min.css' | asset_url | stylesheet_tag }}
+  {{ 'component-rating.aio.min.css' | asset_url | stylesheet_tag }}
+  {{ 'component-loading-overlay.aio.min.css' | asset_url | stylesheet_tag }}
+  {{ 'component-deferred-media.aio.min.css' | asset_url | stylesheet_tag }}
 
   {%- style -%}
     .section-{{ section.id }}-padding {
@@ -22,13 +22,13 @@
     }
   {%- endstyle -%}
 
-  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'product-form.aio.min.js' | asset_url }}" defer="defer"></script>
 
   {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
   {%- if first_3d_model -%}
-    {{ 'component-product-model.css' | asset_url | stylesheet_tag }}
+    {{ 'component-product-model.aio.min.css' | asset_url | stylesheet_tag }}
     <link id="ModelViewerStyle" rel="stylesheet" href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css" media="print" onload="this.media='all'">
-    <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
+    <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.aio.min.css' | asset_url }}" media="print" onload="this.media='all'">
   {%- endif -%}
 
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.gallery_layout }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
@@ -332,7 +332,7 @@
                 </div>
               </details>
             </share-button>
-            <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+            <script src="{{ 'share.aio.min.js' | asset_url }}" defer="defer"></script>
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
@@ -451,7 +451,7 @@
                 {%- endform -%}
               </product-form>
 
-              {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
+              {{ 'component-pickup-availability.aio.min.css' | asset_url | stylesheet_tag }}
 
               {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
 
@@ -473,7 +473,7 @@
               </pickup-availability>
             </div>
 
-            <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
+            <script src="{{ 'pickup-availability.aio.min.js' | asset_url }}" defer="defer"></script>
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
               {% liquid
@@ -549,15 +549,15 @@
   {%- endfor -%}
 
   {%- if product.media.size > 0 -%}
-    <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'product-modal.aio.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'media-gallery.aio.min.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
 
   {%- if first_3d_model -%}
     <script type="application/json" id="ProductJSON-{{ product.id }}">
       {{ product.media | where: 'media_type', 'model' | json }}
     </script>
-    <script src="{{ 'product-model.js' | asset_url }}" defer></script>
+    <script src="{{ 'product-model.aio.min.js' | asset_url }}" defer></script>
   {%- endif -%}
 
   <script>
