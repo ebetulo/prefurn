@@ -1,5 +1,5 @@
 /*
-Generated time: November 14, 2022 09:04
+Generated time: November 14, 2022 09:08
 This file was created by the app developer. Feel free to contact the original developer with any questions. It was minified (compressed) by AVADA. AVADA do NOT own this script.
 */
 .contact__grid-col-1,.contact__grid-col-2{display:grid;grid-template-columns:auto;grid-template-rows:auto;grid-gap:1.25rem 2.5rem}@media screen and (min-width:750px){.contact__grid-col-1{grid-template-columns:repeat(1,1fr)}}@media screen and (min-width:750px){.contact__grid-col-2{grid-template-columns:repeat(2,1fr);align-items:center}}.contact .rich-text__heading{margin:0}.rich-text__contact-info{display:flex;justify-content:flex-start;align-items:center;margin-top:1.25rem}.rich-text__contact-info>svg{margin-right:1rem}.rich-text__contact-info>p{margin:0}.contact img{max-width:100%}.contact .form__message{align-items:flex-start;margin:1.5rem}.contact .icon-success{margin-top:.2rem}.contact .field{margin-bottom:1.5rem}@media screen and (min-width:750px){.contact .field{margin-bottom:2rem}}.contact__button{margin-top:1.25rem;text-align:right}@media screen and (min-width:750px){.contact__button{margin-top:1.25rem}}@media screen and (min-width:750px){.contact__fields{display:grid;grid-template-columns:repeat(2,1fr);grid-column-gap:2rem}}
