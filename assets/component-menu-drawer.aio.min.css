@@ -1,5 +1,5 @@
 /*
-Generated time: November 14, 2022 09:59
+Generated time: November 14, 2022 14:39
 This file was created by the app developer. Feel free to contact the original developer with any questions. It was minified (compressed) by AVADA. AVADA do NOT own this script.
 */
 .header__icon--menu{position:initial}.js menu-drawer>details>summary::before,.js menu-drawer>details[open]:not(.menu-opening)>summary::before{content:"";position:absolute;cursor:default;width:100%;height:calc(100vh - 100%);height:calc(var(--viewport-height,100vh) - (var(--header-bottom-position,100%)));top:100%;left:0;background:rgba(var(--color-foreground),.5);opacity:0;visibility:hidden;z-index:2;transition:opacity 0s,visibility 0s}menu-drawer>details[open]>summary::before{visibility:visible;opacity:1;transition:opacity var(--duration-default) ease,visibility var(--duration-default) ease}.menu-drawer{position:absolute;transform:translateX(-100%);visibility:hidden;z-index:3;left:0;top:100%;width:calc(100vw);padding:0;border-width:0 var(--drawer-border-width) 0 0;background-color:rgb(var(--color-background));overflow-x:hidden;border-style:solid;border-color:rgba(var(--color-foreground),var(--drawer-border-opacity));filter:drop-shadow(
