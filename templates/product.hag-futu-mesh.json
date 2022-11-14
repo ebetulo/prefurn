@@ -88,7 +88,7 @@
           "settings": {
             "heading": "Gebruiksinstructie",
             "icon": "eye",
-            "content": "<p><a href=\"https:\/\/www.youtube.com\/watch?v=OpOWXtCIni4\" title=\"https:\/\/www.youtube.com\/watch?v=OpOWXtCIni4\">Klik hier voor de zit instructie<\/a><\/p>",
+            "content": "<p><a href=\"https:\/\/www.youtube.com\/watch?v=OpOWXtCIni4\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=OpOWXtCIni4\">Klik hier voor de zit instructie<\/a><\/p>",
             "page": ""
           }
         },
