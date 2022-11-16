@@ -286,6 +286,10 @@
     {% include 'custom-fonts' %}
   {% if content_for_header contains 'bss-b2b' %}{% include 'bss-b2b-jquery-341-js' %}{% include 'bss-b2b-js' %}{% endif %}
   {% include 'revy-discounts-script' %}
+
+<!-- **BEGIN** Hextom QAB Integration // Main Include - DO NOT MODIFY -->
+    {% render 'hextom_qab_main', product: product, customer: customer %}
+    <!-- **END** Hextom QAB Integration // Main Include - DO NOT MODIFY -->
 </body>
 </html>
 
