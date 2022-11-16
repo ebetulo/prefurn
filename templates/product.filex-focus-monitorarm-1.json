@@ -65,16 +65,6 @@
             "page": ""
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
@@ -113,6 +103,15 @@
             "page": ""
           }
         },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Staffelkorting",
+            "icon": "price_tag",
+            "content": "<p>Wilt u meerdere producten kopen,<a href=\"https:\/\/prefurn.nl\/pages\/contact\" title=\"Contact\">vraag een offerte aan voor prijzen op maat<\/a><\/p>",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -137,11 +136,11 @@
         "variant_picker",
         "buy_buttons",
         "c68c7880-581c-4952-a5f2-69c8c7e6594f",
-        "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "dfce7cd5-5cac-4fd1-b18e-a21896a0ffbc",
         "collapsible-row-3",
+        "collapsible-row-0",
         "share",
         "a0e4479c-3c07-499e-9f6e-c56c96b077e3"
       ],
