@@ -197,15 +197,24 @@
         "165908460289c22c58-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Prijstechnisch gezien biedt Prefurn diverse<br\/>mogelijkheden, zoals het direct kopen of zelfs huren van kantoormeubilair. Het<br\/>leasen van meubilair voor een kantoor is bij ons ook een optie en deze wint aan<br\/>populariteit. Door deze manieren van betalen bieden wij elk groot of klein<br\/>bedrijf, elke student en elke zelfstandig ondernemer de kans om een ergonomisch<br\/>verantwoorde studeer- of werkplek in te richten.<\/p><p> Bent u nieuwsgierig geworden naar wat wij voor uw thuiswerkplek<br\/>of gezonde zithouding tijdens het werk kunnen doen? Neem contact met ons op<br\/>voor advies. <\/p>",
+            "text": "<p>Prijstechnisch gezien biedt Prefurn diverse<br\/>mogelijkheden, zoals het direct kopen of zelfs huren van kantoormeubilair. Het<br\/>leasen van meubilair voor een kantoor is bij ons ook een optie en deze wint aan<br\/>populariteit. Door deze manieren van betalen bieden wij elk groot of klein<br\/>bedrijf, elke student en elke zelfstandig ondernemer de kans om een ergonomisch<br\/>verantwoorde studeer- of werkplek in te richten. Bent u nieuwsgierig geworden naar wat wij voor uw thuiswerkplek<br\/>of gezonde zithouding tijdens het werk kunnen doen? <\/p>",
             "text_style": "body",
             "text_color": "text_color-1"
+          }
+        },
+        "bfad9d71-fc60-4b46-9687-f80402810f19": {
+          "type": "button",
+          "settings": {
+            "button_label": "Neem contact met ons opvoor advies.",
+            "button_link": "shopify:\/\/pages\/zakelijk",
+            "button_color": "button_color-1"
           }
         }
       },
       "block_order": [
         "165908460289c22c58-0",
-        "165908460289c22c58-1"
+        "165908460289c22c58-1",
+        "bfad9d71-fc60-4b46-9687-f80402810f19"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/image_4_1.png",
