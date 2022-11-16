@@ -209,23 +209,6 @@
         "inline_button_link": ""
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "heading": "Vergelijkbare producten",
-        "heading_size": "h2",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "color_scheme": "background-2",
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
     "165910330565b1bb3c": {
       "type": "apps",
       "settings": {
@@ -247,14 +230,31 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Vergelijkbare producten",
+        "heading_size": "h2",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-2",
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
     "main",
     "16615220364bf77cca",
     "multicolumn",
-    "product-recommendations",
     "165910330565b1bb3c",
-    "1659344709611fcddc"
+    "1659344709611fcddc",
+    "product-recommendations"
   ]
 }
