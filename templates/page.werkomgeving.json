@@ -30,7 +30,7 @@
         "1659081446fc32c93d-2": {
           "type": "button",
           "settings": {
-            "button_label": "Bekijk onze collectie",
+            "button_label": "",
             "button_link": "shopify:\/\/collections",
             "button_color": "button_color-1"
           }
