@@ -217,9 +217,9 @@
         "bfad9d71-fc60-4b46-9687-f80402810f19"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_4_1.png",
+        "image": "shopify:\/\/shop_images\/business-team-meeting-boardroom.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
