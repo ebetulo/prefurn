@@ -222,7 +222,10 @@
     }
     </script>
   {% render 'wishlisthero-styles.liquid' %}
-	                {% if content_for_header contains 'bss-b2b' %}{% include 'bss-b2b-cp-header' %}{% endif %}{% include 'ddm_calendar' %} {{ 'ddm_calendar.css' | asset_url | stylesheet_tag }}</head>
+	                {% if content_for_header contains 'bss-b2b' %}{% include 'bss-b2b-cp-header' %}{% endif %}{% include 'ddm_calendar' %} {{ 'ddm_calendar.css' | asset_url | stylesheet_tag }}
+                  {% include 'bss-product-labels-configs' %}
+                    </head>
+             
 	            
 
   <body class="gradient">
@@ -286,5 +289,5 @@
 <!-- **BEGIN** Hextom QAB Integration // Main Include - DO NOT MODIFY -->
     {% render 'hextom_qab_main', product: product, customer: customer %}
     <!-- **END** Hextom QAB Integration // Main Include - DO NOT MODIFY -->
-</body>
+{% if content_for_header contains 'product_label' %}{% include 'bss-product-label-js' %}{% include 'bss-label-style-css' %}{% include 'bss-product-label-fonts' %}{% endif %}</body>
 </html>
