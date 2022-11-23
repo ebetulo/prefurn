@@ -18,6 +18,7 @@
         },
         "16590967266d08f0f2-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "",
             "button_link": "",
@@ -40,8 +41,8 @@
         "inline_button_text": "",
         "inline_button_link": "",
         "inline_button_text_color": "inline_button_text-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "banner": {
