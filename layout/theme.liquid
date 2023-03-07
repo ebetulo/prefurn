@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+ {%- render 'ecom_header' -%}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -224,7 +225,8 @@
   {% render 'wishlisthero-styles.liquid' %}
 	                {% if content_for_header contains 'bss-b2b' %}{% include 'bss-b2b-cp-header' %}{% endif %}{% include 'ddm_calendar' %} {{ 'ddm_calendar.css' | asset_url | stylesheet_tag }}
                   {% include 'bss-product-labels-configs' %}
-                    </head>
+                    {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
+</head>
              
 	            
 
@@ -289,5 +291,5 @@
 <!-- **BEGIN** Hextom QAB Integration // Main Include - DO NOT MODIFY -->
     {% render 'hextom_qab_main', product: product, customer: customer %}
     <!-- **END** Hextom QAB Integration // Main Include - DO NOT MODIFY -->
-{% if content_for_header contains 'product_label' %}{% include 'bss-product-label-js' %}{% include 'bss-label-style-css' %}{% include 'bss-product-label-fonts' %}{% endif %}</body>
+{% if content_for_header contains 'product_label' %}{% include 'bss-product-label-js' %}{% include 'bss-label-style-css' %}{% include 'bss-product-label-fonts' %}{% endif %}{%- render "ecom_footer"-%}</body>
 </html>
