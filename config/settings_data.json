@@ -195,7 +195,7 @@
             "type": "link",
             "settings": {
               "text": "Contact",
-              "url": "shopify:\/\/pages\/contact"
+              "url": "shopify:\/\/pages\/contact-kantoorinrichting-zwolle"
             }
           }
         },
@@ -221,12 +221,6 @@
       },
       "5792010825272225357": {
         "type": "shopify:\/\/apps\/dual-price-display-pro\/blocks\/app-block\/fbd96439-f105-44a6-b4c5-51766faddec4",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "judgeme_core_e2bf14f3": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
