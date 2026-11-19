@@ -1,0 +1,368 @@
+{% assign chairs = section.settings.chair_collection %}
+{% assign showroom = section.settings.showroom_collection %}
+{% assign refurbished = section.settings.refurbished_collection %}
+{% assign capisco = section.settings.capisco_product %}
+{% assign feature_new = all_products['rh-logic-400-ergonomische-bureaustoel'] %}
+{% if feature_new == blank %}{% assign feature_new = chairs.products.first %}{% endif %}
+{% assign feature_showroom = all_products['herman-miller-sayl'] %}
+{% if feature_showroom == blank %}{% assign feature_showroom = showroom.products.first %}{% endif %}
+{% assign feature_refurb = all_products['bma-axia-2-5-refurbished'] %}
+{% if feature_refurb == blank %}{% assign feature_refurb = refurbished.products.first %}{% endif %}
+{% assign colour_red = all_products['rh-logic-400-ergonomische-bureaustoel'] %}
+{% assign colour_green = all_products['aeris-swopper-kruk-ergonomische-3d-actieve-zitstoel'] %}
+{% assign colour_blue = all_products['interstuhl-up-100u-zit-sta-kruk-met-hoogteverstelling'] %}
+{% assign show_one = all_products['hag-sofi-7500-ergonomische-bureaustoel-met-hoge-rugleuning'] %}
+{% assign show_two = all_products['rh-logic-400-showroommodel'] %}
+{% assign show_three = all_products['herman-miller-sayl'] %}
+
+<div class="pfh3">
+  <section class="pfh3-shell pfh3-hero">
+    <div class="pfh3-hero-copy">
+      <p class="pfh3-kicker">{{ 'prefurn_home_v3.hero_kicker' | t }}</p>
+      <h1>{{ 'prefurn_home_v3.hero_title' | t }}</h1>
+      <p class="pfh3-lead">{{ 'prefurn_home_v3.hero_text' | t }}</p>
+      <div class="pfh3-actions">
+        <a class="pfh3-btn pfh3-btn-lime" href="{{ chairs.url }}">{{ 'prefurn_home_v3.hero_shop' | t }}</a>
+        <a class="pfh3-btn pfh3-btn-outline" href="/pages/showroom-zwolle">{{ 'prefurn_home_v3.hero_visit' | t }}</a>
+      </div>
+      <div class="pfh3-hero-note"><strong>{{ 'prefurn_home_v3.hero_note_title' | t }}</strong><span>{{ 'prefurn_home_v3.hero_note_text' | t }}</span></div>
+    </div>
+    <div class="pfh3-hero-media">
+      {% if section.settings.hero_image %}
+        {{ section.settings.hero_image | image_url: width: 1800 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '700,1000,1400,1800', sizes: '(min-width: 900px) 55vw, 100vw', alt: 'Prefurn ergonomische werkplek' }}
+      {% endif %}
+      <div class="pfh3-hero-label"><span>{{ 'prefurn_home_v3.hero_label_small' | t }}</span><strong>{{ 'prefurn_home_v3.hero_label_big' | t }}</strong></div>
+    </div>
+  </section>
+
+  <div class="pfh3-shell pfh3-trust">
+    <span>{{ 'prefurn_home_v3.trust_one' | t }}</span><span>{{ 'prefurn_home_v3.trust_two' | t }}</span><span>{{ 'prefurn_home_v3.trust_three' | t }}</span><span>{{ 'prefurn_home_v3.trust_four' | t }}</span>
+  </div>
+  <!-- PREFURN_BLACK_FRIDAY_START -->
+  <section class="pfh3-shell pfh3-bf2" aria-label="Black Friday HÅG Capisco 8106">
+    <div class="pfh3-bf2__copy">
+      <p class="pfh3-kicker">Black Friday</p>
+      <h2>HÅG Capisco 8106</h2>
+      <p>Nieuw in zwart en grijs. Tijdelijk tot 34% korting, met 10 jaar Prefurn garantie.</p>
+      <a class="pfh3-link" href="/collections/hag-capisco-8106">Bekijk alle Capisco deals →</a>
+    </div>
+
+    <div class="pfh3-bf2__chairs" aria-label="Black Friday modellen">
+      <a class="pfh3-bf2__chair" href="/products/hag-capisco-8106-200mm-nieuw-zwart">
+        <div class="pfh3-bf2__chair-image">
+          <img src="https://cdn.shopify.com/s/files/1/0654/3989/1669/files/Hagcapisco8106zwart.jpg?v=1795075439" alt="HÅG Capisco 8106 zwart" loading="lazy">
+        </div>
+        <div class="pfh3-bf2__chair-meta">
+          <span>Zwart</span>
+          <strong>€575</strong>
+          <small>excl. btw</small>
+        </div>
+      </a>
+
+      <a class="pfh3-bf2__chair" href="/products/hag-capisco-8106-200mm-nieuw-grijs">
+        <div class="pfh3-bf2__chair-image">
+          <img src="https://cdn.shopify.com/s/files/1/0654/3989/1669/files/Capiscostoelgrijsstaand.png?v=1780992739" alt="HÅG Capisco 8106 grijs" loading="lazy">
+        </div>
+        <div class="pfh3-bf2__chair-meta">
+          <span>Grijs</span>
+          <strong>€525</strong>
+          <small>excl. btw</small>
+        </div>
+      </a>
+    </div>
+
+    <div class="pfh3-bf2__offer">
+      <span class="pfh3-bf2__badge">TOT 34% KORTING</span>
+      <div class="pfh3-bf2__from">
+        <small>Black Friday vanaf</small>
+        <strong>€525</strong>
+        <span>excl. btw</span>
+      </div>
+      <div class="pfh3-bf2__proof">
+        <span>10 jaar garantie</span>
+        <span>Nieuw</span>
+      </div>
+      <a class="pfh3-btn pfh3-btn-lime" href="/collections/hag-capisco-8106">Shop de deals</a>
+    </div>
+  </section>
+  <!-- PREFURN_BLACK_FRIDAY_END -->
+  <section class="pfh3-shell pfh3-routes">
+    <div class="pfh3-heading">
+      <div><p class="pfh3-kicker">{{ 'prefurn_home_v3.routes_kicker' | t }}</p><h2>{{ 'prefurn_home_v3.routes_title' | t }}</h2></div>
+      <p>{{ 'prefurn_home_v3.routes_text' | t }}</p>
+    </div>
+    <div class="pfh3-bento">
+      <a class="pfh3-tile pfh3-tile-new" href="{{ chairs.url }}">
+        <div class="pfh3-tile-copy"><span>{{ 'prefurn_home_v3.new_label' | t }}</span><h3>{{ 'prefurn_home_v3.new_title' | t }}</h3><p>{{ 'prefurn_home_v3.new_text' | t }}</p><b>{{ 'prefurn_home_v3.new_cta' | t }} →</b></div>
+        <div class="pfh3-tile-image">{% if feature_new.featured_image %}{{ feature_new.featured_image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '420,650,900', sizes: '(min-width: 900px) 40vw, 100vw', alt: feature_new.title }}{% endif %}</div>
+      </a>
+      <a class="pfh3-tile pfh3-tile-showroom" href="{{ showroom.url }}">
+        <div class="pfh3-tile-copy"><span>{{ 'prefurn_home_v3.show_label' | t }}</span><h3>{{ 'prefurn_home_v3.show_title' | t }}</h3><p>{{ 'prefurn_home_v3.show_text' | t }}</p><b>{{ 'prefurn_home_v3.show_cta' | t }} →</b></div>
+        <div class="pfh3-tile-image">{% if feature_showroom.featured_image %}{{ feature_showroom.featured_image | image_url: width: 800 | image_tag: loading: 'lazy', widths: '350,550,800', sizes: '(min-width: 900px) 27vw, 100vw', alt: feature_showroom.title }}{% endif %}</div>
+      </a>
+      <a class="pfh3-tile pfh3-tile-refurb" href="{{ refurbished.url }}">
+        <div class="pfh3-tile-copy"><span>{{ 'prefurn_home_v3.ref_label' | t }}</span><h3>{{ 'prefurn_home_v3.ref_title' | t }}</h3><p>{{ 'prefurn_home_v3.ref_text' | t }}</p><b>{{ 'prefurn_home_v3.ref_cta' | t }} →</b></div>
+        <div class="pfh3-tile-image">{% if feature_refurb.featured_image %}{{ feature_refurb.featured_image | image_url: width: 800 | image_tag: loading: 'lazy', widths: '350,550,800', sizes: '(min-width: 900px) 27vw, 100vw', alt: feature_refurb.title }}{% endif %}</div>
+      </a>
+    </div>
+  </section>
+
+  <section class="pfh3-colour">
+    <div class="pfh3-shell pfh3-colour-inner">
+      <div class="pfh3-colour-copy"><p class="pfh3-kicker">{{ 'prefurn_home_v3.colour_kicker' | t }}</p><h2>{{ 'prefurn_home_v3.colour_title' | t }}</h2><p>{{ 'prefurn_home_v3.colour_text' | t }}</p><a class="pfh3-link" href="{{ chairs.url }}">{{ 'prefurn_home_v3.colour_cta' | t }} →</a></div>
+      <div class="pfh3-colour-products">
+        {% if colour_red != blank %}<a class="pfh3-colour-card pfh3-colour-red" href="{{ colour_red.url }}">{{ colour_red.featured_image | image_url: width: 620 | image_tag: loading: 'lazy', widths: '300,450,620', sizes: '(min-width: 900px) 18vw, 31vw', alt: colour_red.title }}<span>RH Logic 400</span></a>{% endif %}
+        {% if colour_green != blank %}<a class="pfh3-colour-card pfh3-colour-green" href="{{ colour_green.url }}">{{ colour_green.featured_image | image_url: width: 620 | image_tag: loading: 'lazy', widths: '300,450,620', sizes: '(min-width: 900px) 18vw, 31vw', alt: colour_green.title }}<span>Aeris Swopper</span></a>{% endif %}
+        {% if colour_blue != blank %}<a class="pfh3-colour-card pfh3-colour-blue" href="{{ colour_blue.url }}">{{ colour_blue.featured_image | image_url: width: 620 | image_tag: loading: 'lazy', widths: '300,450,620', sizes: '(min-width: 900px) 18vw, 31vw', alt: colour_blue.title }}<span>Interstuhl UP</span></a>{% endif %}
+      </div>
+    </div>
+  </section>
+
+  <section class="pfh3-shell pfh3-showroom">
+    <div class="pfh3-showroom-copy">
+      <p class="pfh3-kicker">{{ 'prefurn_home_v3.drop_kicker' | t }}</p><h2>{{ 'prefurn_home_v3.drop_title' | t }}</h2><p>{{ 'prefurn_home_v3.drop_text' | t }}</p>
+      <ul><li>{{ 'prefurn_home_v3.drop_point_one' | t }}</li><li>{{ 'prefurn_home_v3.drop_point_two' | t }}</li><li>{{ 'prefurn_home_v3.drop_point_three' | t }}</li></ul>
+      <a class="pfh3-btn pfh3-btn-lime" href="{{ showroom.url }}">{{ 'prefurn_home_v3.drop_cta' | t }}</a>
+    </div>
+    <div class="pfh3-showroom-collage">
+      {% if show_one != blank and show_one.featured_image %}<a class="pfh3-show-shot pfh3-show-shot-a" href="{{ show_one.url }}">{{ show_one.featured_image | image_url: width: 800 | image_tag: loading: 'lazy', widths: '360,560,800', sizes: '(min-width: 900px) 28vw, 50vw', alt: show_one.title }}<span>HÅG SoFi 7500</span></a>{% endif %}
+      {% if show_two != blank and show_two.featured_image %}<a class="pfh3-show-shot pfh3-show-shot-b" href="{{ show_two.url }}">{{ show_two.featured_image | image_url: width: 700 | image_tag: loading: 'lazy', widths: '320,500,700', sizes: '(min-width: 900px) 20vw, 45vw', alt: show_two.title }}<span>RH Logic 400</span></a>{% endif %}
+      {% if show_three != blank and show_three.featured_image %}<a class="pfh3-show-shot pfh3-show-shot-c" href="{{ show_three.url }}">{{ show_three.featured_image | image_url: width: 700 | image_tag: loading: 'lazy', widths: '320,500,700', sizes: '(min-width: 900px) 20vw, 45vw', alt: show_three.title }}<span>Herman Miller Sayl</span></a>{% endif %}
+    </div>
+  </section>
+
+  <section class="pfh3-shell pfh3-story">
+    <div class="pfh3-story-media">{% if section.settings.team_image %}{{ section.settings.team_image | image_url: width: 1800 | image_tag: loading: 'lazy', widths: '700,1000,1400,1800', sizes: '(min-width: 900px) 58vw, 100vw', alt: 'Prefurn showroom Zwolle' }}{% endif %}<div class="pfh3-story-badge">{{ 'prefurn_home_v3.story_badge' | t }}</div></div>
+    <div class="pfh3-story-copy">
+      <p class="pfh3-kicker">{{ 'prefurn_home_v3.story_kicker' | t }}</p><h2>{{ 'prefurn_home_v3.story_title' | t }}</h2><p>{{ 'prefurn_home_v3.story_text' | t }}</p>
+      <div class="pfh3-story-points"><div><strong>{{ 'prefurn_home_v3.story_one' | t }}</strong><span>{{ 'prefurn_home_v3.story_one_text' | t }}</span></div><div><strong>{{ 'prefurn_home_v3.story_two' | t }}</strong><span>{{ 'prefurn_home_v3.story_two_text' | t }}</span></div><div><strong>{{ 'prefurn_home_v3.story_three' | t }}</strong><span>{{ 'prefurn_home_v3.story_three_text' | t }}</span></div></div>
+      <a class="pfh3-link" href="/pages/showroom-zwolle">{{ 'prefurn_home_v3.story_cta' | t }} →</a>
+    </div>
+  </section>
+
+  <section class="pfh3-shell pfh3-capisco">
+    <div class="pfh3-capisco-copy"><p class="pfh3-kicker">{{ 'prefurn_home_v3.capisco_kicker' | t }}</p><h2>{{ 'prefurn_home_v3.capisco_title' | t }}</h2><p>{{ 'prefurn_home_v3.capisco_text' | t }}</p><a class="pfh3-btn pfh3-btn-dark" href="/collections/hag-capisco-8106/products/hag-capisco-8106-ergonomische-bureaustoel">{{ 'prefurn_home_v3.capisco_cta' | t }}</a></div>
+    <div class="pfh3-capisco-media">{% if section.settings.capisco_image %}{{ section.settings.capisco_image | image_url: width: 1500 | image_tag: loading: 'lazy', widths: '600,900,1200,1500', sizes: '(min-width: 900px) 51vw, 100vw', alt: 'HÅG Capisco configurator' }}{% elsif capisco.featured_image %}{{ capisco.featured_image | image_url: width: 1200 | image_tag: loading: 'lazy', widths: '500,800,1200', sizes: '(min-width: 900px) 51vw, 100vw', alt: capisco.title }}{% endif %}</div>
+  </section>
+
+  <section class="pfh3-shell pfh3-final">
+    <div><p class="pfh3-kicker">{{ 'prefurn_home_v3.final_kicker' | t }}</p><h2>{{ 'prefurn_home_v3.final_title' | t }}</h2><p>{{ 'prefurn_home_v3.final_text' | t }}</p></div>
+    <div class="pfh3-final-actions"><a class="pfh3-btn pfh3-btn-dark" href="/pages/showroom-zwolle">{{ 'prefurn_home_v3.final_visit' | t }}</a><a class="pfh3-link" href="/pages/contact-kantoorinrichting-zwolle">{{ 'prefurn_home_v3.final_contact' | t }} →</a></div>
+  </section>
+</div>
+
+{% stylesheet %}
+.pfh3{--g:#173e32;--lime:#dce9b8;--cream:#f6f6ef;--ink:#173e32;--muted:#67766b;--line:#dce3d9;background:var(--cream);color:var(--ink);font-family:inherit}
+.pfh3-shell{max-width:1380px;margin:0 auto;padding:48px 30px}.pfh3 h1,.pfh3 h2,.pfh3 h3{margin:0;color:inherit;font-family:inherit}.pfh3 h1{font-size:clamp(50px,5.6vw,78px);line-height:1;letter-spacing:-.058em;font-weight:560}.pfh3 h2{font-size:clamp(34px,3.7vw,52px);line-height:1.05;letter-spacing:-.048em;font-weight:540}.pfh3 h3{font-size:clamp(23px,2.4vw,34px);line-height:1.06;letter-spacing:-.035em;font-weight:580}.pfh3 p{color:var(--muted)}.pfh3-kicker{margin:0 0 13px!important;color:#6c7d6d!important;font-size:10px!important;line-height:1.2!important;font-weight:780!important;letter-spacing:.16em!important;text-transform:uppercase}
+.pfh3-hero{display:grid;grid-template-columns:.86fr 1.14fr;padding-top:18px;padding-bottom:0}.pfh3-hero-copy{display:flex;flex-direction:column;justify-content:center;padding:54px 48px 44px;background:var(--g);color:#fff;border-radius:14px 0 0 14px}.pfh3-hero-copy .pfh3-kicker{color:#bfd09d!important}.pfh3-hero-copy h1{max-width:570px;color:#fff}.pfh3-lead{max-width:530px;margin:20px 0 0;color:#d5e0d3!important;font-size:15px;line-height:1.72}.pfh3-actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:27px}.pfh3-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 22px;border:1px solid transparent;border-radius:999px;text-decoration:none;font-size:13px;font-weight:740;transition:transform .2s,background .2s}.pfh3-btn:hover{transform:translateY(-2px)}.pfh3-btn-lime{background:var(--lime);color:var(--g)}.pfh3-btn-outline{border-color:#789487;color:#fff}.pfh3-btn-outline:hover{background:#285344}.pfh3-btn-dark{background:var(--g);color:#fff}.pfh3-hero-note{display:flex;flex-direction:column;margin-top:36px;padding-top:17px;border-top:1px solid rgba(255,255,255,.18)}.pfh3-hero-note strong{font-size:12px;color:#f1f5ed}.pfh3-hero-note span{margin-top:3px;color:#bcd0c0;font-size:11px}.pfh3-hero-media{position:relative;min-height:590px;overflow:hidden;border-radius:0 14px 14px 0;background:#e6eadf}.pfh3-hero-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}.pfh3-hero-label{position:absolute;right:18px;bottom:18px;display:flex;flex-direction:column;padding:11px 15px;border-radius:8px;background:rgba(255,255,255,.94);box-shadow:0 8px 24px rgba(23,62,50,.09)}.pfh3-hero-label span{color:#718073;font-size:9px;text-transform:uppercase;letter-spacing:.08em}.pfh3-hero-label strong{margin-top:2px;font-size:12px}
+.pfh3-trust{display:grid;grid-template-columns:repeat(4,1fr);padding-top:0;padding-bottom:0;border-bottom:1px solid var(--line)}.pfh3-trust span{padding:18px 12px;text-align:center;color:#5e705f;font-size:11px}.pfh3-trust span+span{border-left:1px solid var(--line)}.pfh3-trust span:before{content:'✓';margin-right:6px;color:#4e724c;font-weight:800}
+.pfh3-bf2{
+  display:grid;
+  grid-template-columns:.9fr 1.22fr .7fr;
+  gap:0;
+  margin-top:24px;
+  margin-bottom:6px;
+  padding-top:0;
+  padding-bottom:0;
+  overflow:hidden;
+  border:1px solid var(--line);
+  border-radius:14px;
+  background:#fff;
+}
+.pfh3-bf2__copy{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:28px 30px;
+  background:#fff;
+}
+.pfh3-bf2__copy .pfh3-kicker{margin-bottom:9px!important}
+.pfh3-bf2__copy h2{
+  max-width:420px;
+  color:var(--ink)!important;
+  font-size:clamp(30px,3vw,42px)!important;
+  line-height:1.02!important;
+  letter-spacing:-.045em!important;
+  font-weight:550!important;
+}
+.pfh3-bf2__copy>p:not(.pfh3-kicker){
+  max-width:420px;
+  margin:12px 0 15px;
+  color:#5e705f!important;
+  font-size:13px;
+  line-height:1.62;
+}
+.pfh3-bf2__copy .pfh3-link{align-self:flex-start;font-size:12px}
+
+.pfh3-bf2__chairs{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  min-width:0;
+  background:#edf0e8;
+  border-left:1px solid var(--line);
+  border-right:1px solid var(--line);
+}
+.pfh3-bf2__chair{
+  display:grid;
+  grid-template-rows:minmax(0,1fr) auto;
+  min-width:0;
+  color:var(--ink)!important;
+  text-decoration:none!important;
+  background:#edf0e8;
+  transition:background .2s ease;
+}
+.pfh3-bf2__chair+.pfh3-bf2__chair{border-left:1px solid #dfe4dc}
+.pfh3-bf2__chair:hover{background:#e7ebe2;color:var(--ink)!important}
+.pfh3-bf2__chair-image{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:185px;
+  padding:14px 18px 4px;
+  overflow:hidden;
+}
+.pfh3-bf2__chair-image img{
+  display:block;
+  width:100%;
+  height:100%;
+  max-width:210px;
+  max-height:175px;
+  object-fit:contain;
+  object-position:center;
+  mix-blend-mode:multiply;
+  transform:none!important;
+}
+.pfh3-bf2__chair-meta{
+  display:grid;
+  grid-template-columns:1fr auto;
+  grid-template-areas:"name price" "name tax";
+  align-items:end;
+  gap:1px 10px;
+  padding:11px 14px 13px;
+  background:rgba(255,255,255,.84);
+}
+.pfh3-bf2__chair-meta span{
+  grid-area:name;
+  align-self:center;
+  color:#52675a;
+  font-size:11px;
+  font-weight:700;
+}
+.pfh3-bf2__chair-meta strong{
+  grid-area:price;
+  color:var(--g);
+  font-size:18px;
+  line-height:1;
+  font-weight:760;
+}
+.pfh3-bf2__chair-meta small{
+  grid-area:tax;
+  color:#66776b;
+  font-size:8px;
+  text-align:right;
+}
+
+.pfh3-bf2__offer{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:26px 24px;
+  background:var(--g);
+  color:#fff;
+}
+.pfh3-bf2__badge{
+  align-self:flex-start;
+  margin-bottom:18px;
+  padding:7px 9px;
+  border-radius:999px;
+  background:var(--lime);
+  color:var(--g);
+  font-size:9px;
+  line-height:1;
+  font-weight:850;
+  letter-spacing:.08em;
+}
+.pfh3-bf2__from{display:grid;gap:1px}
+.pfh3-bf2__from small{
+  color:#c6d5c8;
+  font-size:10px;
+}
+.pfh3-bf2__from strong{
+  margin-top:2px;
+  color:#fff;
+  font-size:34px;
+  line-height:1;
+  letter-spacing:-.045em;
+  font-weight:650;
+}
+.pfh3-bf2__from span{
+  margin-top:3px;
+  color:#b7c9bb;
+  font-size:9px;
+}
+.pfh3-bf2__proof{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin:17px 0 18px;
+}
+.pfh3-bf2__proof span{
+  color:#d6e0d7;
+  font-size:9px;
+}
+.pfh3-bf2__proof span:before{
+  content:'✓';
+  margin-right:5px;
+  color:var(--lime);
+  font-weight:800;
+}
+.pfh3-bf2__offer .pfh3-btn{
+  align-self:stretch;
+  min-height:43px;
+  padding:10px 14px;
+  font-size:11px;
+}
+
+@media(max-width:1000px){
+  .pfh3-bf2{grid-template-columns:1fr 1fr}
+  .pfh3-bf2__copy{grid-column:1/-1;padding:25px 28px}
+  .pfh3-bf2__chairs{border-left:0;border-right:1px solid var(--line)}
+  .pfh3-bf2__offer{padding:24px}
+}
+@media(max-width:650px){
+  .pfh3-bf2{
+    grid-template-columns:1fr;
+    margin:12px 8px 0;
+    border-radius:12px;
+  }
+  .pfh3-bf2__copy{grid-column:auto;padding:22px 20px 18px}
+  .pfh3-bf2__copy h2{font-size:31px!important}
+  .pfh3-bf2__chairs{border:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .pfh3-bf2__chair-image{height:145px;padding:10px 8px 2px}
+  .pfh3-bf2__chair-image img{max-height:135px;max-width:150px}
+  .pfh3-bf2__chair-meta{padding:9px 10px 11px}
+  .pfh3-bf2__chair-meta strong{font-size:16px}
+  .pfh3-bf2__offer{
+    display:grid;
+    grid-template-columns:1fr auto;
+    align-items:center;
+    gap:10px 14px;
+    padding:18px 20px;
+  }
+  .pfh3-bf2__badge{grid-column:1/-1;margin:0}
+  .pfh3-bf2__proof{display:none}
+  .pfh3-bf2__offer .pfh3-btn{grid-column:1/-1;margin-top:2px}
+  .pfh3-bf2__from strong{font-size:29px}
+}
+.pfh3-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:44px;margin-bottom:27px}.pfh3-heading>div{max-width:760px}.pfh3-heading>p{max-width:380px;margin:0;font-size:14px;line-height:1.65}
+.pfh3-bento{display:grid;grid-template-columns:1.18fr .82fr;grid-template-rows:1fr 1fr;gap:13px;min-height:620px}.pfh3-tile{position:relative;display:grid;overflow:hidden;border-radius:13px;color:var(--ink);text-decoration:none;transition:transform .22s,box-shadow .22s}.pfh3-tile:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(23,62,50,.07);color:var(--ink)}.pfh3-tile-new{grid-row:1/3;grid-template-rows:auto 1fr;background:#efe5dc}.pfh3-tile-showroom{grid-template-columns:.9fr 1.1fr;background:#e3e9df}.pfh3-tile-refurb{grid-template-columns:1.02fr .98fr;background:#e7eadb}.pfh3-tile-copy{z-index:2;padding:30px}.pfh3-tile-copy>span{display:block;margin-bottom:11px;color:#6f7e70;font-size:9px;font-weight:780;letter-spacing:.15em;text-transform:uppercase}.pfh3-tile-copy p{max-width:400px;margin:11px 0 18px;font-size:13px;line-height:1.62}.pfh3-tile-copy b{font-size:12px;text-decoration:underline;text-underline-offset:5px}.pfh3-tile-image{display:grid;place-items:center;min-width:0;padding:8px 24px 22px}.pfh3-tile-image img{width:100%;height:100%;object-fit:contain;transition:transform .25s}.pfh3-tile-new .pfh3-tile-image img,.pfh3-tile-refurb .pfh3-tile-image img{mix-blend-mode:multiply}.pfh3-tile:hover .pfh3-tile-image img{transform:scale(1.025)}.pfh3-tile-new .pfh3-tile-image{min-height:370px;padding:0 46px 28px}.pfh3-tile-showroom .pfh3-tile-image,.pfh3-tile-refurb .pfh3-tile-image{padding:22px 22px 22px 0}
+.pfh3-colour{margin:12px 0;background:#fff}.pfh3-colour-inner{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:center}.pfh3-colour-copy{max-width:500px}.pfh3-colour-copy>p:not(.pfh3-kicker){margin:16px 0 20px;font-size:14px;line-height:1.7}.pfh3-link{color:#2b553e;font-size:13px;font-weight:670;text-decoration:underline;text-underline-offset:5px}.pfh3-colour-products{display:grid;grid-template-columns:1.03fr .97fr .9fr;gap:12px}.pfh3-colour-card{display:grid;grid-template-rows:245px auto;overflow:hidden;border-radius:12px;text-decoration:none;color:var(--ink)}.pfh3-colour-card img{width:100%;height:100%;object-fit:contain;padding:14px;transition:transform .25s}.pfh3-colour-red img,.pfh3-colour-blue img{mix-blend-mode:multiply}.pfh3-colour-card:hover img{transform:scale(1.035)}.pfh3-colour-card span{padding:11px 14px 13px;font-size:12px;font-weight:650}.pfh3-colour-red{background:#f1e3df}.pfh3-colour-green{background:#e3ece2}.pfh3-colour-blue{background:#e2ecf0}
+.pfh3-showroom{display:grid;grid-template-columns:.72fr 1.28fr;gap:46px;align-items:center;margin-top:12px;background:var(--g);color:#fff;border-radius:14px;overflow:hidden;padding:48px}.pfh3-showroom .pfh3-kicker{color:#bfd09d!important}.pfh3-showroom-copy h2{color:#fff}.pfh3-showroom-copy>p:not(.pfh3-kicker){margin:17px 0 18px;color:#d1ddd0;font-size:14px;line-height:1.7}.pfh3-showroom-copy ul{margin:0 0 24px;padding:0;list-style:none}.pfh3-showroom-copy li{padding:8px 0;border-bottom:1px solid rgba(255,255,255,.13);color:#d5e0d4;font-size:12px}.pfh3-showroom-copy li:before{content:'✓';margin-right:8px;color:var(--lime)}.pfh3-showroom-collage{display:grid;grid-template-columns:1.2fr .8fr;grid-template-rows:1fr 1fr;gap:10px;height:480px}.pfh3-show-shot{position:relative;display:block;overflow:hidden;border-radius:10px;background:#eef0e9}.pfh3-show-shot-a{grid-row:1/3}.pfh3-show-shot img{width:100%;height:100%;object-fit:contain;padding:14px;transition:transform .25s}.pfh3-show-shot:hover img{transform:scale(1.025)}.pfh3-show-shot span{position:absolute;left:12px;bottom:12px;max-width:80%;padding:7px 10px;border-radius:999px;background:rgba(255,255,255,.94);color:#31513e;font-size:9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pfh3-story{display:grid;grid-template-columns:1.12fr .88fr;gap:50px;align-items:center}.pfh3-story-media{position:relative;height:500px;overflow:hidden;border-radius:13px;background:#e6eae1}.pfh3-story-media img{width:100%;height:100%;object-fit:cover}.pfh3-story-badge{position:absolute;left:18px;bottom:18px;padding:10px 14px;border-radius:999px;background:#fff;color:#365440;font-size:10px}.pfh3-story-copy>p:not(.pfh3-kicker){margin:17px 0 0;font-size:14px;line-height:1.72}.pfh3-story-points{margin:23px 0 20px;border-top:1px solid var(--line)}.pfh3-story-points>div{display:grid;grid-template-columns:145px 1fr;gap:18px;padding:14px 0;border-bottom:1px solid var(--line)}.pfh3-story-points strong{font-size:13px}.pfh3-story-points span{color:#738074;font-size:12px;line-height:1.55}
+.pfh3-capisco{display:grid;grid-template-columns:.88fr 1.12fr;padding:0;overflow:hidden;border-radius:14px;background:#dde6d3}.pfh3-capisco-copy{display:flex;flex-direction:column;justify-content:center;padding:48px}.pfh3-capisco-copy>p:not(.pfh3-kicker){max-width:490px;margin:17px 0 0;font-size:14px;line-height:1.72}.pfh3-capisco-copy .pfh3-btn{align-self:flex-start;margin-top:24px}.pfh3-capisco-media{min-height:470px;background:#e7eadf}.pfh3-capisco-media img{display:block;width:100%;height:100%;object-fit:cover}
+.pfh3-final{display:flex;align-items:flex-end;justify-content:space-between;gap:40px;padding-top:46px;padding-bottom:70px}.pfh3-final>div:first-child{max-width:780px}.pfh3-final>div:first-child>p:not(.pfh3-kicker){max-width:620px;margin:15px 0 0;font-size:14px;line-height:1.7}.pfh3-final-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}.pfh3 :focus-visible{outline:3px solid #91a978;outline-offset:4px}
+@media(prefers-reduced-motion:reduce){.pfh3 *{transition:none!important}}
+@media(max-width:1000px){.pfh3-shell{padding-left:20px;padding-right:20px}.pfh3-hero{grid-template-columns:1fr}.pfh3-hero-copy{border-radius:14px 14px 0 0}.pfh3-hero-media{min-height:430px;border-radius:0 0 14px 14px}.pfh3-bento{grid-template-columns:1fr;grid-template-rows:auto;min-height:0}.pfh3-tile-new{grid-row:auto;grid-template-columns:1fr 1fr;grid-template-rows:none}.pfh3-tile-showroom,.pfh3-tile-refurb{grid-template-columns:1fr 1fr}.pfh3-colour-inner{grid-template-columns:1fr;gap:30px}.pfh3-showroom{grid-template-columns:1fr}.pfh3-showroom-collage{height:470px}.pfh3-story{grid-template-columns:1fr}.pfh3-story-media{height:450px}.pfh3-capisco{grid-template-columns:1fr}.pfh3-capisco-media{min-height:430px}}
+@media(max-width:650px){.pfh3-shell{padding:36px 10px}.pfh3-hero{padding-top:8px}.pfh3-hero-copy{padding:32px 23px 28px}.pfh3 h1{font-size:45px}.pfh3 h2{font-size:34px}.pfh3-lead{font-size:14px}.pfh3-hero-media{min-height:310px}.pfh3-trust{grid-template-columns:repeat(2,1fr)}.pfh3-trust span:nth-child(3){border-left:0;border-top:1px solid var(--line)}.pfh3-trust span:nth-child(4){border-top:1px solid var(--line)}.pfh3-heading{display:block}.pfh3-heading>p{margin-top:12px}.pfh3-tile-new,.pfh3-tile-showroom,.pfh3-tile-refurb{grid-template-columns:1fr}.pfh3-tile-new .pfh3-tile-image{min-height:270px;padding:0 24px 22px}.pfh3-tile-showroom .pfh3-tile-image,.pfh3-tile-refurb .pfh3-tile-image{min-height:220px;padding:4px 20px 20px}.pfh3-tile-copy{padding:23px 20px 8px}.pfh3-colour-products{grid-template-columns:repeat(3,1fr);gap:7px}.pfh3-colour-card{grid-template-rows:150px auto}.pfh3-colour-card img{padding:6px}.pfh3-colour-card span{padding:8px;font-size:10px}.pfh3-showroom{margin-left:8px;margin-right:8px;padding:28px 20px}.pfh3-showroom-collage{height:380px}.pfh3-story-media{height:330px}.pfh3-story-points>div{grid-template-columns:1fr;gap:4px}.pfh3-capisco{margin-left:8px;margin-right:8px}.pfh3-capisco-copy{padding:30px 22px}.pfh3-capisco-media{min-height:330px}.pfh3-final{display:block;padding-bottom:48px}.pfh3-final-actions{margin-top:22px}}
+{% endstylesheet %}
+{% schema %}{"name":"Prefurn homepage","settings":[{"type":"image_picker","id":"hero_image","label":"Hoofdbeeld"},{"type":"image_picker","id":"team_image","label":"Prefurn servicebeeld"},{"type":"image_picker","id":"refurb_image","label":"Refurbished beeld"},{"type":"image_picker","id":"capisco_image","label":"Capisco sfeerbeeld"},{"type":"collection","id":"chair_collection","label":"Bureaustoelen"},{"type":"collection","id":"showroom_collection","label":"Showroommodellen"},{"type":"collection","id":"refurbished_collection","label":"Refurbished"},{"type":"collection","id":"workspace_collection","label":"Werkplekken"},{"type":"product","id":"capisco_product","label":"Capisco uitgelicht"}],"presets":[{"name":"Prefurn homepage"}]}{% endschema %}
